@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s دانە ئۈسكۈنە شەخسىي قىزىق نۇقتىغا ئۇلاندى</item>
+        <item quantity="other">%s دانە ئۈسكۈنە شەخسىي قىزىق نۇقتىغا ئۇلاندى</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s دانە ئۈسكۈنە WLAN ئورتاق تورىغا ئۇلاندى</item>
+        <item quantity="other">%s دانە ئۈسكۈنە WLAN ئورتاق تورىغا ئۇلاندى</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d دانە ئۈسكۈنە كۆچمە ئېقىم نۇقتىسىغا ئۇلاندى</item>
+        <item quantity="other">%d دانە ئۈسكۈنە كۆچمە ئېقىم نۇقتىسىغا ئۇلاندى</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d دانە ئۈسكۈنە شەخسىي قىزىق نۇقتىغا ئۇلاندى</item>
+        <item quantity="other">%d دانە ئۈسكۈنە شەخسىي قىزىق نۇقتىغا ئۇلاندى</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d دانە ئۈسكۈنە ئورتاق WLAN گە ئۇلاندى</item>
+        <item quantity="other">%d دانە ئۈسكۈنە ئورتاق WLAN گە ئۇلاندى</item>
+    </plurals>
+</resources>

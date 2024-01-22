@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="android_config_use_strict_phone_number_comparation">?unknown_ref: 11100fd</bool>
+    <bool name="android_config_voice_capable">?unknown_ref: 1110102</bool>
+    <bool name="android_config_automatic_brightness_available">?unknown_ref: 1110029</bool>
+    <bool name="android_config_enableDreams">false</bool>
+    <bool name="android_config_wimaxEnabled">?unknown_ref: 1110109</bool>
+    <bool name="android_config_intrusiveNotificationLed">?unknown_ref: 1110093</bool>
+    <bool name="android_config_alwaysUseCdmaRssi">?unknown_ref: 1110020</bool>
+    <bool name="android_config_dreamsEnabledByDefault">?unknown_ref: 1110065</bool>
+    <bool name="android_config_dreamsActivatedOnDockByDefault">?unknown_ref: 1110063</bool>
+    <bool name="android_config_dreamsActivatedOnSleepByDefault">?unknown_ref: 1110064</bool>
+    <bool name="android_action_bar_expanded_action_views_exclusive">@android:xml/password_kbd_numeric</bool>
+    <bool name="android_config_closeDialogWhenTouchOutside">?unknown_ref: 1110046</bool>
+    <bool name="android_config_enable_emergency_call_while_sim_locked">?unknown_ref: 1110080</bool>
+    <bool name="android_config_enable_puk_unlock_screen">?unknown_ref: 1110081</bool>
+    <bool name="android_config_safe_media_volume_enabled">?unknown_ref: 11100bb</bool>
+    <bool name="android_config_useMasterVolume">?unknown_ref: 11100f5</bool>
+    <bool name="android_config_useVolumeKeySounds">?unknown_ref: 11100fa</bool>
+    <bool name="color_config_actionMenuItemAllCaps">false</bool>
+    <bool name="config_bluetooth_hfp_inband_ringing_support_overlay">true</bool>
+    <bool name="config_enableNetworkLocationProviderOverlay">false</bool>
+    <bool name="config_lidControlsSleep">false</bool>
+    <bool name="oppo_scene_preview_tap_scroll_fast_mode">false</bool>
+    <bool name="oppo_texture_resize">true</bool>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:id="@+id/oppo_preference" android:paddingLeft="@dimen/support_preference_titel_padding_start" android:paddingRight="@dimen/support_preference_titel_padding_end" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/support_preference_min_height">
+    <com.color.support.widget.ColorRoundImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:colorType="1" style="@style/PreferenceIcon"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/PreferenceContent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ll_title" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/color_preference_title_color" android:id="@android:id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/PreferenceTitle"/>
+            <ImageView android:id="@+id/img_icon" android:layout_width="28dp" android:layout_height="match_parent" android:scaleType="center" android:contentDescription="@string/learn_more" android:layout_marginStart="1dp" android:forceDarkAllowed="false" app:srcCompat="@drawable/ic_detail_floating_layer_normal_color"/>
+        </LinearLayout>
+        <TextView android:id="@android:id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/support_preference_margin_between_line" android:layout_below="@+id/ll_title" android:layout_alignStart="@+id/ll_title" style="@style/PreferenceSummary"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/widget_frame" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

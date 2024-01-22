@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="color_controls_number_of_favorites">
+        <item quantity="one">%s دانە زاپچاس قوشۇلدى</item>
+        <item quantity="other">%s دانە زاپچاس قوشۇلدى</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="one">SIM كارتا %dنىڭ PIN نومۇرىنى كىرگۈزۈڭ، سىزنىڭ يەنە %d قېتىملىق سىناش پۇرسىتىڭىز بار.ئەگەر يەنىلا خاتا بولسا، يۈرۈتكۈچىڭىز بىلەن ئالاقىلىشىپ ئۈسكۈنىنى قۇلۇپتىن ئېچىڭ.</item>
+        <item quantity="other">SIM كارتا %dنىڭ PIN نومۇرىنى كىرگۈزۈڭ، سىزنىڭ يەنە %d قېتىملىق سىناش پۇرسىتىڭىز بار.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">SIM كارتىنىڭ PIN نومۇرى خاتا، سىزنىڭ يەنە %d قېتىملىق سىناش پۇرسىتىڭىز بار.ئەگەر يەنىلا خاتا بولسا، يۈرۈتكۈچىڭىز بىلەن ئالاقىلىشىپ ئۈسكۈنىنى قۇلۇپتىن ئېچىڭ.</item>
+        <item quantity="other">SIM كارتىنىڭ PIN نومۇرى خاتا، سىزنىڭ يەنە %d قېتىملىق سىناش پۇرسىتىڭىز بار.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="one">SIM كارتا %dنىڭ PIN نومۇرى خاتا، سىزنىڭ يەنە %d قېتىملىق سىناش پۇرسىتىڭىز بار.ئەگەر يەنىلا خاتا بولسا، يۈرۈتكۈچىڭىز بىلەن ئالاقىلىشىپ ئۈسكۈنىنى قۇلۇپتىن ئېچىڭ.</item>
+        <item quantity="other">SIM كارتا %dنىڭ PIN نومۇرى خاتا، سىزنىڭ يەنە %d قېتىملىق سىناش پۇرسىتىڭىز بار.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">SIM كارتىنىڭ PUK نومۇرى خاتا، سىزنىڭ يەنە %d قېتىملىق سىناش پۇرسىتىڭىز بار.ئەگەر يەنىلا خاتا بولسا، SIM كارتىنى مەڭگۈلۈك ئىشلەتكىلى بولمايدۇ.</item>
+        <item quantity="other">SIM كارتىنىڭ PUK نومۇرى خاتا، سىزنىڭ يەنە %d قېتىملىق سىناش پۇرسىتىڭىز بار.ئەگەر يەنىلا خاتا بولسا، SIM كارتىنى مەڭگۈلۈك ئىشلەتكىلى بولمايدۇ.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="one">1 سىكۇنتتىن كېيىن قايتا سىناڭ.</item>
+        <item quantity="other">%d سىكۇنتتىن كېيىن قايتا سىناڭ.</item>
+    </plurals>
+    <plurals name="notification_count_content">
+        <item quantity="one">«سىستېما قوشمىقى» دىن كەلگەن %1$d يېڭى ئۇقتۇرۇشنى تاپشۇرۇۋالدىڭىز، «سىستېما قوشمىقى» غا ئالماشتۇرۇپ كۆرۈڭ</item>
+        <item quantity="other">«سىستېما قوشمىقى» دىن كەلگەن %1$d يېڭى ئۇقتۇرۇشنى تاپشۇرۇۋالدىڭىز، «سىستېما قوشمىقى» غا ئالماشتۇرۇپ كۆرۈڭ</item>
+    </plurals>
+    <plurals name="notification_count_content_from_main">
+        <item quantity="one">«باش سىستېما» دىن كەلگەن %1$d يېڭى ئۇقتۇرۇشنى تاپشۇرۇۋالدىڭىز، «باش سىستېما» غا ئالماشتۇرۇپ كۆرۈڭ</item>
+        <item quantity="other">«باش سىستېما» دىن كەلگەن %1$d يېڭى ئۇقتۇرۇشنى تاپشۇرۇۋالدىڭىز، «باش سىستېما» غا ئالماشتۇرۇپ كۆرۈڭ</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">بۇ توپتا يەنە %s دانە ئۇقتۇرۇش بار.</item>
+        <item quantity="other">بۇ توپتا يەنە %sدانە ئۇقتۇرۇش بار.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d يېڭى ئۇقتۇرۇش</item>
+        <item quantity="other">%d يېڭى ئۇقتۇرۇش</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="one">%d سائەت</item>
+        <item quantity="other">%d سائەت</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="one">%d مىنۇت</item>
+        <item quantity="other">%d مىنۇت</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d ئۈسكۈنىگە ئۇلاندى</item>
+        <item quantity="other">%1$d ئۈسكۈنىگە ئۇلاندى</item>
+    </plurals>
+</resources>

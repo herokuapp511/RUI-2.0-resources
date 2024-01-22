@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <corners android:radius="@dimen/finger_tips_radius"/>
+    <padding android:left="@dimen/finger_tips_padding" android:top="@dimen/finger_tips_padding" android:right="@dimen/finger_tips_padding" android:bottom="@dimen/finger_tips_padding"/>
+    <solid android:color="@color/finger_tips_bg"/>
+</shape>

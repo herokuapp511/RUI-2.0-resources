@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt">
+    <include android:id="@+id/network" layout="@layout/network_speed_view"/>
+    <FrameLayout android:id="@+id/wifi_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="?attr/lightIconTheme" android:layout_gravity="right" android:id="@+id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:layout_gravity="right" android:id="@+id/wifi_inout" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ImageView android:layout_gravity="left" android:id="@+id/wifi_left" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <View android:id="@+id/wifi_airplane_spacer" android:visibility="gone" android:layout_width="@dimen/status_bar_airplane_spacer_width" android:layout_height="4dp"/>
+    <ImageView android:id="@+id/vowifi_imag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/noVolte_imag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:id="@+id/volte_imag" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/no_sims" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/stat_signal_signal_null_lte" android:contentDescription="@string/accessibility_no_sims"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/mobile_signal_group" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <ImageView android:id="@+id/airplane" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</merge>

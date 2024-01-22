@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s ierīce ir savienota, izmantojot personisko tīklāju.</item>
+        <item quantity="other">%s ierīces ir savienotas, izmantojot personisko tīklāju.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s ierīce ir savienota, izmantojot Wi-Fi tīkla piesaisti.</item>
+        <item quantity="other">%s ierīces ir savienotas, izmantojot Wi-Fi tīkla piesaisti.</item>
+    </plurals>
+</resources>

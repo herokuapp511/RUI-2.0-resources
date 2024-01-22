@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s seade on ühendatud isikliku tööpunkti kaudu.</item>
+        <item quantity="other">%s seadet on ühendatud isikliku tööpunkti kaudu.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s seade on ühendatud Wi-Fi kaudu.</item>
+        <item quantity="other">%s seadet on ühendatud Wi-Fi kaudu.</item>
+    </plurals>
+</resources>

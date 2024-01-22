@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="bool" name="config_dozeAfterScreenOff" id="2130771968" />
+    <public type="bool" name="config_showNavigationBar" id="2130771969" />
+    <public type="dimen" name="status_bar_height_portrait" id="2130837504" />
+    <public type="integer" name="config_screenBrightnessSettingDefault" id="2130903040" />
+    <public type="string" name="config_mainBuiltInDisplayCutout" id="2130968576" />
+</resources>

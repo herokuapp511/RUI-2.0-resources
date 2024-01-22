@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s دستگاه به نقطه اتصال شخصی متصل شده است.</item>
+        <item quantity="other">%s دستگاه ها به نقطه اتصال شخصی متصل شده اند.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s دستگاه از طریق مهار Wi-Fi متصل شده است.</item>
+        <item quantity="other">%s دستگاه ها از طریق مهار Wi-Fi متصل شده اند.</item>
+    </plurals>
+</resources>

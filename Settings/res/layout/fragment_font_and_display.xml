@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/parent_coordinator_layout" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/main_layout" android:paddingTop="60dp" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.oplus.widget.OplusViewPager android:id="@+id/preview_pager" android:layout_width="match_parent" android:layout_height="375dp" android:drawSelectorOnTop="false" android:contentDescription="@string/preview_pager_content_description" android:overScrollMode="never" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0"/>
+            <color.support.v7.widget.pageindicator.ColorPageIndicator android:layout_gravity="center_horizontal" android:id="@+id/page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" app:dotSize="6dp" app:dotSpacing="4dp"/>
+        </LinearLayout>
+        <include layout="@layout/font_and_display_drag_view_layout"/>
+        <include layout="@layout/color_appbar_layout"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <View android:layout_gravity="bottom" android:background="@drawable/bottom_panel_gradient_bg" android:focusable="false" android:layout_width="match_parent" android:layout_height="100dp" android:forceDarkAllowed="false"/>
+    <com.color.support.widget.ColorButton android:textColor="@android:color/white" android:ellipsize="end" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/apply_change" android:layout_width="220dp" android:layout_height="44dp" android:layout_marginBottom="20dp" android:text="@string/already_applied" android:maxLines="1" style="?attr/colorButtonColorfulDefaultStyle"/>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cutout_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/cutout_container_left" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/cutout_image_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cutout_left_enable" android:forceDarkAllowed="false"/>
+            <TextView android:textSize="10sp" android:gravity="center" android:id="@+id/cutout_text_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="14dp" android:text="@string/cutout_mode_default" android:maxLines="3"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/cutout_container_right" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="50dp">
+            <ImageView android:id="@+id/cutout_image_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cutout_left_disable" android:forceDarkAllowed="false"/>
+            <TextView android:textSize="10sp" android:gravity="center" android:id="@+id/cutout_text_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="14dp" android:text="@string/cutout_mode_hide" android:maxLines="3"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

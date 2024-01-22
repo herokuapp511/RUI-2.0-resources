@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <color.support.v7.widget.Toolbar android:id="@+id/toolbar" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="60dp" app:supportNavigationIcon="@drawable/ic_color_menu_ic_back_white"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="0">
+            <VideoView android:layout_gravity="center_horizontal" android:id="@+id/anim_style_video_view" android:clickable="false" android:layout_width="@dimen/optical_fp_anim_style_video_width" android:layout_height="@dimen/optical_fp_anim_style_video_height"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/enable_finger_print_layout" android:background="@drawable/fingerprint_anim_style_tv_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:paddingStart="14dp" android:layout_marginStart="26dp" android:layout_marginEnd="22dp">
+                <TextView android:textSize="12sp" android:textColor="#8cffffff" android:layout_gravity="center_vertical" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fingerprint_style_tips" android:layout_weight="1"/>
+                <TextView android:textSize="12sp" android:textColor="?attr/colorTintControlNormal" android:gravity="center_vertical" android:id="@+id/go_to_open" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/go_to_open"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.ColorRecyclerView android:id="@+id/anim_style_list" android:background="@drawable/fingerprint_anim_style_panel_bg" android:paddingLeft="15dp" android:paddingTop="23dp" android:paddingRight="15dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+</LinearLayout>

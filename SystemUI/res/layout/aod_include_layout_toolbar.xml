@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<color.support.design.widget.ColorAppBarLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/aod_toolbar_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <color.support.v7.widget.Toolbar android:id="@+id/aod_toolbar" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/aod_clock_dp_58" app:colorLayoutScrollFlags="3" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle"/>
+</color.support.design.widget.ColorAppBarLayout>

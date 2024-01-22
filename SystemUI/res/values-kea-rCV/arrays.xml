@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>73848_Animation off</item>
+        <item>73848_Animation scale 0.5x</item>
+        <item>73848_Animation scale 1x</item>
+        <item>73848_Animation scale 1.5x</item>
+        <item>73848_Animation scale 2x</item>
+        <item>73848_Animation scale 5x</item>
+        <item>73848_Animation scale 10x</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>73842_Standard limit</item>
+        <item>73842_No background processes</item>
+        <item>73842_At most 1 process</item>
+        <item>73842_At most 2 processes</item>
+        <item>73842_At most 3 processes</item>
+        <item>73842_At most 4 processes</item>
+    </array>
+    <array name="battery_labels">
+        <item>73597_0%</item>
+        <item>73597_50%</item>
+        <item>73597_100%</item>
+    </array>
+    <array name="battery_options">
+        <item>81798_Always display in percentage</item>
+        <item>81798_Display percentage of battery power while charging (default)</item>
+        <item>81798_Do not display this icon</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>147878_Use System Selection (Default)</item>
+        <item>147878_16 bits/sample</item>
+        <item>147878_24 bits/sample</item>
+        <item>147878_32 bits/sample</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>147877_Use System Selection (Default)</item>
+        <item>147877_16 bits/sample</item>
+        <item>147877_24 bits/sample</item>
+        <item>147877_32 bits/sample</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>147880_Use System Selection (Default)</item>
+        <item>147880_Mono</item>
+        <item>147880_Stereo</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>147879_Use System Selection (Default)</item>
+        <item>147879_Mono</item>
+        <item>147879_Stereo</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>147882_Optimized for Audio Quality</item>
+        <item>147882_Balanced Audio And Connection Quality</item>
+        <item>147882_Optimized for Connection Quality</item>
+        <item>147882_Best Effort (Adaptive Bit Rate)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>147881_Optimized for Audio Quality (990kbps/909kbps)</item>
+        <item>147881_Balanced Audio And Connection Quality (660kbps/606kbps)</item>
+        <item>147881_Optimized for Connection Quality (330kbps/303kbps)</item>
+        <item>147881_Best Effort (Adaptive Bit Rate)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>147876_Use System Selection (Default)</item>
+        <item>147876_44.1 kHz</item>
+        <item>147876_48.0 kHz</item>
+        <item>147876_88.2 kHz</item>
+        <item>147876_96.0 kHz</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>147875_Use System Selection (Default)</item>
+        <item>147875_44.1 kHz</item>
+        <item>147875_48.0 kHz</item>
+        <item>147875_88.2 kHz</item>
+        <item>147875_96.0 kHz</item>
+    </array>
+    <array name="bluetooth_audio_active_device_summaries">
+        <item />
+        <item>147883_, active</item>
+        <item>147883_, active (media)</item>
+        <item>147883_, active (phone)</item>
+    </array>
+    <array name="bluetooth_avrcp_version_values">
+        <item>147872_avrcp14</item>
+        <item>147872_avrcp13</item>
+        <item>147872_avrcp15</item>
+        <item>147872_avrcp16</item>
+    </array>
+    <array name="bluetooth_avrcp_versions">
+        <item>147871_AVRCP 1.4 (Default)</item>
+        <item>147871_AVRCP 1.3</item>
+        <item>147871_AVRCP 1.5</item>
+        <item>147871_AVRCP 1.6</item>
+    </array>
+    <array name="bluetooth_map_versions">
+        <item>828940_MAP 1.2 (Default)</item>
+        <item>828940_MAP 1.3</item>
+        <item>828940_MAP 1.4</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries_new">
+        <item>829018_Disabled</item>
+        <item>829018_Enabled Filtered</item>
+        <item>829018_Enabled</item>
+        <item>829018_Enabled Headers Filtered</item>
+        <item>829018_Enabled Media Pkts Filtered</item>
+    </array>
+    <array name="can_select_charge_or_ftp">
+        <item>808292_Charge only</item>
+        <item>808292_Transfer files</item>
+    </array>
+    <array name="can_select_charge_or_mtp">
+        <item>808294_Charge only</item>
+        <item>808294_Transfer photos</item>
+    </array>
+    <array name="can_select_ftp_or_mtp">
+        <item>808293_Transfer files</item>
+        <item>808293_Transfer photos</item>
+    </array>
+    <array name="clock_options">
+        <item>81797_Display hours, minutes and seconds</item>
+        <item>81797_Display hours and minutes (default)</item>
+        <item>81797_Do not display this icon</item>
+    </array>
+    <array name="color_lunar_mounth">
+        <item>76907_正月</item>
+        <item>76907_二月</item>
+        <item>76907_三月</item>
+        <item>76907_四月</item>
+        <item>76907_五月</item>
+        <item>76907_六月</item>
+        <item>76907_七月</item>
+        <item>76907_八月</item>
+        <item>76907_九月</item>
+        <item>76907_十月</item>
+        <item>76907_冬月</item>
+        <item>76907_腊月</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>73652_Enhanced Color</item>
+        <item>73652_Natural Colors Visible to the Naked Eye</item>
+        <item>73652_Colors Optimized for Digital Content</item>
+    </array>
+    <array name="color_mode_names">
+        <item>73653_Bright (Default)</item>
+        <item>73653_Natural</item>
+        <item>73653_Standard</item>
+    </array>
+    <array name="color_solor_mounth">
+        <item>76906_January</item>
+        <item>76906_February</item>
+        <item>76906_March</item>
+        <item>76906_April</item>
+        <item>76906_May</item>
+        <item>76906_June</item>
+        <item>76906_July</item>
+        <item>76906_August</item>
+        <item>76906_September</item>
+        <item>76906_October</item>
+        <item>76906_November</item>
+        <item>76906_December</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>73843_Off</item>
+        <item>73843_Show overdraw areas</item>
+        <item>73843_Shows areas for Deuteranomaly</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>73846_None</item>
+        <item>73846_Logcat</item>
+        <item>73846_Systrace (Graphics)</item>
+        <item>73846_Call Stack on glGetError</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>73854_Never use HDCP checking</item>
+        <item>73854_Use HDCP checking for DRM content only</item>
+        <item>73854_Always use HDCP checking</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>73855_Never check</item>
+        <item>73855_Check DRM content only</item>
+        <item>73855_Always check</item>
+    </array>
+    <array name="nav_bar_layouts">
+        <item>81782_Normal</item>
+        <item>81782_Compact</item>
+        <item>81782_Keep left</item>
+        <item>81782_Keep right</item>
+    </array>
+    <array name="oppo_time_picker_ampm">
+        <item>65366_AM</item>
+        <item>65366_PM</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>73847_None</item>
+        <item>73847_480p</item>
+        <item>73847_480p (safe)</item>
+        <item>73847_720p</item>
+        <item>73847_720p (safe)</item>
+        <item>73847_1080p</item>
+        <item>73847_1080p (safe)</item>
+        <item>73847_4K</item>
+        <item>73847_4K (safe)</item>
+        <item>73847_4K (Enhanced)</item>
+        <item>73847_4K (Enhanced, safe)</item>
+        <item>73847_720p, 1080p (dual screen)</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>73852_Off</item>
+        <item>73852_64K</item>
+        <item>73852_256K</item>
+        <item>73852_1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>73851_Off</item>
+        <item>73851_64K per log buffer</item>
+        <item>73851_256K per log buffer</item>
+        <item>73851_1M per log buffer</item>
+        <item>73851_4M per log buffer</item>
+        <item>73851_16M per log buffer</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>73853_Off</item>
+        <item>73853_64K</item>
+        <item>73853_256K</item>
+        <item>73853_1M</item>
+        <item>73853_4M</item>
+        <item>73853_16M</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>73054_Off</item>
+        <item>73054_All Log Buffers</item>
+        <item>73054_All Non-radio Log Buffers</item>
+        <item>73054_Kernel Log Buffers Only</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>73055_Off</item>
+        <item>73055_All</item>
+        <item>73055_All Non-radio</item>
+        <item>73055_Kernel Only</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>73845_Off</item>
+        <item>73845_Draw non-rectangular clip region in blue</item>
+        <item>73845_Highlight tested drawing commands in green</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>147884_Off</item>
+        <item>147884_On screen as bars</item>
+        <item>147884_In adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>73849_Turn off Animation</item>
+        <item>73849_Animation Zoom 0.5x</item>
+        <item>73849_Animation Zoom 1x</item>
+        <item>73849_Animation Zoom 1.5x</item>
+        <item>73849_Animation Zoom 2x</item>
+        <item>73849_Animation Zoom 5x</item>
+        <item>73849_Animation Zoom 10x</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>73792_Very Slow</item>
+        <item>73792_Slow</item>
+        <item>73792_Normal</item>
+        <item>73792_Fast</item>
+        <item>73792_Faster</item>
+        <item>73792_Very Fast</item>
+        <item>73792_Super Fast</item>
+        <item>73792_Ultra Fast</item>
+        <item>73792_Fastest</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>73841_Charge</item>
+        <item>73841_MTP (Media Transfer Protocol)</item>
+        <item>73841_PTP (Picture Transfer Protocol)</item>
+        <item>73841_RNDIS (USB Ethernet)</item>
+        <item>73841_Audio Source</item>
+        <item>73841_MIDI</item>
+    </array>
+    <array name="usb_type_select">
+        <item>126985_Charge only</item>
+        <item>126985_Transfer files</item>
+        <item>126985_Transfer photos</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>147869_Scanning…</item>
+        <item>147869_Connecting…</item>
+        <item>147869_Authenticating…</item>
+        <item>147869_Obtaining IP address…</item>
+        <item>147869_Connected</item>
+        <item>147869_Suspended</item>
+        <item>147869_Disconnecting…</item>
+        <item>147869_Disconnected</item>
+        <item>147869_Unsuccessful</item>
+        <item>147869_Blocked</item>
+        <item>147869_Temporarily avoiding poor connection</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>73850_Animation off</item>
+        <item>73850_Animation scale 0.5x</item>
+        <item>73850_Animation scale 1x</item>
+        <item>73850_Animation scale 1.5x</item>
+        <item>73850_Animation scale 2x</item>
+        <item>73850_Animation scale 5x</item>
+        <item>73850_Animation scale 10x</item>
+    </array>
+</resources>

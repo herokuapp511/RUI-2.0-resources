@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/dual_clock_show_following_location" android:key="dual_clock_show_following_location_screen_key">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/dual_clock_screenlock" android:key="key_screen_lock"/>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/dual_clock_desktop_clock_widget" android:key="key_clock_widget" android:summary="@string/dual_clock_clock_widget_tips"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</PreferenceScreen>

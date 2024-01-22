@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.ZoomWindowDecorView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@+id/zoom" android:focusable="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:layout_gravity="center_horizontal" android:id="@+id/control_zoom" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/decor_zoom_control_button"/>
+        <ImageButton android:gravity="center" android:layout_gravity="end" android:id="@+id/closed_zoom" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/decor_zoom_closed_button"/>
+    </FrameLayout>
+</com.android.internal.widget.ZoomWindowDecorView>

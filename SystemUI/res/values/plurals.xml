@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d min ago</item>
+        <item quantity="other">%d min ago</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d yr ago</item>
+        <item quantity="other">%d yr ago</item>
+    </plurals>
+    <plurals name="color_controls_number_of_favorites">
+        <item quantity="one">%s control added</item>
+        <item quantity="other">%s controls added</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="one">%s control added.</item>
+        <item quantity="other">%s controls added.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">Enter SIM PIN. You have %dremaining attempt before you must contact your carrier to unlock your device.</item>
+        <item quantity="other">Enter SIM PIN. You have %dremaining attempts.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="one">Please Enter the PIN for SIM Card %d. %d Attempt Remaining. You&apos;ll Need to Contact the Carrier to Help Unlock the Device If It Is Incorrect Again.</item>
+        <item quantity="other">Please Enter the PIN for SIM Card %d. %d Attempts Remaining.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">SIM is now disabled. Enter PUK code to continue. You have %dremaining attempt before SIM becomes permanently unusable. Contact carrier for details.</item>
+        <item quantity="other">SIM is now disabled. Enter PUK code to continue. You have %dremaining attempts before SIM becomes permanently unusable. Contact carrier for details.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">Incorrect SIM PIN. %d attempt remaining. You&apos;ll need to contact the carrier to help unlock the device if it is incorrect again.</item>
+        <item quantity="other">Incorrect SIM PIN. %d attempts remaining.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="one">Incorrect PIN for SIM Card %d. %d Attempt Remaining. You&apos;ll Need to Contact the Carrier to Help Unlock the Device If It Is Incorrect Again.</item>
+        <item quantity="other">Incorrect PIN for SIM Card %d. %d Attempts Remaining.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">Incorrect SIM PUK code. %d attempt remaining. SIM will be permanently disabled if it is incorrect again.</item>
+        <item quantity="other">Incorrect SIM PUK code. %d attempts remaining. SIMs will be permanently disabled if it is incorrect again.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">The device has been locked for %d hour. Please confirm the password.</item>
+        <item quantity="other">The device has been locked for %d hours. Please confirm the password.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">The device has been locked for %d hour.Please confirm the unlock pattern.</item>
+        <item quantity="other">The device has been locked for %d hours.Please confirm the unlock pattern.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">The device has been locked for %d hour.Please confirm the PIN.</item>
+        <item quantity="other">The device has been locked for %d hours.Please confirm the PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="one">Please Retry After 1 Second.</item>
+        <item quantity="other">Please Retry After %d Seconds.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="notification_count_content">
+        <item quantity="one">You have %1$d new notification from the system clone. Switch to the clone to view it.</item>
+        <item quantity="other">You have %1$d new notifications from the system clone. Switch to the clone to view them.</item>
+    </plurals>
+    <plurals name="notification_count_content_from_main">
+        <item quantity="one">You have %1$d new notification from the main system. Switch to the main system to view it.</item>
+        <item quantity="other">You have %1$d new notifications from the main system. Switch to the main system to view them.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">There is still %s notification in this group.</item>
+        <item quantity="other">There are still %s notifications in this group.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="one">%d device</item>
+        <item quantity="other">%d devices</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="one">Only one user can be created.</item>
+        <item quantity="other">You can add up to %d users.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d device connected</item>
+        <item quantity="other">%1$d devices connected</item>
+    </plurals>
+</resources>

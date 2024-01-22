@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/aod_surface_panoramic_light_effect" android:key="recorder_settings_surface">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/aod_activity_surface_home" android:key="key_curved_display_show_surface" app:selectable="false"/>
+    <com.coloros.systemui.aod.surface.preference.SettingColorJumpPreference android:title="@string/aod_surface_holdscreen_title" android:key="aod_surface_holdscreen" app:showNormalColor="true">
+        <intent android:targetPackage="com.android.systemui" android:action="oppo.intent.action.SURFACE_SETTING_NOTIFITYSURFACE_PREVIEW"/>
+    </com.coloros.systemui.aod.surface.preference.SettingColorJumpPreference>
+    <com.coloros.systemui.aod.surface.preference.SettingColorJumpPreference android:title="@string/aod_surface_call_title" android:key="aod_surface_call" app:showNormalColor="true">
+        <intent android:targetPackage="com.android.incallui" android:action="oppo.intent.action.INCOMING_CALL_LIGHT_EFFECT_SETTINGS"/>
+    </com.coloros.systemui.aod.surface.preference.SettingColorJumpPreference>
+</androidx.preference.PreferenceScreen>

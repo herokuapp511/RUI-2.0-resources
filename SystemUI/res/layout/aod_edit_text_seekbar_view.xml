@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_dp_30" android:layout_marginStart="@dimen/aod_clock_dp_24" android:layout_marginEnd="@dimen/aod_clock_dp_24">
+        <TextView android:textSize="@dimen/aod_clock_summary_text_size" android:textColor="@color/aod_text_primary_color" android:id="@+id/aod_seekbar_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/aod_style_text_size" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/aod_clock_summary_text_size" android:textColor="#80ffffff" android:id="@+id/aod_seekbar_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0"/>
+    </LinearLayout>
+    <com.color.support.widget.seekbar.ColorSeekBar android:id="@+id/aod_editor_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_dp_10" android:layout_marginStart="@dimen/aod_clock_dp_15" android:layout_marginEnd="@dimen/aod_clock_dp_15" app:colorSeekBarBackgroundColor="@color/aod_clock_unfocus_color"/>
+</merge>

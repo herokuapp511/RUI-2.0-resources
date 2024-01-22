@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aerr_ok">Ceart go leor</string>
+    <string name="face_name_template">Aghaidh %d</string>
+    <string name="gr_exception_talkback_install">Níor suiteáladh Talkback go rathúil. Bain triail eile as níos déanaí.</string>
+    <string name="gr_oppo_roam">OFhánaíocht</string>
+    <string name="gr_talkback_install_progress_tip_content">Talkback á shuiteáil. Fan le do thoil…</string>
+    <string name="gr_tip_installing_gr">Google Services Framework a shuiteáil. Níl an aip seo inrite faoi láthair. Bain triail eile as níos déanaí.</string>
+    <string name="not_allow_running_process">Tá an aip sin díchumasaithe ar bhunús na straitéise slándála</string>
+    <string name="oppo_dual_sta_sign_in_reminder">Rachaidh an nasc in éag go luath. Fíordheimhniú le %s in am.</string>
+    <string name="oppo_dual_sta_sign_in_title">Fíordheimhniú chun Dual Wi-Fi a úsáid</string>
+    <string name="oppo_sla_cancel">Cealaigh</string>
+    <string name="oppo_sla_go_and_set">Téigh chuig Socruithe</string>
+    <string name="oppo_sla_optimize">Optamú</string>
+    <string name="oppo_sla_reminder">Tá caighdeán an Wi-Fi faoi láthair lag. Cas air \"Luathú Cainéal Líonra Déach\" le húsáid a bhaint as Wi-Fi agus sonraí ceallacha go inmhalartach le haghaidh rochtana níos fearr ar an idirlíon. Cas air optamú?</string>
+    <string name="oppo_wifi_p2p_frequency_conflict_message">Dínascfar an Wi-Fi le linn nasctha.</string>
+    <string name="wifi_hotspot_closed">Múchadh an Ball Te Pearsanta.</string>
+    <string name="wifi_hotspot_traffic_consumption">Tá sonraí comhroinnte ag an seisiún baill the seo.</string>
+    <string name="wifi_hotspot_traffic_limitation">Tá teorainn sonraí bainte amach ag an seisiún baill the seo.</string>
+    <string name="wlan_switch_data_checkbox">Ná meabhraigh</string>
+    <string name="zzz_engineeringmode_warning_message">Tá baol ann go mífheidhmeoidh agus go dtuairteálfaidh an córas, tapáil chun dúnadh</string>
+    <string name="zzz_engineeringmode_warning_title">Tá mód Innealtóireachta casta air</string>
+</resources>

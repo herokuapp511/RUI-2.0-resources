@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.coloros.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@+id/refresh_eav" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:forceDarkAllowed="false" app:anim_autoPlay="true" app:anim_loop="true"/>
+    <LinearLayout android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+        <TextView android:textSize="12sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/left_refresh_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/middle_refresh_text" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/right_refresh_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

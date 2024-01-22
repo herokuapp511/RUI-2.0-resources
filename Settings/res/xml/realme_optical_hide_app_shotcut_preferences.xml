@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:key="optical_hide_app_shortcut_category" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.ColorFullScreenListPreference android:title="@string/hide_apps_shortcut" android:key="hide_app_shortcut"/>
+    </PreferenceCategory>
+</PreferenceScreen>

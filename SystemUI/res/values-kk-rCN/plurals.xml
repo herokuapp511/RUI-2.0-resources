@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="color_controls_number_of_favorites">
+        <item quantity="one">%s دانا بولشەك قوسىلدى</item>
+        <item quantity="other">%s دانا بولشەك قوسىلدى</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="one">SIM كارتوچكاسى %d PIN شارتتاڭباسىن كىرگىزىڭىز، ەندى %d رەت سىناۋىڭىزعا بولادى.ەگەر تاعى دۇرىس بولماسا، وپەراتورلارعا حابارلاسىپ جابدىق قۇلىبىن اشقىزىڭىز.</item>
+        <item quantity="other">SIM كارتوچكاسى %d PIN شارتتاڭباسىن كىرگىزىڭىز، ەندى %d رەت سىناۋىڭىزعا بولادى.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">SIM كارتوچكاسى PIN شارتتاڭباسى دۇرىس ەمەس، تاعى %d رەت سىناۋ ورايىڭىز بار.ەگەر تاعى دۇرىس بولماسا، وپەراتورلارعا حابارلاسىپ جابدىق قۇلىبىن اشقىزىڭىز.</item>
+        <item quantity="other">SIM كارتوچكاسى PIN شارتتاڭباسى دۇرىس ەمەس، تاعى %d رەت سىناۋ ورايىڭىز بار.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="one">SIM كارتوچكاسى %d PIN شارتتاڭباسى دۇرىس ەمەس، تاعى %d رەت سىناۋ ورايىڭىز بار.ەگەر تاعى دۇرىس بولماسا، وپەراتورلارعا حابارلاسىپ جابدىق قۇلىبىن اشقىزىڭىز.</item>
+        <item quantity="other">SIM كارتوچكاسى %d PIN شارتتاڭباسى دۇرىس ەمەس، تاعى %d رەت سىناۋ ورايىڭىز بار.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">SIM كارتوچكاسى PUK شارتتاڭباسى دۇرىس ەمەس، تاعى %d رەت سىناۋ ورايىڭىز بار.ەگەر تاعى قاتە بولسا، SIM كارتوچكاسى ماڭگى پايدالانىلمايدى.</item>
+        <item quantity="other">SIM كارتوچكاسى PUK شارتتاڭباسى دۇرىس ەمەس، تاعى %d رەت سىناۋ ورايىڭىز بار.ەگەر تاعى دۇرىس بولماسا، SIM كارتوچكاسى ماڭگىگە توقتايدى.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">بۇل جابدىقتىڭ قۇلىپتاۋلى كۇيى %d ساعاتقا جەتتى.شارتتاڭبانى تۇراقتاندىرىڭىز.</item>
+        <item quantity="other">بۇل جابدىقتىڭ قۇلىپتاۋلى كۇيى %d ساعاتقا جەتتى.شارتتاڭبانى تۇراقتاندىرىڭىز.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">بۇل جابدىقتىڭ قۇلىپتاۋلى كۇيى %d ساعاتقا جەتتى.قۇلىپ اشۋ ورنەگىن تۇراقتاندىرىڭىز.</item>
+        <item quantity="other">بۇل جابدىقتىڭ قۇلىپتاۋلى كۇيى %d ساعاتقا جەتتى.قۇلىپ اشۋ ورنەگىن تۇراقتاندىرىڭىز</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">بۇل جابدىقتىڭ قۇلىپتاۋلى كۇيى %d ساعاتقا جەتتى.PIN كودىن تۇراقتاندىرىڭىز.</item>
+        <item quantity="other">بۇل جابدىقتىڭ قۇلىپتاۋلى كۇيى %d ساعاتقا جەتتى.PIN كودىن تۇراقتاندىرىڭىز.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="one">1 سەكۋنتتان كەيىن قايتا سىناڭىز.</item>
+        <item quantity="other">%d سەكۋنتتان كەيىن قايتا سىناڭىز.</item>
+    </plurals>
+    <plurals name="notification_count_content">
+        <item quantity="one">ءسىز &quot;جۇيە كلونىنان&quot; كەلگەن %1$d تال جاڭا ۇقتىرۋدى قابىلدادىڭىز، &quot;جۇيە كلونىنا&quot; اۋىستىرىپ تەكسەرۋ</item>
+        <item quantity="other">ءسىز &quot;جۇيە كلونىنان&quot; كەلگەن %1$d تال جاڭا ۇقتىرۋدى قابىلدادىڭىز، &quot;جۇيە كلونىنا&quot; اۋىستىرىپ تەكسەرۋ</item>
+    </plurals>
+    <plurals name="notification_count_content_from_main">
+        <item quantity="one">ءسىز &quot;باس جۇيەدەن&quot; كەلگەن %1$d تال جاڭا ۇقتىرۋدى قابىلدادىڭىز، &quot;نەگىزگى جۇيەگە&quot; اۋىستىرىپ تەكسەرۋ</item>
+        <item quantity="other">ءسىز &quot;باس جۇيەدەن&quot; كەلگەن %1$d تال جاڭا ۇقتىرۋدى قابىلدادىڭىز، &quot;نەگىزگى جۇيەگە&quot; اۋىستىرىپ تەكسەرۋ</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">بۇل شوعىردا تاعى %s تارماق ۇقتىرۋ بار.</item>
+        <item quantity="other">بۇل شوعىردا تاعى %s تارماق ۇقتىرۋ بار.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d تارماق جاڭا ۇقتىرۋ</item>
+        <item quantity="other">%d تارماق جاڭا ۇقتىرۋ</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="one">%d ساعات</item>
+        <item quantity="other">%d ساعات</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="one">%d مينۋت</item>
+        <item quantity="other">%d مينۋت</item>
+    </plurals>
+</resources>

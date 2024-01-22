@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/subscription_01_title" android:key="subscription_01">
+        <intent android:action="android.intent.action.MAIN"/>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/subscription_02_title" android:key="subscription_02">
+        <intent android:action="android.intent.action.MAIN"/>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+</androidx.preference.PreferenceScreen>

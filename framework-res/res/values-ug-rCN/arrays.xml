@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="emailAddressTypes">
+        <item>شەخىس</item>
+        <item>خىزمەت</item>
+        <item>باشقىلار</item>
+        <item>ئۆزى ئېنىقلىما بېرىش</item>
+    </array>
+    <array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>جۇڭگو ياخۇ</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </array>
+    <array name="organizationTypes">
+        <item>ئىدارە</item>
+        <item>باشقىلار</item>
+        <item>ئۆزى ئېنىقلىما بېرىش</item>
+    </array>
+    <array name="phoneTypes">
+        <item>تۇرالغۇ</item>
+        <item>يان تېلېفون</item>
+        <item>ئىدارە</item>
+        <item>ئىدارە فاكىسى</item>
+        <item>تۇرالغۇ فاكىسى</item>
+        <item>چاقىرغۇنى ئىزدەش</item>
+        <item>باشقىلار</item>
+        <item>ئۆزى ئېنىقلىما بېرىش</item>
+    </array>
+    <array name="postalAddressTypes">
+        <item>تۇرالغۇ</item>
+        <item>ئىدارە</item>
+        <item>باشقىلار</item>
+        <item>ئۆزى ئېنىقلىما بېرىش</item>
+    </array>
+    <array name="fingerprint_acquired_vendor">
+    </array>
+    <array name="fingerprint_error_vendor">
+    </array>
+    <array name="imAddressTypes">
+        <item>تۇرالغۇ</item>
+        <item>خىزمەت</item>
+        <item>باشقىلار</item>
+        <item>ئۆزى ئېنىقلىما بېرىش</item>
+    </array>
+    <array name="network_switch_type_name">
+        <item>كۆچمە تور</item>
+        <item>Wi-Fi</item>
+        <item>كۆك چىش</item>
+        <item>ئېزېرنېت</item>
+        <item>VPN</item>
+    </array>
+</resources>

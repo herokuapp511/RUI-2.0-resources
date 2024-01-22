@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/security_settings_title" android:key="security_dashboard_page">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/security_status_title" android:key="security_status" android:order="-10" app:controller="com.coloros.settings.feature.othersettings.controller.ColorSecurityStatusPreferenceController" app:isFirstCategory="true"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/lock_settings_title" android:key="device_security_category" android:order="9">
+        <com.coloros.settings.widget.preference.SettingsColorJumpIconPreference android:title="@string/settings_find_my_phone" android:key="key_find_my_phone" android:order="13" app:controller="com.coloros.settings.feature.privacy.FindMyPhonePreferenceController"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/sim_lock_settings_category" android:key="sim_lock_settings" android:order="18">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$IccLockSettingsActivity"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingsColorJumpIconPreference android:title="@string/payment_protection_title" android:key="key_payment_protection" android:order="24" app:controller="com.coloros.settings.feature.security.controller.SecurePayPreferenceController"/>
+        <com.android.settings.widget.GearPreference android:title="@string/unlock_set_unlock_launch_picker_title" android:key="unlock_set_or_change" android:summary="@string/summary_placeholder" android:order="25" app:keywords="@string/keywords_lockscreen"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/lockscreen_settings_title" android:key="lockscreen_preferences" android:summary="@string/summary_placeholder" android:order="26" android:fragment="com.android.settings.security.LockscreenDashboardFragment"/>
+        <com.coloros.settings.widget.preference.SettingsColorJumpIconPreference android:title="@string/settings_base_station_risk" android:key="key_pseudo_base_station" android:order="30" app:controller="com.coloros.settings.feature.security.controller.PseudoBaseStationPreferenceController"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/lock_settings_profile_title" android:key="security_category_profile" android:order="50">
+        <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:title="@string/lock_settings_profile_unification_title" android:key="unification" android:summary="@string/lock_settings_profile_unification_summary" android:order="55" app:keywords="@string/keywords_unification"/>
+        <com.coloros.settings.widget.preference.ColorRestrictedPreference android:title="@string/unlock_set_unlock_launch_picker_title_profile" android:key="unlock_set_or_change_profile" android:summary="@string/unlock_set_unlock_mode_pattern" android:order="60" app:keywords="@string/keywords_lockscreen"/>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title_profile" android:key="visiblepattern_profile" android:summary="@string/summary_placeholder" android:order="65" app:controller="com.android.settings.security.VisiblePatternProfilePreferenceController"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/security_settings_fingerprint_preference_title" android:key="fingerprint_settings_profile" android:summary="@string/summary_placeholder" android:order="70"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/security_settings_face_preference_title" android:key="face_settings_profile" android:summary="@string/summary_placeholder" android:order="75"/>
+    </PreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:title="@string/security_category_sos" android:key="category_sos" android:order="80">
+        <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:title="@string/sos_title" android:key="key_sos" android:order="85" app:controller="com.coloros.settings.feature.security.controller.SosPreferenceController" app:useAdminDisabledSummary="true" app:userRestriction="no_config_cell_broadcasts"/>
+    </com.color.support.preference.ColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/device_admin_title" android:key="security_settings_device_admin_category" android:order="90">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/color_manage_device_admin" android:key="manage_device_admin" android:summary="@string/summary_placeholder" android:order="95" android:fragment="com.coloros.settings.feature.security.ColorDeviceAdminSettings"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/enterprise_privacy_settings" android:key="enterprise_privacy" android:summary="@string/summary_placeholder" android:order="100" android:fragment="com.android.settings.enterprise.EnterprisePrivacySettings"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/color_credentials_title" android:key="encryption_and_credential" android:order="105" android:fragment="com.android.settings.security.EncryptionAndCredential"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/application_install" android:key="application_install_category" android:order="110">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/install_applications_unknown_source" android:key="install_applications_unknown_source" android:order="115">
+            <intent android:action="android.settings.MANAGE_UNKNOWN_APP_SOURCES"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:persistent="false" android:title="@string/recommend_safety_applications" android:key="recommend_safety_applications" android:order="125" android:fragment="com.coloros.settings.feature.security.ColorSafeApplicationFragment"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/other" android:key="advanced_security" android:order="145">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/color_manage_trust_agents" android:key="manage_trust_agents" android:summary="@string/summary_placeholder" android:order="150" android:fragment="com.android.settings.security.trustagent.TrustAgentSettings"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/screen_pinning_title" android:key="screen_pinning_settings" android:summary="@string/summary_placeholder" android:order="155" android:fragment="com.coloros.settings.feature.security.ColorScreenPinningSettings"/>
+        <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:title="@string/cell_broadcast_settings" android:key="security_cell_broadcast_settings" android:order="160" app:useAdminDisabledSummary="true">
+            <intent android:targetPackage="com.google.android.cellbroadcastreceiver" android:action="android.intent.action.MAIN" android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings"/>
+        </com.coloros.settings.widget.preference.ColorRestrictedJumpPreference>
+        <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:title="@string/cell_broadcast_emergency_records" android:key="security_cell_broadcast_records" android:order="170" app:useAdminDisabledSummary="true">
+            <intent android:targetPackage="com.google.android.cellbroadcastreceiver" android:action="android.intent.action.MAIN" android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastListActivity"/>
+        </com.coloros.settings.widget.preference.ColorRestrictedJumpPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:order="170"/>
+    <com.coloros.settings.widget.preference.RecommendedPreference android:key="security_bottom_recommended" android:order="200"/>
+</PreferenceScreen>

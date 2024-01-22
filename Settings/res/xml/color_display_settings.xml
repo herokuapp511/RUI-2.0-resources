@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/display_and_brightness" android:key="display_settings_screen" app:keywords="@string/keywords_display">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="darkmode_category" app:isFirstCategory="true">
+        <com.coloros.settings.feature.display.darkmode.ui.SettingsDarkModePreviewPreference android:selectable="false" android:key="dark_light_mode_preview"/>
+        <com.color.support.preference.ColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/darkmode_auto_time_switch" android:key="darkmode_auto_switch" app:keywords="@string/switch_to_darkmode_when_sunset" app:showNormalColor="true"/>
+        <com.color.support.preference.ColorJumpPreference android:title="@string/darkmode_settings" android:key="dark_mode_settings" android:summary="@string/dark_mode_feature_summary" android:fragment="com.coloros.settings.feature.display.darkmode.ui.DarkModeSettingsFragment"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="brightness_category">
+        <com.coloros.settings.feature.display.SettingsBrightnessPreference android:selectable="false" android:key="brightness" app:colorClickStyle="2" app:color_jump_mark="@null"/>
+        <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:persistent="false" android:title="@string/auto_brightness_title" android:key="auto_brightness" app:userRestriction="no_config_brightness"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="key_protect_eyes_category">
+        <com.color.support.preference.ColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/protect_eyes_mode" android:key="night_display_activated" app:showNormalColor="true"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="accelerometer_category">
+        <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:persistent="false" android:title="@string/doze_title" android:key="ambient_display_notification" android:summary="@string/doze_summary" app:userRestriction="no_ambient_display"/>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/accelerometer_auto_rotate_title" android:key="auto_rotate" app:keywords="@string/keywords_auto_rotate"/>
+        <com.coloros.settings.widget.preference.SettingsColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/accelerometer_auto_rotate_title" android:key="auto_rotate_exp" android:fragment="com.coloros.settings.feature.display.ColorAutoRotateFragment"/>
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/screen_timeout_entries" android:layout="@layout/color_preference" android:title="@string/oppo_display_settings_screen_timeout_title" android:key="screen_timeout" android:widgetLayout="@layout/color_preference_widget_jump" android:entryValues="@array/screen_timeout_values" app:color_jump_mark="@null" app:keywords="@string/keywords_screen_timeout" app:restricted="true" app:showNormalColor="true" app:useAdminDisabledSummary="true"/>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/oppo_display_setting_keep_on_looking" android:key="key_keep_on_looking" app:persistent="false" app:showNormalColor="true"/>
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/presskey_backlight_timeout_entries" android:layout="@layout/color_preference" android:title="@string/coloros_presskey_backlight" android:key="press_key_backlight" android:widgetLayout="@layout/color_preference_widget_jump" android:entryValues="@array/presskey_backlight_timeout_values" app:color_jump_mark="@drawable/color_btn_next" app:restricted="true" app:showNormalColor="true" app:useAdminDisabledSummary="true"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <Preference android:layout="@layout/color_preference" android:key="key_aod_conflict_tips" android:summary="@string/aod_conflict_with_black_gesture_note"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/screen_color_temperature_title" android:key="screen_color_temperature_category">
+        <com.coloros.settings.feature.display.screencolortemp.ScreenColorTemperaturePreference android:selectable="false" android:key="screen_color_temperature"/>
+        <Preference android:layout="@layout/color_detail_preference" android:selectable="false" android:key="screen_color_summary" android:summary="@string/screen_color_temperature_helper"/>
+        <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:persistent="false" android:title="@string/oppo_osie_ambient_color_adaptation" android:key="intelligent_color_temperature_adjustment" android:summary="@string/ambient_color_adaptation_summary" app:controller="com.coloros.settings.feature.display.controller.ColorTemperatureAdjustmentController"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="surface_light_category">
+        <com.coloros.settings.widget.preference.SettingsColorSwitchWithDividerPreference android:title="@string/oppo_osie_title" android:key="key_osie" android:fragment="com.coloros.settings.feature.display.video.OSIESettingsFragment"/>
+        <com.coloros.settings.widget.preference.SettingsColorSwitchWithDividerPreference android:title="@string/oppo_osie_irirs5_super_quality_engine" android:key="key_iris5" android:summary="@string/picture_quality_engine_summary" android:fragment="com.coloros.settings.feature.display.video.Iris5SettingsFragment"/>
+        <com.coloros.settings.widget.preference.SettingsColorSwitchWithDividerPreference android:layout="@layout/color_switch_with_divider_preference" android:title="@string/video_display_enhancement" android:key="key_video_display_enhancement" android:fragment="com.coloros.settings.feature.display.video.VideoDisplayEnhancementFragment"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/font_and_display" android:key="font_and_display" app:keywords="@string/keywords_font_and_display" app:showNormalColor="true">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.coloros.settings.ColorSettings$FontAndDisplaySettingsActivity">
+                <extra android:name="extra_support_font" android:value="1"/>
+            </intent>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="key_more_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/more_display_settings_title" android:key="key_more_display" android:fragment="com.coloros.settings.feature.display.MoreDisplaySettingsFragment"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory/>
+    <com.coloros.settings.widget.preference.RecommendedPreference android:key="display_bottom_recommended"/>
+</PreferenceScreen>

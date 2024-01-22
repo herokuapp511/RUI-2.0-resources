@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gr_abandon">Відхилити</string>
+    <string name="gr_cancel">Скасувати</string>
+    <string name="gr_ok">OK</string>
+    <string name="gr_tip_title">Ради</string>
+    <string name="oppo_sla_cancel">Скасувати</string>
+</resources>

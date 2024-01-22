@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.resolver.widget.OplusResolverDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@android:id/pathType" android:layout_width="match_parent" android:layout_height="match_parent" app:landscapeMaxHeight="@dimen/resolver_panel_landscape_max_height" app:landscapeMaxWidth="@dimen/resolver_panel_landscape_max_width" app:portraitMaxHeight="@dimen/resolver_panel_portrait_max_height">
+    <ImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/drag_view" android:background="@drawable/oplus_resolver_alert_bg" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/oplus_panel_drag_view"/>
+    <FrameLayout android:id="@android:id/sequentially" android:background="@color/oplus_resolver_navigation_bar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TabHost android:id="@+id/resolver_tabhost" android:background="@color/oplus_resolver_navigation_bar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TabWidget android:id="@android:id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/oplus_resolver_tab_padding" android:layout_marginEnd="@dimen/oplus_resolver_tab_padding"/>
+            <FrameLayout android:orientation="vertical" android:id="@android:id/tabcontent" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ScrollView android:id="@+id/resolver_scroll_panel" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:nestedScrollingEnabled="true">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="@dimen/oplus_resolver_TD16" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <include layout="@layout/oplus_resolver_oshare"/>
+                        <ViewStub android:id="@+id/resolver_nfc" android:layout="@layout/oplus_resolver_nfc_share" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                        <com.oplus.resolver.OplusResolverDialogViewPager android:id="@+id/oplus_resolver_pager" android:paddingTop="@dimen/oplus_resolver_TD06" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/oplus_resolver_TD12" android:layout_marginEnd="@dimen/oplus_resolver_TD12"/>
+                        <com.oplus.widget.indicator.OplusPageIndicator android:layout_gravity="center_horizontal" android:id="@+id/oplus_resolver_dots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oplus_resolver_TD18" android:forceDarkAllowed="false" app:dotColor="@color/oplus_resolver_dot_circle" app:dotSize="@dimen/oplus_resolver_TD06" app:dotSpacing="@dimen/oplus_resolver_TD03" app:dotStrokeWidth="@dimen/oplus_resolver_indicator_dotStrokeWidth" app:traceDotColor="@color/oplus_resolver_dot"/>
+                        <TextView android:textAppearance="?android:attr/textAppearanceButton" android:gravity="center_vertical" android:layout_gravity="end" android:id="0x1020409" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/oplus_resolver_profile_button_width" android:singleLine="true" android:paddingStart="@dimen/oplus_resolver_TD08" android:paddingEnd="@dimen/oplus_resolver_TD08" android:layout_marginEnd="@dimen/oplus_resolver_TD08"/>
+                        <ViewStub android:id="@+id/oplus_resolver_checkbox_container" android:layout="@layout/oplus_resolver_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </ScrollView>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</com.oplus.resolver.widget.OplusResolverDrawerLayout>

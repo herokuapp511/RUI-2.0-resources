@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Holo.DialogWhenLarge">
+        <item name="^attr-private.preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.Holo.DialogWhenLarge.NoActionBar">
+        <item name="^attr-private.preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.Holo.Light.DialogWhenLarge">
+    </style>
+    <style name="Theme.Holo.Light.DialogWhenLarge.NoActionBar">
+    </style>
+    <style name="Theme.DeviceDefault.DialogWhenLarge">
+        <item name="^attr-private.preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.DeviceDefault.DialogWhenLarge.NoActionBar">
+        <item name="^attr-private.preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge">
+    </style>
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar">
+    </style>
+    <style name="Theme.Material.DialogWhenLarge">
+        <item name="^attr-private.preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="^attr-private.preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.Material.Light.DialogWhenLarge">
+        <item name="^attr-private.preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+    <style name="Theme.Material.Light.DialogWhenLarge.NoActionBar">
+        <item name="^attr-private.preferencePanelStyle">@style/PreferencePanel.Dialog</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.security.view.KeyguardNumericView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/Theme.ColorSupport" android:id="@+id/coloros_kgd_security_numeric_view" android:paddingTop="@dimen/kgd_security_padding_top" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/kgd_security_message_widget_layout"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/keyguardMessageWidget" layout="@layout/kgd_security_edit_widget_layout"/>
+    <include layout="@layout/kgd_secuirty_navigation_widget_layout"/>
+    <com.coloros.systemui.keyguard.security.widget.NumericKeyboardWidget android:id="@+id/numericKeygoard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/kgd_normal_navigation_widget" android:layout_centerHorizontal="true" style="?attr/numericKeyboardStyle"/>
+    <include layout="@layout/kgd_security_switch_widget_layout"/>
+</com.coloros.systemui.keyguard.security.view.KeyguardNumericView>

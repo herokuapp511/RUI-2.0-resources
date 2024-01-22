@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/app_memory_use" android:key="app_list">
+    <com.coloros.settings.widget.preference.ColorSummaryPreference android:selectable="false" android:key="status_header"/>
+    <com.android.settings.applications.SpacePreference android:layout_height="5dp"/>
+    <com.coloros.settings.feature.ramexpand.RamUsageRamExpandPreference android:title="@string/ram_expand_title" android:key="ram_expand_in_develop" android:summary="@string/already_expand_ram" android:fragment="com.coloros.settings.feature.ramexpand.RamExpandFragment" app:showNormalColor="true"/>
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/memory_performance" android:key="performance"/>
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/total_memory" android:key="total_memory"/>
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/average_used" android:key="average_used"/>
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/free_memory" android:key="free"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="apps_list_category">
+        <com.coloros.settings.widget.preference.SettingsColorJumpIconPreference android:title="@string/memory_usage_apps" android:key="apps_list"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="app_listtst"/>
+</PreferenceScreen>

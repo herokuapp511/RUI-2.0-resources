@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>एनिमेशन अफ</item>
+        <item>एनिमेशन मापन ०.५x</item>
+        <item>एनिमेशन मापन १x</item>
+        <item>एनिमेशन मापन १.५x</item>
+        <item>एनिमेशन मापन २x</item>
+        <item>एनिमेशन मापन ५x</item>
+        <item>एनिमेशन मापन १०x</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>मानक सीमा</item>
+        <item>कुनै पृष्ठभूमि प्रक्रियाहरू छैनन्</item>
+        <item>बढीमा १ प्रक्रिया</item>
+        <item>बढीमा २ प्रक्रियाहरू</item>
+        <item>बढीमा ३ प्रक्रियाहरू</item>
+        <item>बढीमा ४ प्रक्रियाहरू</item>
+    </array>
+    <array name="battery_labels">
+        <item>०%</item>
+        <item>५०%</item>
+        <item>१००%</item>
+    </array>
+    <array name="battery_options">
+        <item>सधैँ प्रतिशतमा देखिने बनाउनुहोस्</item>
+        <item>चार्ज हुँदा ब्याट्रीको पावर प्रतिशतमा देखिने बनाउनुहोस् (पूर्वनिर्धारित)</item>
+        <item>यो आइकन नदेखिने बनाउनुहोस्</item>
+    </array>
+    <array name="bluetooth_avrcp_versions">
+        <item>AVRCP १.४ (पूर्वनिर्धारित)</item>
+        <item>AVRCP १.३</item>
+        <item>AVRCP १.५</item>
+        <item>AVRCP १.६</item>
+    </array>
+    <array name="bluetooth_map_versions">
+        <item>नक्सा १.२ (पूर्वनिर्धारित)</item>
+        <item>नक्सा १.३</item>
+        <item>नक्सा १.४</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries_new">
+        <item>असक्षम पारियो</item>
+        <item>फिल्टर गरिएको सक्षम गरिएको छ</item>
+        <item>सक्षम बनाइयो</item>
+        <item>फिल्टर गरिएको हेडरहरू सक्षम गरिएको छ</item>
+        <item>फिल्टर गरिएको मिडिया प्याकेटहरू सक्षम गरिएको छ</item>
+    </array>
+    <array name="can_select_charge_or_ftp">
+        <item>चार्ज मात्र गर्ने</item>
+        <item>फाइलहरू ट्रान्स्फर गर्ने</item>
+    </array>
+    <array name="can_select_charge_or_mtp">
+        <item>चार्ज मात्र गर्ने</item>
+        <item>फोटोहरू ट्रान्स्फर गर्ने</item>
+    </array>
+    <array name="can_select_ftp_or_mtp">
+        <item>फाइलहरू ट्रान्स्फर गर्ने</item>
+        <item>फोटोहरू ट्रान्स्फर गर्ने</item>
+    </array>
+    <array name="clock_options">
+        <item>घण्टा, मिनेट र सेकेण्ड देखिने बनाउनुहोस्</item>
+        <item>घण्टा र मिनेट देखिने बनाउनुहोस् (पूर्वनिर्धारित)</item>
+        <item>यो आइकन नदेखिने बनाउनुहोस्</item>
+    </array>
+    <array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>सुधारिएको रङ</item>
+        <item>नाङ्गो आँखाले प्राकृतिक आँखा देख्न सकिन्छ</item>
+        <item>डिजिटल सामग्रीका लागि रङ अनुकूलन गरियो</item>
+    </array>
+    <array name="color_mode_names">
+        <item>चम्किलो (पूर्वनिर्धारित)</item>
+        <item>प्राकृतिक</item>
+        <item>स्ट्याण्डर्ड</item>
+    </array>
+    <array name="color_solor_mounth">
+        <item>जनवरी</item>
+        <item>फेब्रुअरी</item>
+        <item>मार्च</item>
+        <item>अप्रिल</item>
+        <item>मे</item>
+        <item>जुन</item>
+        <item>जुलाइ</item>
+        <item>अगस्ट</item>
+        <item>सेप्टेम्बर</item>
+        <item>अक्टुबर</item>
+        <item>नोभेम्बर</item>
+        <item>डिसेम्बर</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>अफ</item>
+        <item>ओभरड्र क्षेत्रहरू देखाउनुहोस्</item>
+        <item>ड्युटरानोम्यालीका लागि क्षेत्रहरू देखाउँछ</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>कुनैपनि छैन</item>
+        <item>लगक्याट</item>
+        <item>सिसट्रेस (ग्राफिक्स)</item>
+        <item>glGetError मा स्ट्याक कल गर्नुहोस्</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>कहिल्यै पनि HDCP जाँच प्रयोग नगर्नुहोस्</item>
+        <item>DRM सामग्रीका लागि मात्र HDCP जाँच प्रयोग गर्नुहोस्</item>
+        <item>सँधैं HDCP जाँच गर्नुहोस्</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>कहिल्यै जाँच नगर्नुहोस्</item>
+        <item>DRM सामग्री मात्र जाँच गर्नुहोस्</item>
+        <item>सँधै जाँच गर्नुहोस्</item>
+    </array>
+    <array name="nav_bar_layouts">
+        <item>सामान्य</item>
+        <item>कम्प्याक्ट</item>
+        <item>बायाँतिर राख्नुहोस्</item>
+        <item>दायाँतिर राख्नुहोस्</item>
+    </array>
+    <array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>कुनैपनि छैन</item>
+        <item>480p</item>
+        <item>480p (सुरक्षित)</item>
+        <item>720p</item>
+        <item>720p (सुरक्षित)</item>
+        <item>1080p</item>
+        <item>1080p (सुरक्षित)</item>
+        <item>4K</item>
+        <item>4K (सुरक्षित)</item>
+        <item>4K (परिष्कृत)</item>
+        <item>4K (परिष्कृत, सुरक्षित)</item>
+        <item>720p, 1080p (दोहोरो स्क्रिन)</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>अफ गर्नुहोस्</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>अफ गर्नुहोस्</item>
+        <item>प्रत्येक लग बफर 64K</item>
+        <item>प्रत्येक लग बफर 256K</item>
+        <item>प्रत्येक लग बफर 1M</item>
+        <item>प्रत्येक लग बफर 4M</item>
+        <item>प्रत्येक लग बफर 16M</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>अफ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>अफ गर्नुहोस्</item>
+        <item>सबै लग बफरहरू</item>
+        <item>सबै नन-रेडियो लग बफरहरू</item>
+        <item>केर्नल लग बफरहरू मात्र</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>अफ</item>
+        <item>सबै</item>
+        <item>सबै नन-रेडियो</item>
+        <item>केर्नल मात्र</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>अफ गर्नुहोस्</item>
+        <item>नीलो रङमा गैर आयताकार क्लिप क्षेत्र कोर्नुहोस्</item>
+        <item>हरियो रङमा परीक्षण गरिएको चित्र कोर्ने आदेशहरू हाइलाइट गर्नुहोस्</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>एनिमेशन अफ गर्नुहोस्</item>
+        <item>एनिमेशन मापन 0.5x</item>
+        <item>एनिमेशन मापन 1x</item>
+        <item>एनिमेशन मापन 1.5x</item>
+        <item>एनिमेशन मापन 2x</item>
+        <item>एनिमेशन मापन 5x</item>
+        <item>एनिमेशन मापन 10x</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>ज्यादै ढिलो</item>
+        <item>सुस्त</item>
+        <item>सामान्य</item>
+        <item>तीव्र</item>
+        <item>चाँडो</item>
+        <item>ज्यादै छिटो</item>
+        <item>धैरै छिटो</item>
+        <item>अत्यन्तै छिटो</item>
+        <item>सबभन्दा चाँडो</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>चार्ज गर्नुहोस्</item>
+        <item>MTP (मिडिया ट्रान्सफर प्रोटोकल)</item>
+        <item>PTP (पिक्चर ट्रान्सफर प्रोटोकल)</item>
+        <item>RNDIS (USB इथरनेट)</item>
+        <item>अडियो स्रोत</item>
+        <item>MIDI</item>
+    </array>
+    <array name="usb_type_select">
+        <item>चार्ज मात्र गर्ने</item>
+        <item>फाइलहरू ट्रान्स्फर गर्ने</item>
+        <item>फोटोहरू ट्रान्स्फर गर्ने</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>…स्क्यान गर्दै</item>
+        <item>जोडिँदै…</item>
+        <item>प्रमाणीकरण गर्दै…</item>
+        <item>IP ठेगाना प्राप्त गर्दै…</item>
+        <item>जोडिएको छ</item>
+        <item>स्थगित गरिएको छ</item>
+        <item>विच्छेद हुँदै…</item>
+        <item>विच्छेद गरिएको छ</item>
+        <item>असफल</item>
+        <item>ब्लक गरियो</item>
+        <item>केही समयका लागि कमजोर जडानहरू वेवास्ता गर्दै</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>एनिमेसन अफ छ</item>
+        <item>एनिमेसन मापन ०.५x</item>
+        <item>एनिमेसन मापन १x</item>
+        <item>एनिमेसन मापन १.५x</item>
+        <item>एनिमेसन मापन २x</item>
+        <item>एनिमेसन मापन ५x</item>
+        <item>एनिमेसन मापन १०x</item>
+    </array>
+</resources>

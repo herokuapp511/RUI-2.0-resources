@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d ngày trước</item>
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d phút trước</item>
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d năm trước</item>
+        <item quantity="other">%d năm trước</item>
+    </plurals>
+    <plurals name="color_controls_number_of_favorites">
+        <item quantity="one">Đã thêm %s thẻ điều khiển</item>
+        <item quantity="other">Đã thêm %s thẻ điều khiển</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Đã thêm %s tùy chọn điều khiển.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">Hãy nhập mã PIN của SIM. Bạn còn %dlần thử trước khi phải liên hệ với nhà mạng để mở khóa thiết bị của mình.</item>
+        <item quantity="other">Hãy nhập mã PIN của SIM. Bạn còn %dlần thử.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="one">Vui lòng nhập mã PIN cho thẻ SIM %d. Còn lại %d lần thử. Bạn cần liên hệ với nhà mạng để giúp mở khóa thiết bị nếu không chính xác một lần nữa.</item>
+        <item quantity="other">Vui lòng nhập mã PIN cho thẻ SIM %d. Còn lại %d lần thử.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">SIM hiện đã bị tắt. Hãy nhập mã PUK để tiếp tục. Bạn còn %dlần thử trước khi SIM vĩnh viễn không thể sử dụng được. Hãy liên hệ với nhà cung cấp dịch vụ để biết chi tiết.</item>
+        <item quantity="other">SIM hiện đã bị tắt. Hãy nhập mã PUK để tiếp tục. Bạn còn %dlần thử trước khi SIM vĩnh viễn không sử dụng được. Hãy liên hệ với nhà cung cấp dịch vụ để biết chi tiết.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">PIN của SIM không chính xác. Còn lại %d lần thử. Bạn cần liên hệ với nhà mạng để giúp mở khóa thiết bị nếu không chính xác một lần nữa.</item>
+        <item quantity="other">PIN của SIM không chính xác. Còn lại %d lần thử.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="one">Mã PIN không chính xác cho thẻ SIM %d. Còn lại %d lần thử. Bạn cần liên hệ với nhà mạng để giúp mở khóa thiết bị nếu không chính xác một lần nữa.</item>
+        <item quantity="other">Mã PIN không chính xác cho thẻ SIM %d. Còn lại %d lần thử.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">Mã PUK của SIM không chính xác. Còn lại %d lần thử. SIM sẽ bị vô hiệu hóa vĩnh viễn nếu không chính xác một lần nữa.</item>
+        <item quantity="other">Mã PUK của SIM không chính xác. Còn lại %d lần thử. Các SIM sẽ bị vô hiệu hóa vĩnh viễn nếu không chính xác một lần nữa.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">Thiết bị đã khóa trong %d trong. Vui lòng xác nhận mật khẩu.</item>
+        <item quantity="other">Thiết bị đã khóa trong %d giờ. Vui lòng xác nhận mật khẩu.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">Thiết bị đã bị khóa trong %d giờ. Vui lòng xác nhận mẫu hình mở khóa.</item>
+        <item quantity="other">Thiết bị đã bị khóa trong %d giờ. Vui lòng xác nhận mẫu hình mở khóa.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">Thiết bị đã bị khóa trong %d giờ. Vui lòng xác nhận mã PIN.</item>
+        <item quantity="other">Thiết bị đã bị khóa trong %d giờ. Vui lòng xác nhận mã PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="one">Vui lòng thử lại sau 1 giây.</item>
+        <item quantity="other">Vui lòng thử lại sau %d giây.</item>
+    </plurals>
+    <plurals name="notification_count_content">
+        <item quantity="one">Bạn có %1$d thông báo mới từ bản sao hệ thống. Hãy chuyển sang bản sao để xem thông báo.</item>
+        <item quantity="other">Bạn có %1$d thông báo mới từ bản sao hệ thống. Hãy chuyển sang bản sao để xem thông báo.</item>
+    </plurals>
+    <plurals name="notification_count_content_from_main">
+        <item quantity="one">Bạn có %1$d thông báo mới từ hệ thống chính. Hãy chuyển sang hệ thống chính để xem thông báo.</item>
+        <item quantity="other">Bạn có %1$d thông báo mới từ hệ thống chính. Hãy chuyển sang hệ thống chính để xem thông báo.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">Vẫn còn %s thông báo trong nhóm này.</item>
+        <item quantity="other">Vẫn còn %s thông báo trong nhóm này.</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d thiết bị</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="one">%d giờ</item>
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="one">%d phút</item>
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Bạn có thể thêm tối đa %d người dùng.</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d thiết bị được kết nối</item>
+        <item quantity="other">%1$d thiết bị được kết nối</item>
+    </plurals>
+</resources>

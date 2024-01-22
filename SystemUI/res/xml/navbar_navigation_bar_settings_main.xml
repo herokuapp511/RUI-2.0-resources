@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/oppo_navigation_bar_settings_navigation_method" android:key="nav_bar_screen_pref_key">
+    <com.color.support.preference.ColorPreferenceCategory android:key="nav_type_pref_key" app:isFirstCategory="true">
+        <com.color.support.preference.ColorMarkPreference android:persistent="false" android:title="@string/oppo_navigation_side_type" android:key="nav_type_gesture_side_key" android:disableDependentsState="true"/>
+        <com.color.support.preference.ColorMarkPreference android:persistent="false" android:title="@string/oppo_navigation_bar_type" android:key="nav_type_nav_virtual_key" android:disableDependentsState="true"/>
+        <com.color.support.preference.ColorJumpPreference android:persistent="true" android:title="@string/oppo_navigation_bar_settings_more_nav_mode_title" android:key="nav_type_more_key"/>
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:key="gesture_side_carousel_pref_key">
+        <com.coloros.systemui.navbar.settings.GestureCarouselPreference android:key="gesture_side_carousel_key"/>
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:key="singlehand_pref_key">
+        <com.color.support.preference.ColorSwitchPreference android:title="@string/oppo_shortcuts_gesture_enter_singlehand_up" android:key="pulldown_enter_singlehand_mode_key" android:summary="@string/oppo_shortcuts_gesture_enter_singlehand_up_tip"/>
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:key="gesture_side_component_pref_key">
+        <com.color.support.preference.ColorJumpPreference android:persistent="false" android:title="@string/learn_to_use_gestures" android:key="gesture_side_guide"/>
+        <com.color.support.preference.ColorSwitchPreference android:title="@string/oppo_shortcuts_gesture_hide_guide_bar" android:key="gesture_side_hide_guide_bar_key"/>
+        <com.color.support.preference.ColorSwitchPreference android:title="@string/navigation_side_gesture_enable_back_vibrate" android:key="gesture_side_enable_back_vibrate"/>
+        <com.color.support.preference.ColorSwitchPreference android:title="@string/navigation_side_gesture_disable_switch" android:key="gesture_side_enable_switch_task_key" android:summary="@string/navigation_side_gesture_disable_switch_tip"/>
+        <com.color.support.preference.ColorSwitchPreference android:title="@string/oppo_shortcuts_gesture_mistouch_prevention_gesture_side" android:key="gesture_side_mistouch_prevention_key" android:summary="@string/oppo_shortcuts_gesture_mistouch_prevention_tips_1"/>
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:title="@string/navigation_bar_combination_category" android:key="virtual_key_combination_pref_key">
+        <com.coloros.systemui.navbar.settings.VirtualKeyCombinationPreference android:persistent="false" android:key="virtual_key_combination_recent_left_key" android:disableDependentsState="true"/>
+        <com.coloros.systemui.navbar.settings.VirtualKeyCombinationPreference android:persistent="false" android:key="virtual_key_combination_recent_right_key" android:disableDependentsState="true"/>
+        <com.coloros.systemui.navbar.settings.VirtualKeyCombinationPreference android:persistent="false" android:key="virtual_key_combination_original_gesture_left_key" android:disableDependentsState="true"/>
+        <com.coloros.systemui.navbar.settings.VirtualKeyCombinationPreference android:persistent="false" android:key="virtual_key_combination_original_gesture_right_key" android:disableDependentsState="true"/>
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:key="end_divider_key"/>
+    <com.coloros.systemui.navbar.settings.GestureRecommendedPreference android:key="gesture_side_bottom_recommended_pref_key" app:recommendedHeaderTitle="@string/bottom_recommended_header_title"/>
+    <androidx.preference.Preference android:layout="@layout/navbar_layout_preference_footer" android:selectable="false"/>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.color.support.widget.ColorExpandableRecyclerView android:id="@+id/recyclerView" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/controls_first_page_recycler_margin_top" android:divider="@null"/>
+    <FrameLayout android:id="@+id/editing_fragment_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/color_controls_fragment_container_margin_top"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

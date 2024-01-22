@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/all_parent_linear_layout" android:background="@color/aod_clock_black" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.coloros.systemui.aod.widget.PreviewRootLayout android:id="@+id/layout_preview" android:clickable="true" android:layout_width="match_parent" android:layout_height="280dp"/>
+    <include layout="@layout/aod_line_view"/>
+    <include layout="@layout/aod_all_line_view"/>
+    <ScrollView android:id="@+id/parent_scroll_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/aod_clock_dp_1" android:layout_below="@+id/layout_preview">
+        <LinearLayout android:orientation="vertical" android:id="@+id/aod_value_linearlayout" android:paddingBottom="@dimen/aod_clock_dp_95" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/aod_edit_text_show_layout"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/aod_other_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/aod_edit_color_view"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.coloros.systemui.aod.aodclock.widget.AodSignatureTextLocationView android:id="@+id/aod_editor_photo_alignment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_dp_30" android:layout_weight="1" android:layout_marginStart="@dimen/aod_clock_dp_24" app:show_lordtitle="@string/aod_style_alignment" app:type="radial"/>
+                    <com.coloros.systemui.aod.aodclock.widget.AodSignatureTextLocationView android:id="@+id/aod_editor_photo_alignment_pattern" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_dp_30" android:layout_weight="1" app:show_lordtitle="@string/aod_style_text_location" app:type="sweep"/>
+                </LinearLayout>
+                <com.coloros.systemui.aod.aodclock.widget.AodSeekBarTextView android:id="@+id/aod_text_size_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:showSubTitle="true" app:show_title="@string/aod_style_text_size"/>
+                <include layout="@layout/aod_edit_text_seekbar_thickness_view"/>
+                <include layout="@layout/aod_edit_text_linespace_view"/>
+                <com.coloros.systemui.aod.aodclock.widget.AodSeekBarTextView android:id="@+id/aod_edge_emptiness_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:showSubTitle="false" app:show_title="@string/aod_picture_blur"/>
+                <com.coloros.systemui.aod.aodclock.widget.AodSeekBarTextView android:id="@+id/aod_photo_fillet_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:showSubTitle="false" app:show_title="@string/aod_picture_corner"/>
+                <include layout="@layout/aod_edit_additional_information_view"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/aod_edit_bottom_view"/>
+    <include layout="@layout/aod_edit_text_use_layout"/>
+</RelativeLayout>

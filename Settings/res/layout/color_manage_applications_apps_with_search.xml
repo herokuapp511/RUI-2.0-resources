@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/main_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@+id/list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.recyclerview.widget.ColorRecyclerView android:id="@+id/apps_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:fastScrollEnabled="false" app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable" app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable" app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable" app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"/>
+                <com.coloros.settings.feature.appmanager.search.SearchEmptyLayout android:gravity="center" android:id="@android:id/empty" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/pinned_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60dp"/>
+            <FrameLayout android:id="@+id/container_searchView_below_toolbar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:id="@+id/background_mask_searchView_below_toolbar" style="@style/BackgroundMaskStyle"/>
+            </FrameLayout>
+            <include layout="@layout/color_manage_apps_search_result_panel"/>
+        </RelativeLayout>
+        <include layout="@layout/color_loading_container"/>
+    </FrameLayout>
+    <color.support.design.widget.ColorAppBarLayout android:id="@+id/abl" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="0dp" app:layout_behavior="@string/color_app_list_search_behavior">
+        <color.support.v7.widget.Toolbar android:id="@+id/toolbar" android:background="@drawable/color_toolbar_bg" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/toolbar_min_height" app:colorLayoutScrollFlags="3" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle"/>
+        <com.color.support.widget.ColorSearchViewAnimate android:id="@+id/search_view" android:layout_width="match_parent" android:layout_height="@dimen/app_list_search_bar_height" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin"/>
+    </color.support.design.widget.ColorAppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

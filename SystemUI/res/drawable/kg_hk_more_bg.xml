@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <padding android:left="@dimen/kg_hk_more_padding_left" android:top="@dimen/kg_hk_more_padding_top" android:right="@dimen/kg_hk_more_padding_left" android:bottom="@dimen/kg_hk_more_padding_top"/>
+    <solid android:color="@color/kg_hk_more_color"/>
+    <corners android:radius="@dimen/kg_hk_more_radius"/>
+</shape>

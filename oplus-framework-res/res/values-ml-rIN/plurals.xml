@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s ഉപകരണങ്ങൾ വ്യക്തിപരമായ ഹോട്ട്‌സ്‌പോട്ടുമായി കണക്‌റ്റുചെയ്‌തു</item>
+        <item quantity="other">%s ഉപകരണങ്ങൾ വ്യക്തിപരമായ ഹോട്ട്‌സ്‌പോട്ടുമായി കണക്‌റ്റുചെയ്‌തു.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s Wi-Fi ടെതറിംഗിലൂടെ ഉപകരണങ്ങൾ കണക്‌റ്റുചെയ്‌തു.</item>
+        <item quantity="other">%s Wi-Fi ടെതറിംഗിലൂടെ ഉപകരണങ്ങൾ കണക്‌റ്റുചെയ്‌തു.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d ഉപകരണം നിങ്ങളുടെ മൊബൈൽ ഡാറ്റ ഹോട്ട്‌സ്പോട്ടിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു.</item>
+        <item quantity="other">%d ഉപകരണങ്ങൾ നിങ്ങളുടെ മൊബൈൽ ഡാറ്റ ഹോട്ട്‌സ്പോട്ടിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d ഉപകരണം നിങ്ങളുടെ വ്യക്തിഗത ഹോട്ട്‌സ്‌പോട്ടിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു</item>
+        <item quantity="other">%d ഉപകരണങ്ങൾ നിങ്ങളുടെ വ്യക്തിഗത ഹോട്ട്‌സ്‌പോട്ടിലേക്ക് ബന്ധിപ്പിച്ചിരിക്കുന്നു.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">Wi-Fi ടെതറിംഗിലൂടെ %d ഉപകരണം കണക്‌റ്റ് ചെയ്തു.</item>
+        <item quantity="other">Wi-Fi ടെതറിംഗിലൂടെ %d ഉപകരണങ്ങൾ കണക്‌റ്റ് ചെയ്തു.</item>
+    </plurals>
+</resources>

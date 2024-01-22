@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="autofill_save_title_with_2types">مىنا%2$sمەن%1$sالىپ بارىپ%3$sساقتايسىز با؟</string>
+    <string name="autofill_save_type_username">تىركەلگى ءنومىر</string>
+    <string name="autofill_update_title_with_2types">مىنا%2$sمەن%1$sجاڭالاتىپ بارىپ%3$sساقتايسىز با؟</string>
+    <string name="autofill_update_yes">جاڭالانۋ</string>
+</resources>

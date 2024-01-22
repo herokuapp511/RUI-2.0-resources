@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.qs.ColorQSDetail xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingBottom="1dp" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/qs_detail_margin_top" android:layout_marginBottom="@dimen/qs_detail_margin_bottom" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/qs_background_side_margin">
+    <include android:id="@+id/qs_detail_header" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/qs_detail_header"/>
+    <com.android.systemui.statusbar.AlphaOptimizedImageView android:id="@+id/qs_detail_header_progress" android:background="@color/quick_settings_normal_text_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/indeterminate_anim" android:scaleType="fitXY" android:alpha="0"/>
+    <FrameLayout android:id="@android:id/content" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <include layout="@layout/qs_detail_buttons"/>
+</com.coloros.systemui.qs.ColorQSDetail>

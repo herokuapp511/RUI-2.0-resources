@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/convenient_tools" android:key="convenient_aid_parent_screen">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="key_basics" android:order="0" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.ColorSimpleJumpPreference android:icon="@drawable/settings_navigation_mode_ic" android:title="@string/navigation_method" android:key="navigation_mode" android:order="10" app:tintIcon="1">
+            <intent android:action="oppo.intent.action.NAVIGATION_BAR_SETTINGS"/>
+        </com.coloros.settings.widget.preference.ColorSimpleJumpPreference>
+        <com.coloros.settings.widget.preference.ColorSimpleJumpPreference android:icon="@drawable/settings_gesture_ic" android:persistent="false" android:title="@string/smart_apperceive_control_settings" android:key="gesture_control_settings" android:order="20" app:tintIcon="1">
+            <intent android:action="com.oppo.action.oppoGestureGuide"/>
+        </com.coloros.settings.widget.preference.ColorSimpleJumpPreference>
+        <com.coloros.settings.widget.preference.ColorSimpleJumpPreference android:icon="@drawable/settings_screenshots_ic" android:title="@string/oppo_other_screen_capture" android:key="key_screen_capture" android:order="30" app:tintIcon="1">
+            <intent android:targetPackage="com.coloros.screenshot" android:action="oppo.intent.action.SCREENSHOT_SETTINGS"/>
+        </com.coloros.settings.widget.preference.ColorSimpleJumpPreference>
+        <com.coloros.settings.widget.preference.ColorSimpleJumpPreference android:icon="@drawable/settings_screen_recording_ic" android:title="@string/oppo_other_screen_recording" android:key="key_screen_recording" android:order="40" app:tintIcon="1">
+            <intent android:targetPackage="com.coloros.screenrecorder" android:action="oppo.intent.action.SCREENRECORDER_SETTINGS"/>
+        </com.coloros.settings.widget.preference.ColorSimpleJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:layout="@layout/oppo_preference_category_layout_for_home_page" android:key="key_convenient" android:order="100">
+        <com.coloros.settings.widget.preference.ColorSimpleJumpPreference android:icon="@drawable/settings_float_assistant_ic" android:title="@string/floating_ball" android:key="floating_assistant" android:order="110" app:tintIcon="1">
+            <intent android:action="oppo.intent.action.FLOATING_BALL_SETTINGS"/>
+        </com.coloros.settings.widget.preference.ColorSimpleJumpPreference>
+        <com.coloros.settings.widget.preference.ColorSimpleJumpPreference android:icon="@drawable/settings_flash_back_ic" android:key="flash_back_button" android:order="120" app:tintIcon="1">
+            <intent android:action="oppo.intent.action.AIR_VIEW_MAIN_SETTINGS"/>
+        </com.coloros.settings.widget.preference.ColorSimpleJumpPreference>
+        <com.coloros.settings.widget.preference.ColorSimpleJumpPreference android:icon="@drawable/settings_smart_sidebar_ic" android:persistent="false" android:title="@string/land_scape_assistant" android:key="land_scape_assistant" android:order="130" app:tintIcon="1">
+            <intent android:action="oppo.intent.action.SCREENASSISTANT_SETTINGS"/>
+        </com.coloros.settings.widget.preference.ColorSimpleJumpPreference>
+        <com.coloros.settings.widget.preference.ColorSimpleJumpPreference android:icon="@drawable/settings_separate_ic" android:persistent="false" android:title="@string/resizeable_screen_title" android:key="resizeable_screen" android:order="140" app:showSummary="false" app:tintIcon="1">
+            <extra android:name="dcs_event_id" android:value="top_level_resizeable_screen"/>
+            <intent android:targetPackage="com.android.systemui" android:action="oppo.intent.action.SPLIT_SCREEN_SETTINGS"/>
+        </com.coloros.settings.widget.preference.ColorSimpleJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:layout="@layout/oppo_preference_category_layout_for_home_page" android:key="key_features" android:order="200">
+        <com.coloros.settings.widget.preference.ColorSimpleJumpPreference android:icon="@drawable/settings_red_packet_ic" android:persistent="false" android:layout="@layout/color_preference" android:title="@string/oppo_title_red_envelope_assistant" android:key="key_assistant_red_envelope" android:order="220" app:tintIcon="1">
+            <intent android:action="oppo.intent.action.ENVELOP_SETTINGS"/>
+        </com.coloros.settings.widget.preference.ColorSimpleJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:layout="@layout/oppo_preference_category_layout_for_home_page" android:key="google_asssist_category" android:order="400">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:icon="@drawable/settings_google_assistant_ic" android:persistent="false" android:layout="@layout/color_preference" android:title="@string/google_asssist_title" android:key="google_asssist" android:summary="@string/google_asssist_footer" android:order="410" app:tintIcon="1"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:layout="@layout/oppo_preference_category_layout_for_home_page" android:key="key_non_sensing_certification_category" android:order="300">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:icon="@drawable/settings_non_sensing_certification" android:persistent="false" android:title="@string/non_sensing_certification" android:key="key_non_sensing_certification" android:summary="@string/non_sensing_certification_summary" android:order="310" app:tintIcon="1"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:layout="@layout/oppo_preference_category_layout_for_home_page" android:order="4000"/>
+    <com.coloros.settings.widget.preference.RecommendedPreference android:key="convenient_aid_bottom_recommended" android:order="4001"/>
+</PreferenceScreen>

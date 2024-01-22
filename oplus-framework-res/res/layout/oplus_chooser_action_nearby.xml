@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="14sp" android:textColor="@android:color/black" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/oplus_chooser_action_nearby_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="@dimen/oplus_resolver_TD10" android:textFontWeight="500"/>
+    <ImageView android:background="@color/oplus_resolver_oshare_divider" android:layout_width="match_parent" android:layout_height="2px" android:layout_marginTop="@dimen/oplus_resolver_TD30" android:forceDarkAllowed="false"/>
+</LinearLayout>

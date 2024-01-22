@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/color_device_admin_add_layout" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/active_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/color_appbar_layout"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingStart="@dimen/oppo_toolbar_margin" android:paddingEnd="@dimen/oppo_toolbar_margin">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="66dp">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/admin_icon" android:layout_width="@dimen/color_app_icon_size" android:layout_height="@dimen/color_app_icon_size" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginEnd="@dimen/M5"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="@dimen/TD08" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@+id/admin_name" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:singleLine="true" android:layout_weight="1" style="@style/ColorPreferenceTitleStyle"/>
+            </LinearLayout>
+            <View android:background="@color/color_preference_category_divider_color" android:layout_width="match_parent" android:layout_height="@dimen/color_preference_category_layout_divider_height" android:forceDarkAllowed="false"/>
+            <ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/profile_owner_warning" android:padding="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/adding_profile_owner_warning"/>
+                    <TextView android:id="@+id/admin_description" android:padding="0dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:gravity="center_vertical" android:id="@+id/add_msg_expander" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null"/>
+                        <TextView android:gravity="center_vertical" android:id="@+id/add_msg" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/color_font_size_16" android:id="@+id/admin_warning" android:paddingTop="@dimen/M5" android:paddingBottom="@dimen/M5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ColorPreferenceSummaryStyle"/>
+                    <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@+id/admin_policies" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:autoLink="none|web|email|phone" android:id="@+id/admin_support_message" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout android:orientation="vertical" android:id="@+id/buttonPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="16dp">
+                <com.coloros.settings.widget.SettingsColorButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/uninstall_button" android:background="@drawable/color_large_main_button_bg" android:visibility="gone" android:layout_width="220dp" android:layout_height="44dp" android:layout_marginBottom="10dp" android:text="@string/uninstall_device_admin" android:maxLines="1" android:textAllCaps="false" style="?attr/colorButtonColorfulGreenStyle"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/restricted_action" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                    <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.coloros.settings.widget.SettingsColorButton android:gravity="center" android:id="@+id/action_button" android:background="@drawable/color_large_main_button_bg" android:focusable="false" android:clickable="false" android:layout_width="220dp" android:layout_height="44dp" android:maxLines="1" android:textAllCaps="false" style="?attr/colorButtonColorfulGreenStyle"/>
+                    </LinearLayout>
+                    <include layout="@layout/restricted_icon"/>
+                </LinearLayout>
+                <Button android:textColor="@color/focus_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/cancel_button" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:maxLines="1" android:textAllCaps="false"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

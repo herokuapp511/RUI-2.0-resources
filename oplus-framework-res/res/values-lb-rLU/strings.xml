@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aerr_ok">OK</string>
+    <string name="face_name_template">Gesiicht %d</string>
+    <string name="gr_exception_talkback_install">Talkback ass net erfollegräich installéiert ginn. Probéiert et w. e. g. spéider erneit.</string>
+    <string name="gr_oppo_roam">ORoaming</string>
+    <string name="gr_talkback_install_progress_tip_content">Talkback gëtt installéiert. Waart w. e. g.…</string>
+    <string name="gr_tip_installing_gr">Google Service Framework gëtt installéiert. Dës App kann den Ament net lafen. Probéiert et w. e. g. spéider erneit.</string>
+    <string name="not_allow_running_process">Dës App ass desaktivéiert, entspriechend der Sécherheetsstrategie</string>
+    <string name="oppo_dual_sta_sign_in_reminder">D\'Verbindung leeft geschwënn of: Authentifizéiert mat/m %s matzäit.</string>
+    <string name="oppo_dual_sta_sign_in_title">Authentifizéieren, fir duale Wi-Fi ze benotzen</string>
+    <string name="oppo_sla_cancel">Ofbriechen</string>
+    <string name="oppo_sla_go_and_set">Op Astellungen wiesselen</string>
+    <string name="oppo_sla_optimize">Optiméierung</string>
+    <string name="oppo_sla_reminder">Déi aktuell Wi-Fi-Bedéngung ass schlecht. \"Dual Netzwierkkanalbeschleunegung\" aktivéieren, fir souwuel Wi-Fi wéi och Mobilfunkdaten z\'utiliséieren, fir méi e flëssegen Internetzougrëff z\'erméiglechen. Passcode aktivéieren?</string>
+    <string name="oppo_wifi_p2p_frequency_conflict_message">Wi-Fi gëtt während der Verbindung dekonnektéiert.</string>
+    <string name="wifi_hotspot_closed">Perséinlechen Hotspot gouf desaktivéiert.</string>
+    <string name="wifi_hotspot_traffic_consumption">Dës Hotspot-Sëtzung huet Date gedeelt.</string>
+    <string name="wifi_hotspot_traffic_limitation">Dës Hotspot-Sharing-Sëtzung huet hir Datelimite erreecht.</string>
+    <string name="zzz_engineeringmode_warning_message">Risike vu Systemfeelfunktiounen/-ofstierz; untippen, fir zouzemaachen</string>
+    <string name="zzz_engineeringmode_warning_title">Technik-Modus ass aktivéiert</string>
+</resources>

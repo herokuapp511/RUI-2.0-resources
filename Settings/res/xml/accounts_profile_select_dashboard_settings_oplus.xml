@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/accounts_and_users" app:keywords="@string/keywords_accounts">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/user_add_user_item_title" android:key="key_user" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingsColorJumpIconPreference android:title="@string/user_settings_title" android:key="user_settings_title" android:order="1" android:fragment="com.android.settings.users.UserSettings" app:controller="com.oplus.settings.feature.accounts.controller.MultiUserPreferenceController"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <androidx.preference.Preference android:title="@string/emergency_info_title" android:key="emergency_info" android:order="100" app:allowDividerAbove="true"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory/>
+</androidx.preference.PreferenceScreen>

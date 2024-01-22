@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/third_app_title" android:key="key_dark_mode_setting">
+    <androidx.preference.Preference android:selectable="false" android:summary="@string/darkmode_third_app_list_top_hint"/>
+    <androidx.preference.Preference android:layout="@layout/preference_hint_divider" android:selectable="false"/>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/aod_color_parent" android:layout_width="@dimen/aod_clock_dp_32" android:layout_height="@dimen/aod_clock_dp_32" android:layout_marginTop="@dimen/aod_clock_dp_4" android:layout_marginBottom="@dimen/aod_clock_dp_4" android:layout_marginStart="@dimen/aod_clock_dp_8" android:layout_marginEnd="@dimen/aod_clock_dp_8">
+    <ImageView android:id="@+id/aod_hand_paint_color_out_view" android:layout_width="@dimen/aod_clock_dp_32" android:layout_height="@dimen/aod_clock_dp_32" android:src="@drawable/aod_hand_paint_selected"/>
+    <com.coloros.systemui.aod.aodclock.widget.AodHandPaintColorInView android:id="@+id/aod_hand_paint_color_in_view" android:layout_width="@dimen/aod_clock_dp_24" android:layout_height="@dimen/aod_clock_dp_24" android:layout_centerInParent="true"/>
+</RelativeLayout>

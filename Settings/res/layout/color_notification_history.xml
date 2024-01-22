@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffffff" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <color.support.design.widget.ColorAppBarLayout android:id="@+id/appbar_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/color_toolbar_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <color.support.v7.widget.Toolbar android:id="@+id/toolbar" android:paddingTop="@dimen/toolbar_top_padding" android:layout_width="match_parent" android:layout_height="@dimen/color_preference_toolbar_height" app:colorLayoutScrollFlags="3" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle"/>
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:id="@+id/divider_line" android:background="?attr/colorDividerBackgroundColor" android:layout_width="match_parent" android:layout_height="@dimen/divider_background_height" android:layout_marginLeft="@dimen/common_margin" android:layout_marginRight="@dimen/common_margin" android:alpha="0"/>
+    </color.support.design.widget.ColorAppBarLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/history_off" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/support_preference_min_height">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/history_image" android:layout_width="110dp" android:layout_height="110dp" android:src="@drawable/ic_history" android:scaleType="fitCenter" android:contentDescription="@string/notification_history"/>
+            <TextView android:textSize="16sp" android:textColor="#4d000000" android:layout_gravity="center_horizontal" android:id="@+id/history_off_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_history_off_title_extended" android:layout_below="@+id/history_image" android:layout_marginStart="48dp" android:layout_marginEnd="48dp"/>
+            <TextView android:textSize="12sp" android:textColor="#4d000000" android:layout_gravity="center_horizontal" android:id="@+id/history_off_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/notification_history_summary" android:layout_below="@+id/history_off_title" android:textAlignment="center" android:layout_marginStart="48dp" android:layout_marginEnd="48dp"/>
+            <Space android:layout_width="0dp" android:layout_height="46dp"/>
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:id="@+id/scroll" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/color_jump_switch_preference"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/history_on" android:paddingTop="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/snoozed_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="21dp">
+                        <TextView android:theme="@style/NotificationHistorySubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11dp" android:text="@string/notification_history_snooze" android:layout_marginStart="14dp"/>
+                        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/list_container" android:background="@drawable/color_rounded_bg" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <androidx.recyclerview.widget.RecyclerView android:id="@+id/notification_list" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:fastScrollEnabled="true" app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable" app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable" app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable" app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/recently_dismissed_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="21dp">
+                        <TextView android:theme="@style/NotificationHistorySubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11dp" android:text="@string/notification_history_dismiss" android:layout_marginStart="14dp"/>
+                        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/list_container" android:background="@drawable/color_rounded_bg" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <androidx.recyclerview.widget.RecyclerView android:id="@+id/notification_list" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:fastScrollEnabled="true" app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable" app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable" app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable" app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/today_list" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:theme="@style/NotificationHistorySubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11dp" android:text="@string/notification_history_today" android:layout_marginStart="14dp"/>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/apps" android:background="@drawable/color_rounded_bg" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+</LinearLayout>

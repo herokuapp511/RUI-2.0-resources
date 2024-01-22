@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DarkForceStyle">
+        <item name="?0x101058c">true</item>
+        <item name="enableFollowSystemForceDarkRank">true</item>
+    </style>
+    <style name="DialogAlertNoTitleTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.ColorSupport.Dialog</item>
+        <item name="?0x101058c">true</item>
+        <item name="isLightTheme">true</item>
+    </style>
+    <style name="RingtoneSettingsTheme">
+        <item name="android:layout">@layout/color_ringtone_preference_list_fragment</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="?0x101058c">true</item>
+        <item name="?0x1010590">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.ColorSupport.Dialog.Alert.Storage">
+        <item name="?0x101058c">true</item>
+        <item name="enableFollowSystemForceDarkRank">true</item>
+    </style>
+    <style name="Widget.ColorSupport.Button.Small.Light">
+        <item name="android:textColor">@color/color_btn_large_text_color_light</item>
+        <item name="android:background">@drawable/color_btn_small_light</item>
+        <item name="?0x101058c">false</item>
+        <item name="brightness">0.8</item>
+        <item name="drawableColor">?attr/colorTintLightNormal</item>
+    </style>
+    <style name="Widget.ColorSupport.CompoundButton.CheckBox">
+        <item name="android:button">?android:attr/listChoiceIndicatorMultiple</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">@dimen/oppo_btn_checkbox_paddingleft</item>
+        <item name="?0x101058c">false</item>
+    </style>
+</resources>

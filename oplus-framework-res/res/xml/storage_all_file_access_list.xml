@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" version="3">
+    <item md5Hash="d5f2d71470028a27f040234dbe7b62b0" packageName="com.coloros.phonemanager" sha256Hash="64aafaf1d5bc9155a9e417a849e4f8eda1d0d1341667c28ed7c443c76f820b9a" signatureLevel="private"/>
+    <item md5Hash="d5f2d71470028a27f040234dbe7b62b0" packageName="com.coloros.backuprestore" sha256Hash="64aafaf1d5bc9155a9e417a849e4f8eda1d0d1341667c28ed7c443c76f820b9a" signatureLevel="private"/>
+    <item md5Hash="6caf67a5e819edb9c9cb54477f247e64" packageName="com.heytap.cloud" sha256Hash="abd92faab81eff0f1b3216f52b289b67d04dc035cdf208288dc334842d376889" signatureLevel="private"/>
+</packages>

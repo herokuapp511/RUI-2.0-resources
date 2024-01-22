@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancelar</string>
+    <string name="add_account_label">Engadir conta</string>
+    <string name="android_system_label">Sistema Android</string>
+    <string name="autofill_save_no">Logo</string>
+    <string name="autofill_save_title_with_2types">Gardar este %2$s e %1$s en %3$s?</string>
+    <string name="autofill_save_type_username">nome de usuario</string>
+    <string name="autofill_save_yes">Gardar</string>
+    <string name="autofill_update_title_with_2types">Actualizar este %2$s e %1$s en %3$s?</string>
+    <string name="autofill_update_yes">Actualizar</string>
+    <string name="capability_title_canRetrieveWindowContent">Recuperar o contido da xanela</string>
+    <string name="date_time_set">Configuración</string>
+    <string name="decline_remote_bugreport_action">Rexeitar</string>
+    <string name="ext_media_init_action">Configuración</string>
+    <string name="global_action_emergency">Cham. emerx.</string>
+    <string name="global_action_settings">Configuración</string>
+    <string name="kg_login_password_hint">Código acceso</string>
+    <string name="lockscreen_glogin_password_hint">Código acceso</string>
+    <string name="managed_profile_label">Cambia ao perfil traballo</string>
+    <string name="media_route_chooser_extended_settings">Configuración</string>
+    <string name="minutes"> min</string>
+    <string name="perm_costs_money">Pode supoñer gastos adicionais</string>
+    <string name="permgroupdesc_storage">Access photos, media content, and files on your device</string>
+    <string name="permlab_accessNetworkState">Ver conexión de rede</string>
+    <string name="permlab_bluetooth">Vincular disp. con Bluetooth</string>
+    <string name="permlab_broadcastSticky">Env. transmisión delic.</string>
+    <string name="permlab_camera">Sacar vídeos e imaxes</string>
+    <string name="permlab_readPhoneState">Ler estado e identidade do tel.</string>
+    <string name="permlab_vibrate">Vibración de control</string>
+    <string name="policydesc_resetPassword">Cambia o contrasinal da pantalla de bloqueo.</string>
+    <string name="policydesc_wipeData">Borrar os datos do teléfono sen notificación mediante o restablecemento dos datos de fábrica.</string>
+    <string name="policylab_resetPassword">Cambia o contrasinal da pantalla de bloqueo</string>
+    <string name="policylab_wipeData">Borrar todos os datos</string>
+    <string name="save_password_notnow">Logo</string>
+    <string name="share_remote_bugreport_action">Compartir</string>
+    <string name="ssl_certificate">Certificado de seguridade</string>
+    <string name="work_mode_off_message">As túas aplicacións de traballo, notificacións, datos e outras funcións do perfil de traballo activaranse</string>
+    <string name="work_mode_off_title">Activar perfil de traballo?</string>
+    <string name="zen_mode_default_every_night_name">Durm.</string>
+</resources>

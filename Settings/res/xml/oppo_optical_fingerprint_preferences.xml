@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="optical_fingerprint_category" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/fingerprint_style" android:key="anim_styles">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.coloros.settings.feature.fingerprint.FingerprintAnimStyleActivity"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/unlock_while_screen_off" android:key="show_fingerprint_when_screen_off" app:color_jump_mark="@null"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:key="optical_fingerprint_category_line"/>
+</androidx.preference.PreferenceScreen>

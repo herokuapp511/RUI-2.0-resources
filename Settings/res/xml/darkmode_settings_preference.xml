@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/darkmode_settings" android:key="key_dark_mode_setting">
+    <com.coloros.settings.feature.display.darkmode.ui.DarkModeStylePreference android:selectable="false" android:key="dark_mode_style_selector"/>
+    <androidx.preference.Preference android:layout="@layout/color_darkmode_preference_bottom_devider" android:selectable="false"/>
+    <com.color.support.preference.ColorSwitchPreference android:title="@string/darkmode_wallpaper_darken" android:key="darkmode_wallpaper_darken" app:keywords="@string/darkmode_wallpaper_darken"/>
+    <com.color.support.preference.ColorSwitchPreference android:title="@string/darkmode_icon_darken" android:key="darkmode_icon_darken" app:keywords="@string/darkmode_icon_darken"/>
+    <com.color.support.preference.ColorSwitchPreference android:title="@string/reduce_contrast_in_low_brightness" android:key="darkmode_auto_contrast_switch" app:keywords="@string/reduce_contrast_in_low_brightness"/>
+    <com.color.support.preference.ColorJumpPreference android:title="@string/third_app_title" android:key="darkmode_third_app" android:fragment="com.coloros.settings.feature.display.darkmode.ui.DarkModeApplicationManageFragment"/>
+    <androidx.preference.Preference android:layout="@layout/color_darkmode_preference_bottom_devider" android:selectable="false"/>
+    <androidx.preference.Preference android:selectable="false" android:key="dark_mode_third_app_hint" android:summary="@string/change_third_app_to_darkmode_hint"/>
+</androidx.preference.PreferenceScreen>

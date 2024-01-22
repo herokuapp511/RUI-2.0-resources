@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.qs.ColorQSDetailItems xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/Theme.ColorSupport.Green" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.ColorRecyclerView android:id="@android:id/list" android:paddingTop="14dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.color.support.widget.ColorLoadingView android:id="@+id/detail_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" style="?attr/colorLoadingViewLargeStyle"/>
+        <ImageView android:id="@android:id/icon" android:layout_width="110dp" android:layout_height="110dp"/>
+        <TextView android:textSize="@dimen/qs_detail_empty_text_size" android:textColor="@color/status_bar_qs_detail_empty_title" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.coloros.systemui.qs.ColorQSDetailItems>

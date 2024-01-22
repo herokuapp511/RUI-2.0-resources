@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/memory_usage">
+    <com.color.support.preference.ColorPreference android:layout="@layout/preference_memory_app_head" android:key="app_icon_name"/>
+    <com.android.settings.SummaryPreference android:selectable="false" android:key="status_header"/>
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/running_frequency" android:key="frequency"/>
+    <com.color.support.preference.ColorPreference android:layout="@layout/setting_memory_summary_preference" android:title="@string/memory_maximum_usage" android:key="max_usage"/>
+    <PreferenceCategory android:title="@string/memory_details" android:key="processes"/>
+    <com.coloros.settings.widget.preference.ForceStopButtonPreference android:key="force_stop"/>
+</PreferenceScreen>

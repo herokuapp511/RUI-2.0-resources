@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/all_details" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/app_snippet" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/installed_applications_header"/>
+    <View android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oppo_list_item_left_margin" android:layout_marginRight="@dimen/oppo_list_item_right_margin"/>
+    <include android:id="@+id/control_buttons_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oppo_list_item_left_margin" android:layout_marginRight="@dimen/oppo_list_item_right_margin" layout="@layout/two_buttons_panel_app"/>
+    <include android:id="@+id/more_control_buttons_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oppo_list_item_left_margin" android:layout_marginRight="@dimen/oppo_list_item_right_margin" layout="@layout/two_buttons_panel"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s ستانسيا جابدىقتارى جەكەلەردىڭ قولامتالى تۇيىنىنە جالعاندى</item>
+        <item quantity="other">%sستانسيا جابدىقتارى جەكەلەردىڭ قولامتالى تۇيىنىنە جالعاندى</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s ستانسيا جابدىقتارىWLAN ورتاق پايدالانۋ تورىنا جالعاندى</item>
+        <item quantity="other">%sتانسيا جابدىقتارىWLAN ورتاق پايدالانۋ تورىنا جالعاندى</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d جابدىق جىلجىمالى ساندى مالىمەت ىستىق نۇكتەسىنە جالعاندى</item>
+        <item quantity="other">%d جابدىق جىلجىمالى ساندى مالىمەت ىستىق نۇكتەسىنە جالعاندى</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d جابدىق جەكەلىك ىستىق نۇكتەگە جالعاندى</item>
+        <item quantity="other">%d جابدىق جەكەلىك ىستىق نۇكتەگە جالعاندى</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d جابدىق Wi-Fi ورتاقتاسۋىنا جالعاندى</item>
+        <item quantity="other">%d جابدىق Wi-Fi ورتاقتاسۋىنا جالعاندى&quot;</item>
+    </plurals>
+</resources>

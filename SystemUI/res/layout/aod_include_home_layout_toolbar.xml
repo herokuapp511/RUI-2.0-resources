@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<color.support.design.widget.ColorAppBarLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/aod_toolbar_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <color.support.v7.widget.Toolbar android:id="@+id/aod_toolbar" android:background="@color/transparent" android:layout_width="@dimen/aod_clock_dp_0" android:layout_height="@dimen/aod_clock_dp_58" app:colorLayoutScrollFlags="3" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/aod_home_add" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle"/>
+            <ImageButton android:id="@+id/aod_home_add" android:background="@color/transparent" android:layout_width="@dimen/aod_clock_dp_36" android:layout_height="@dimen/aod_clock_dp_36" android:layout_marginTop="11dp" android:layout_marginBottom="11dp" android:layout_centerVertical="true" android:contentDescription="@string/aod_talkback_new_style" android:layout_marginEnd="18dp" android:layout_alignParentEnd="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/aod_toolbar" app:layout_constraintTop_toTopOf="0" app:srcCompat="@drawable/aod_home_add"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</color.support.design.widget.ColorAppBarLayout>

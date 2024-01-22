@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/keyboard_position">
+    <Preference android:layout="@layout/color_detail_preference" android:selectable="false" android:key="keyboard_position_desc" android:summary="@string/keyboard_position_desc"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="keyboard_position_category">
+        <com.coloros.settings.feature.othersettings.input.OplusKeyboardPositionSwitchPreference android:key="keyboard_position"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.feature.othersettings.input.DisablePerferenceCategory android:title="@string/keyboard_position_raise_area_setting" android:key="raise_area_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/keyboard_position_input_method_quick_switch" android:key="keyboard_quick_switch"/>
+    </com.coloros.settings.feature.othersettings.input.DisablePerferenceCategory>
+    <PreferenceCategory/>
+</PreferenceScreen>

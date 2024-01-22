@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/more_display_settings_title" android:key="more_display_settings_screen" app:keywords="@string/keywords_display">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="key_more_display_category" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/color_settings_title" android:key="key_color_mode" android:fragment="com.coloros.settings.feature.display.protecteyes.ColorModeFragment"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/screen_resolution" android:key="screen_resolution" android:fragment="com.coloros.settings.feature.display.ScreenResolutionFragment" app:showNormalColor="true"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/screen_refresh_rate" android:key="screen_refresh_rate" android:fragment="com.coloros.settings.feature.display.ScreenRefreshRateFragment" app:showNormalColor="true"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="key_display_compat_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/screen_display_area" android:key="key_display_compat" android:fragment="com.coloros.settings.feature.display.displaycompat.CutoutSettingFragment"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="key_display_mode_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/settings_dc_backlight_mode_title_new" android:key="key_dc_backlight_mode" android:summary="@string/dc_backlight_mode_summary"/>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/hdr_video_highlight_mode" android:key="key_hdr_video_highlight_mode" android:summary="@string/hdr_video_highlight_mode_summary"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory/>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/coordinator" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/current_languages"/>
+        <include layout="@layout/color_appbar_layout"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.color.support.widget.navigation.ColorNavigationView android:id="@+id/navigation_tool" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:colorNaviMenu="@menu/oppo_navigation_tool_delete" app:navigationType="0"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/main_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <view android:id="@+id/running_processes" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" class="com.coloros.settings.feature.othersettings.development.ColorRunningProcessesView"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/loading_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="0x10501fd" android:layout_marginRight="0x10501fd">
+            <com.color.support.widget.ColorLoadingView android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/colorLoadingViewLargeStyle"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_safetylegal_activity_loading" android:singleLine="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/color_appbar_layout"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:shareInterpolator="false" android:fillBefore="false" android:fillAfter="true" android:zAdjustment="normal" android:fillEnabled="true">
+    <alpha android:interpolator="@anim/color_search_page_enter_alpha_interpolator" android:duration="180" android:fromAlpha="0" android:toAlpha="1"/>
+    <translate android:interpolator="@anim/color_search_page_enter_translate_interpolator" android:duration="330" android:fromYDelta="@integer/search_page_anim_y_delta" android:toYDelta="0"/>
+</set>

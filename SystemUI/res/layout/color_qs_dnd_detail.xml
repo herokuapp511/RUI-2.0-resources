@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/dnd_visible" android:paddingTop="@dimen/qs_dnd_detail_margin_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/qs_dnd_detail_title_text_size" android:textColor="@color/status_bar_qs_dnd_detail_empty_title" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/qs_dnd_detail_title_text_height" android:text="@string/zen_mode_duration" android:alpha="0.55" android:layout_marginStart="@dimen/qs_dnd_detail_title_text_margin"/>
+        <ListView android:orientation="vertical" android:id="@+id/dnd_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/dnd_empty" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/dnd_icon" android:layout_width="110dp" android:layout_height="110dp" android:src="@drawable/qs_dnd_empty"/>
+        <TextView android:textSize="@dimen/qs_dnd_detail_empty_text_size" android:textColor="@color/status_bar_qs_dnd_detail_empty_title" android:id="@+id/dnd_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zen_mode_qs_off_tip" android:alpha="0.3"/>
+    </LinearLayout>
+</RelativeLayout>

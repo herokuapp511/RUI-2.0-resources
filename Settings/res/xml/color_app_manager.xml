@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/applications_manager" android:key="my_device_info_pref_screen">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="category_app_manager" android:order="100" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_app_list" android:key="app_list" android:order="110" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" app:activity="com.coloros.settings.ColorSubSettings">
+            <extra android:name="dcs_event_id" android:value="manage_application_app_list"/>
+            <extra android:name="attach_to_base_layout" android:value="true"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_default_apps_manager" android:key="default_apps_manager" android:order="120">
+            <extra android:name="dcs_event_id" android:value="manage_application_default_app"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:key="app_permission" android:order="130">
+            <extra android:name="dcs_event_id" android:value="manage_application_app_permission"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/auto_launch_manager" android:key="auto_launch_manager" android:order="140">
+            <extra android:name="dcs_event_id" android:value="manage_application_auto_launch"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/association_launch_manager" android:key="association_launch_manager" android:order="150">
+            <extra android:name="dcs_event_id" android:value="manage_application_associated_launch"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/floating_window_manager" android:key="floating_window_manager" android:order="160">
+            <extra android:name="dcs_event_id" android:value="manage_application_float_window"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/special_access" android:key="color_special_access" android:order="170" android:fragment="com.coloros.settings.privacy.ColorSpecialAccessSettings">
+            <extra android:name="dcs_event_id" android:value="manage_application_special_access"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/system_unloadable_application_retrieve" android:key="system_unloadable_app_retrieve" android:order="180">
+            <extra android:name="dcs_event_id" android:value="manage_application_system_app_retrieve"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="key_app_attr_category" android:order="200">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/multi_app_settings" android:key="multi_app_settings" android:order="210" app:showSummary="false">
+            <extra android:name="dcs_event_id" android:value="top_level_multi_app"/>
+        </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/application_usage_time_statistics" android:key="app_usage_time" android:order="220" app:showSummary="false"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="category_app_recommend" android:order="300">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/app_manager_recommendation" android:key="system_app_recommendations" android:order="1"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:order="4000"/>
+</PreferenceScreen>

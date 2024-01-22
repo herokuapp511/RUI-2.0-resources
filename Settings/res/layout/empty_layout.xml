@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="8">
+        <ImageView android:id="@+id/empty_iv" android:layout_width="@dimen/empty_content_img_width" android:layout_height="@dimen/empty_content_img_height" android:src="@drawable/file_empty" android:layout_centerInParent="true" style="@style/EmptyFileImgStyle"/>
+        <TextView android:textSize="16sp" android:gravity="center" android:id="@+id/emptybottle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/empty_file" android:layout_below="@+id/empty_iv" android:layout_centerInParent="true" style="@style/EmptyTextStyle"/>
+    </RelativeLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/black_55_percent" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/empty_bottom_tip" android:paddingBottom="30dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/show_30d_recently_files" android:layout_weight="1"/>
+</LinearLayout>

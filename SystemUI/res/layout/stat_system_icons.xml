@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/system_icons" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/vs_status_icons" android:layout="@layout/stat_status_icons" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <ViewStub android:id="@+id/vs_status_icons_adaptive" android:layout="@layout/stat_status_icons_adaptive" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <com.coloros.systemui.statusbar.widget.SecurePaymentIconView android:layout_gravity="center_vertical" android:id="@+id/secure_payment_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    <TextView android:textSize="@dimen/stat_clock_size" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/secure_payment_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:paddingEnd="@dimen/secure_payment_textview_paddding_end"/>
+    <include android:layout_width="wrap_content" android:layout_height="match_parent" layout="@layout/oppo_signal_cluster_view"/>
+    <include android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" layout="@layout/stat_system_battery"/>
+</LinearLayout>

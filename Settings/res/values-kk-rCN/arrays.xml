@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>كارتوندى جابۋ</item>
+        <item>كارتوندى 0.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 1x كىشىرەيتۋ</item>
+        <item>كارتوندى 1.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 2x كىشىرەيتۋ</item>
+        <item>كارتوندى 5x كىشىرەيتۋ</item>
+        <item>كارتوندى 10x كىشىرەيتۋ</item>
+    </array>
+    <array name="aod_date_entries">
+        <item>ەسكىشە كۇنتىزبە اي-كۇنىن كورسەتۋ</item>
+        <item>جاڭاشا جانە ەسكىشە كۇنتىزبە اي-كۇنىن كورسەتۋ</item>
+        <item>كورىنبەيدى</item>
+    </array>
+    <array name="apn_auth_entries">
+        <item>جوق</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP نەمەسە CHAP</item>
+    </array>
+    <array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </array>
+    <array name="app_install_location_entries">
+        <item>ىشكى ساقتاۋ جابدىعى</item>
+        <item>الىپ تاستاۋعا بولاتىن SD كارتوچكاسى</item>
+        <item>جۇيە ارقىلى بەلگىلەۋ</item>
+    </array>
+    <array name="app_ops_categories">
+        <item>ورىن</item>
+        <item>جەكە</item>
+        <item>تەلحات</item>
+        <item>مەديا</item>
+        <item>جابدىق</item>
+    </array>
+    <array name="app_ops_labels">
+        <item>ورىن</item>
+        <item>ورىن</item>
+        <item>ورىن</item>
+        <item>ٴدىرىل</item>
+        <item>بايلانىسشىلاردى وقۋ</item>
+        <item>بايلانىسشىنى وزگەرتۋ</item>
+        <item>حابارلاسۋ ەستەلىگىن وقۋ</item>
+        <item>حابارلاسۋ ەستەلىگىن وزگەرتۋ</item>
+        <item>كۇنتىزبەنى وقۋ</item>
+        <item>كۇنتىزبەنى وزگەرتۋ</item>
+        <item>ورىن</item>
+        <item>ۇقتىرۋ جاريالاۋ</item>
+        <item>ورىن</item>
+        <item>تەلەفون جالعاۋ</item>
+        <item>تەلحاتMMS وقۋ</item>
+        <item>تەلحاتMMS جازۋ</item>
+        <item>تەلحاتMMS قابىلداۋ</item>
+        <item>تەلحاتMMS قابىلداۋ</item>
+        <item>تەلحاتMMS قابىلداۋ</item>
+        <item>تەلحاتMMS قابىلداۋ</item>
+        <item>تەلحاتMMS جولداۋ</item>
+        <item>تەلحاتMMS وقۋ</item>
+        <item>تەلحاتMMS جازۋ</item>
+        <item>تەڭشەۋدى وزگەرتۋ</item>
+        <item>ەڭ جوعارعى قاباتىندا مازمۇن كورسەتۋ</item>
+        <item>كىرۋ ۇقتىرۋى</item>
+        <item>فوتو اپارات</item>
+        <item>تۇسىرىلگەن دىبىس جيىلىگى</item>
+        <item>دىبىس جيىلىگىن قويۋ</item>
+        <item>قيىستىرۋ تاقتاسى مازمۇنىن وقۋ</item>
+        <item>قيىستىرۋ تاقتاسى مازمۇنىن وزگەرتۋ</item>
+        <item>مەديا باتىرماسى</item>
+        <item>دىبىس جيىلىگى ٴتۇيىنى</item>
+        <item>باستى دىبىس مولشەرى</item>
+        <item>ٴۇن دىبىس مولشەرى</item>
+        <item>قوڭىراۋ ٴۇنىنىڭ دىبىس مولشەرى</item>
+        <item>مەديا دىبىس مولشەرى</item>
+        <item>قوڭىراۋلى ساعاتتىڭ داۋىس مولشەرى</item>
+        <item>ۇقتىرۋ داۋىس مولشەرى</item>
+        <item>كوك ٴتىس دىبىس مولشەرى</item>
+        <item>وياتۋ كۇيىن ساقتاۋ</item>
+        <item>ورىن</item>
+        <item>ورىن ينفورماتسياسى</item>
+        <item>پايدالانۋ جاعدايىن ەسەپتەۋ ينفورماتسياسىن وقۋ</item>
+        <item>مەكروفوندى ٴۇنسىز قىلۋ نەمەسە ٴۇنسىزدى كۇشىنەن قالدىرۋ</item>
+        <item>سالەم ٴسوزىن كورسەتۋ</item>
+        <item>كەسكىن ٴتۇسىرۋ مەدياسى</item>
+        <item>VPN دى قوزعاۋ</item>
+        <item>قابىرعالىق قاعازعا جازۋ</item>
+        <item>كومەكشى قۇرىلىم</item>
+        <item>كومەكشى ەكران قيما سۋرەتى</item>
+        <item>قولفون كۇيىن وقۋ</item>
+        <item>دىبىستى پوچتالىق حات قوسۋ</item>
+        <item>SIP پايدالانۋ</item>
+        <item>سوققان تەلەفوندى ٴبىر جاقتى ەتۋ</item>
+        <item>ساۋساق بەدەرى</item>
+        <item>دەنە سەزگىسى</item>
+        <item>شاعىن اۋماق راديوسىن وقۋ</item>
+        <item>ەلىكتەمەلى ورىن</item>
+        <item>ساقتاۋ بوستىعىن وقۋ</item>
+        <item>ساقتاۋ بوستىعىنا ەنگىزۋ</item>
+        <item>ەكراندى اشۋ</item>
+        <item>ەسەپ نومىرىنە يە بولۋ</item>
+        <item>ارتقى تەكشەدە جۇرگىزۋ</item>
+        <item>بوگەتسىز يقۋات دىبىس مولشەرى</item>
+    </array>
+    <array name="app_ops_summaries">
+        <item>نوباي ورىن</item>
+        <item>ٴدال ورىن</item>
+        <item>GPS</item>
+        <item>ٴدىرىل</item>
+        <item>بايلانىسشىلاردى وقۋ</item>
+        <item>بايلانىسشىنى وزگەرتۋ</item>
+        <item>حابارلاسۋ ەستەلىگىن وقۋ</item>
+        <item>حابارلاسۋ ەستەلىگىن وزگەرتۋ</item>
+        <item>كۇنتىزبەنى وقۋ</item>
+        <item>كۇنتىزبەنى وزگەرتۋ</item>
+        <item>Wi-Fi جايمالاۋى</item>
+        <item>ۇقتىرۋ</item>
+        <item>قولفون تورابىن جايمالاۋ</item>
+        <item>تەلەفون جالعاۋ</item>
+        <item>تەلحاتتى وقۋ</item>
+        <item>تەلحات جازۋ</item>
+        <item>تەلحات قابىلداۋ</item>
+        <item>شۇعىل تەلحات قابىلداۋ</item>
+        <item>‫‏MMS‬ قابىلداۋ</item>
+        <item>WAP PUSH ينفورماتسياسىن قابىلداۋ</item>
+        <item>تەلحات جولداۋ</item>
+        <item>ICC تەلحاتتى وقۋ</item>
+        <item>ICC تەلحاتىن جازۋ</item>
+        <item>تەڭشەۋدى وزگەرتۋ</item>
+        <item>ەڭ جوعارعى قاباتىندا مازمۇن كورسەتۋ</item>
+        <item>كىرۋ ۇقتىرۋى</item>
+        <item>فوتو اپارات</item>
+        <item>تۇسىرىلگەن دىبىس جيىلىگى</item>
+        <item>دىبىس جيىلىگىن قويۋ</item>
+        <item>قيىستىرۋ تاقتاسى مازمۇنىن وقۋ</item>
+        <item>قيىستىرۋ تاقتاسى مازمۇنىن وزگەرتۋ</item>
+        <item>مەديا باتىرماسى</item>
+        <item>دىبىس جيىلىگى ٴتۇيىنى</item>
+        <item>باستى دىبىس مولشەرى</item>
+        <item>ٴۇن دىبىس مولشەرى</item>
+        <item>قوڭىراۋ ٴۇنىنىڭ دىبىس مولشەرى</item>
+        <item>مەديا دىبىس مولشەرى</item>
+        <item>قوڭىراۋلى ساعاتتىڭ داۋىس مولشەرى</item>
+        <item>ۇقتىرۋ داۋىس مولشەرى</item>
+        <item>كوك ٴتىس دىبىس مولشەرى</item>
+        <item>وياتۋ كۇيىن ساقتاۋ</item>
+        <item>ورىن تەكسەرۋ</item>
+        <item>باتەريانى كوپ سارىپ قىلاتىن ورىن ينفورماتسياسى قىزمەتىن باقىلاۋ</item>
+        <item>پايدالانۋ جاعدايىن ەسەپتەۋ ينفورماتسياسىن وقۋ</item>
+        <item>مەكروفوندى ٴۇنسىز قىلۋ نەمەسە ٴۇنسىزدى كۇشىنەن قالدىرۋ</item>
+        <item>سالەم ٴسوزىن كورسەتۋ</item>
+        <item>كەسكىن ٴتۇسىرۋ مەدياسى</item>
+        <item>VPN دى قوزعاۋ</item>
+        <item>قابىرعالىق قاعازعا جازۋ</item>
+        <item>كومەكشى قۇرىلىم</item>
+        <item>كومەكشى ەكران قيما سۋرەتى</item>
+        <item>قولفون كۇيىن وقۋ</item>
+        <item>دىبىستى پوچتالىق حات قوسۋ</item>
+        <item>SIP پايدالانۋ</item>
+        <item>سوققان تەلەفوندى ٴبىر جاقتى ەتۋ</item>
+        <item>ساۋساق بەدەرى</item>
+        <item>دەنە سەزگىسى</item>
+        <item>شاعىن اۋماق راديوسىن وقۋ</item>
+        <item>ەلىكتەمەلى ورىن</item>
+        <item>ساقتاۋ بوستىعىن وقۋ</item>
+        <item>ساقتاۋ بوستىعىنا ەنگىزۋ</item>
+        <item>ەكراندى اشۋ</item>
+        <item>ەسەپ نومىرىنە يە بولۋ</item>
+        <item>ارتقى تەكشەدە جۇرگىزۋ</item>
+        <item>بوگەتسىز يقۋات دىبىس مولشەرى</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>ولشەم شەكتەمەسى</item>
+        <item>ارتقى تەكشەدە جۇرگىزىلۋدى قۇپتاماۋ</item>
+        <item>1 دامۋدان اسپاۋ</item>
+        <item>2 دامۋدان اسپاۋ</item>
+        <item>3 دامۋدان اسپاۋ</item>
+        <item>4 دامۋدان اسپاۋ</item>
+    </array>
+    <array name="authentication_frequency_entries">
+        <item>باستان-اياق قاجەت</item>
+        <item>15 مينۋتتان كەيىن قاجەت</item>
+    </array>
+    <array name="autofill_logging_level_entries">
+        <item>جابۋ</item>
+        <item>سىناق</item>
+        <item>انىق-قانىعى</item>
+    </array>
+    <array name="automatic_storage_management_days">
+        <item>30 كۇننەن اسۋ</item>
+        <item>60 كۇننەن اسۋ</item>
+        <item>90 كۇننەن اسۋ</item>
+    </array>
+    <array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </array>
+    <array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ادەپكى)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </array>
+    <array name="bluetooth_max_connected_audio_devices">
+        <item>جۇيەنىڭ ادەپكى ٴمانىن پايدالانۋ: %1$d</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <array name="bluetooth_visibility_timeout_entries">
+        <item>2 مينۋت</item>
+        <item>5مينۋت</item>
+        <item>1 ساعات</item>
+        <item>ماڭگى ۋاقىتىنان اسىرماۋ</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries_new">
+        <item>توقتاتىلدى</item>
+        <item>”سۇزىلگەن“ ىسكە قوسىلدى</item>
+        <item>ىسكە قوسىلدى</item>
+        <item>سۇزىلگەن جانە ىسكە قوسىلعان تاقىرىپ</item>
+        <item>سۇزىلگەن جانە ىسكە قوسىلعان مەديا قورابى</item>
+    </array>
+    <array name="captioning_edge_type_selector_titles">
+        <item>ادەپكى</item>
+        <item>جوق</item>
+        <item>نوبايى</item>
+        <item>سايا</item>
+        <item>دوڭەس</item>
+        <item>ويىس</item>
+    </array>
+    <array name="captioning_font_size_selector_titles">
+        <item>وتە كىشكەنتاي</item>
+        <item>كىشى</item>
+        <item>ادەپكى</item>
+        <item>ۇلكەن</item>
+        <item>ەرەن</item>
+    </array>
+    <array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </array>
+    <array name="captioning_preset_selector_titles">
+        <item>قولدانبا جاعىنان تەڭشەلەدى</item>
+        <item>بوياۋ قاباتى قارا، ٴارىبى اق</item>
+        <item>بوياۋ قاباتى اق، ٴارىبى قارا</item>
+        <item>بوياۋ قاباتى قارا، ٴارىبى سارى</item>
+        <item>بوياۋ قاباتى كوك، ٴارىبى سارى</item>
+        <item>وزدىك ٴمان ۇستەۋ</item>
+    </array>
+    <array name="captioning_typeface_selector_titles">
+        <item>ادەپكى</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </array>
+    <array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </array>
+    <array name="cdma_system_select_choices">
+        <item>تەك جەرگىلىكتى جۇيە</item>
+        <item>اۆتوماتتى</item>
+    </array>
+    <array name="color_lunar_mounth">
+        <item>1-اي</item>
+        <item>2-اي</item>
+        <item>3-اي</item>
+        <item>4-اي</item>
+        <item>5-اي</item>
+        <item>6-اي</item>
+        <item>7-اي</item>
+        <item>8-اي</item>
+        <item>9-اي</item>
+        <item>10-اي</item>
+        <item>11-اي</item>
+        <item>12-اي</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>كۇشەيتىلگەن ٴتۇس</item>
+        <item>كوزبەن كورە الاتىن تابيعي ٴتۇس</item>
+        <item>سيفر مازمۇنىن ساپالاندىرۋعا باعىتتالعان ٴتۇس</item>
+    </array>
+    <array name="color_mode_names">
+        <item>اشىق(ادەپكى)</item>
+        <item>تابيعي</item>
+        <item>ولشەمدى</item>
+    </array>
+    <array name="color_solor_mounth">
+        <item>قاڭتار</item>
+        <item>اقپان</item>
+        <item>ناۋرىز</item>
+        <item>ٴساۋىر</item>
+        <item>مامىر</item>
+        <item>ماۋسىم</item>
+        <item>شىلدە</item>
+        <item>تامىز</item>
+        <item>قىركۇيەك</item>
+        <item>قازان</item>
+        <item>قاراشا</item>
+        <item>جەلتوقسان</item>
+    </array>
+    <array name="cut_mode_entries">
+        <item>اۆتوماتتى قوسۋ</item>
+        <item>ۇستىڭگى بولىكتى كورسەتۋ</item>
+        <item>توبەدەگى اۋماققا جاسىرۋ(تولىق ەكران بەتىن كورسەتۋ)</item>
+    </array>
+    <array name="dark_ui_mode_entries">
+        <item>باران رەڭ</item>
+        <item>سولعىن ٴتۇس</item>
+    </array>
+    <array name="data_usage_data_range">
+        <item>وتكەن 30 كۇن</item>
+        <item>اعىن اينالىمىن تەڭشەۋ…</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>جابۋ</item>
+        <item>وتپەلى سىزۋ اۋماعىن كورسەتۋ</item>
+        <item>جاسىل ٴتۇستى كورۋ قۋاتى السىزدەردىڭ تەكسەرۋىنە ۇيلەسەتىن اۋماقتى كورسەتۋ</item>
+    </array>
+    <array name="default_volume_type">
+        <item>قوڭىراۋ ٴۇنىنىڭ دىبىس مولشەرى</item>
+        <item>مەديا دىبىس مولشەرى</item>
+    </array>
+    <array name="dream_timeout_entries">
+        <item>ماڭگى جوق</item>
+        <item>15 سەكۋند</item>
+        <item>30 سەكۋند</item>
+        <item>1 مينۋت</item>
+        <item>2 مينۋت</item>
+        <item>5 مينۋت</item>
+        <item>10 مينۋت</item>
+        <item>30مينۋت</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>جوق</item>
+        <item>Logcat</item>
+        <item>Systrace(فيگۋرا)</item>
+        <item>glGetError داعى تەڭشەگىش قويماسى</item>
+    </array>
+    <array name="entries_font_size">
+        <item>كىشى</item>
+        <item>ادەپكى</item>
+        <item>ۇلكەن</item>
+        <item>ەڭ ۇلكەن</item>
+    </array>
+    <array name="eq_preset_names">
+        <item>جابۋ</item>
+        <item>كەڭ تارالعان</item>
+        <item>روك</item>
+        <item>اۋىل-قىستاق</item>
+        <item>جاز</item>
+        <item>كلاسسيكالىق</item>
+        <item>مەتال</item>
+        <item>بريۋس</item>
+        <item>Hip Hop</item>
+        <item>ٴبي مۋزىكا</item>
+        <item>ەلەكتروندى</item>
+        <item>وزدىك ٴمان ۇستەۋ</item>
+    </array>
+    <array name="format_type_entries">
+        <item>FAT32(ادەپكى)</item>
+        <item>exFAT</item>
+    </array>
+    <array name="format_type_summarys">
+        <item>پايدالانىلۋى كەڭ بولعان جىلجىمالى ساقتاۋ جابدىعى قۇجات جۇيە ٴتۇرى</item>
+        <item>وڭدەلگەن قۇجات جۇيە ٴتۇرى، جەكە 4G اسقان قۇجاتتى قولدايدى، PCمەن جالعاعاندا الدىمەن جۇرگىزگىنى ورناتۋ قاجەت</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCP تەكسەرۋىن پايدالانباۋ</item>
+        <item>HDCP دەن عانا پايدالانىپ DRM مازمۇنىن تەكسەرۋ</item>
+        <item>باستان اياق HDCP تەكسەرۋىن پايدالانۋ</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>ماڭگى تەكسەرمەۋ</item>
+        <item>تەك DRM مازمۇنىن تەكسەرۋ</item>
+        <item>ۇنەمى تەكسەرۋ</item>
+    </array>
+    <array name="lock_after_timeout_entries">
+        <item>دەرەۋ</item>
+        <item>5سەكۋند</item>
+        <item>15 سەكۋند</item>
+        <item>30 سەكۋند</item>
+        <item>1 مينۋت</item>
+        <item>2 مينۋت</item>
+        <item>5 مينۋت</item>
+        <item>10 مينۋت</item>
+        <item>30مينۋت</item>
+    </array>
+    <array name="long_press_timeout_selector_titles">
+        <item>قىسقا</item>
+        <item>ورتاشا</item>
+        <item>ۇزىن</item>
+    </array>
+    <array name="mvno_type_entries">
+        <item>جوق</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+        <item>ICCID</item>
+    </array>
+    <array name="notification_prompt_mode_entries">
+        <item>بەلگىنى كورسەتۋ</item>
+        <item>سانىن كورسەتۋ</item>
+        <item>كورىنبەيدى</item>
+    </array>
+    <array name="notification_prompt_mode_entries_new">
+        <item>كورىنەتىن بەلگىشە</item>
+        <item>كورىنگەن سانى</item>
+    </array>
+    <array name="oppo_app_install_location_entries_removable_sd">
+        <item>جۇيە بوستىعى</item>
+        <item>SD كارتوچكاسى بوستىعى</item>
+        <item>جۇيە ارقىلى بەلگىلەۋ</item>
+    </array>
+    <array name="oppo_app_install_location_entries_unremovable_sd">
+        <item>جۇيە بوستىعى</item>
+        <item>قولفوندا ساقتاۋ</item>
+        <item>جۇيە ارقىلى بەلگىلەۋ</item>
+    </array>
+    <array name="oppo_time_picker_ampm">
+        <item>تۇستەن بۇرىن</item>
+        <item>تۇستەن كەيىن</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>جوق</item>
+        <item>480p</item>
+        <item>480p(حاۋىپسىز)</item>
+        <item>720p</item>
+        <item>720p(حاۋىپسىز)</item>
+        <item>1080p</item>
+        <item>1080p(حاۋىپسىز)</item>
+        <item>4K</item>
+        <item>4K(حاۋىپسىز)</item>
+        <item>4K(كورىنىستى جوعارىلاتۋ)</item>
+        <item>4K(كورىنىستى جوعارىلاتۋ، حاۋىپسىز)</item>
+        <item>720p، 1080p(قوس ەكران)</item>
+    </array>
+    <array name="presskey_backlight_timeout_entries">
+        <item>6 سەكۋند</item>
+        <item>ۇنەمى جانىپ تۇرۋ</item>
+        <item>جابۋ</item>
+    </array>
+    <array name="privacy_question_list">
+        <item>ٴسىزدىڭ ٴبىر مۇعالىمىڭىزدىڭ ەسىمى؟</item>
+        <item>اناڭىزدىڭ ەسىمى؟</item>
+        <item>اكەڭىزدىڭ ەسىمى؟</item>
+        <item>تولىق ورتا مەكتەبىڭىزدىڭ اتى؟</item>
+        <item>ەڭ ۇناتاتىن ٴدامحانانىڭ اتى؟</item>
+    </array>
+    <array name="proc_stats_memory_states">
+        <item>قالىپتى</item>
+        <item>ورتاشا</item>
+        <item>جەتكىلىكسىز</item>
+        <item>ەرەكشە جەتكىلىكسىز</item>
+    </array>
+    <array name="proc_stats_process_states">
+        <item>ۇنەمىلىك</item>
+        <item>توبەدەگى Activity</item>
+        <item>ماڭىزدى(الدىڭعى تەكشە)</item>
+        <item>ماڭىزدى(ارتقى تەكشە)</item>
+        <item>ساقتىق كوشىرمە</item>
+        <item>ماڭىزدىلىق دارەجەسى</item>
+        <item>قىزمەت وتەۋ(جۇرىلۋدە)</item>
+        <item>قىزمەت وتەۋ(قايتادان ىسكە قوسىلۋدا)</item>
+        <item>قابىلداعىش</item>
+        <item>باس ەكران</item>
+        <item>الدىڭعى Activity</item>
+        <item>ساقتالعان(Activity)</item>
+        <item>ساقتالعان(Activity قاريدار تەرمينالى)</item>
+        <item>ساقتالعان(بوس)</item>
+    </array>
+    <array name="ram_states">
+        <item>قالىپتى</item>
+        <item>ورتاشا</item>
+        <item>جەتكىلىكسىز</item>
+        <item>ەرەكشە جەتكىلىكسىز</item>
+        <item>بەلگىسىز</item>
+    </array>
+    <array name="realme_preset_names">
+        <item>ادەپكى</item>
+        <item>كەڭ تارالعان</item>
+        <item>روك</item>
+        <item>اۋىل-قىستاق</item>
+        <item>جاز</item>
+        <item>كلاسسيكالىق</item>
+        <item>مەتال</item>
+        <item>بريۋس</item>
+        <item>Hip Hop</item>
+        <item>ٴبي مۋزىكا</item>
+        <item>ەلەكتروندى</item>
+        <item>وزدىك ٴمان ۇستەۋ</item>
+    </array>
+    <array name="running_applications_tabs">
+        <item>ٴۇشىنشى تاراپ قولدانباسى</item>
+        <item>جۇيەلىك قولدانبا</item>
+    </array>
+    <array name="screen_timeout_entries">
+        <item>15 سەكۋند</item>
+        <item>30 سەكۋند</item>
+        <item>1 مينۋت</item>
+        <item>2 مينۋت</item>
+        <item>5 مينۋت</item>
+        <item>10 مينۋت</item>
+        <item>30مينۋت</item>
+    </array>
+    <array name="security_settings_premium_sms_values">
+        <item>ۇعىسۋ</item>
+        <item>ماڭگى رۇقسات ەتپەۋ</item>
+        <item>باستان-اياق رۇحسات ەتۋ</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>جابۋ</item>
+        <item>K64</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>جابۋ</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 64K</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 256K</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 1M</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 4M</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 16M</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>جابۋ</item>
+        <item>K64</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>M16</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>جابۋ</item>
+        <item>بارلىق كۇندىك بۋفەرلىك ساقتاۋ ورنى</item>
+        <item>بارلىق بەي سىمسىز راديو كۇندىك بۋفەرلىك ساقتاۋ ورنى</item>
+        <item>وزەك كۇندىك بۋفەرلىك ساقتاۋ ورنىمەن شەكتەلەدى</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>جابۋ</item>
+        <item>بارلىق</item>
+        <item>بارلىق بەي سىمسىز راديو</item>
+        <item>وزەكپەن شەكتەلەدى</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>جابۋ</item>
+        <item>كوك تۇسپەن بەي تورتكىل قيۋ اۋماعىن بوياۋ</item>
+        <item>جاسىل تۇسپەن تەكسەرۋ سىزۋ بۇيرىعىن كورسەتۋ</item>
+    </array>
+    <array name="swipe_direction_values">
+        <item>1</item>
+        <item>@null</item>
+    </array>
+    <array name="timezone_filters">
+        <item>امەريكا قۇرلىعى</item>
+        <item>ەۆروپا</item>
+        <item>افريكا</item>
+        <item>ازيا</item>
+        <item>اۆستراليا</item>
+        <item>تىنىق مۇحيت</item>
+        <item>بارلىق</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>كارتوندى جابۋ</item>
+        <item>كارتوندى 0.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 1x كىشىرەيتۋ</item>
+        <item>كارتوندى 1.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 2x كىشىرەيتۋ</item>
+        <item>كارتوندى 5x كىشىرەيتۋ</item>
+        <item>كارتوندى 10x كىشىرەيتۋ</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>وتە اقىرىن</item>
+        <item>اقىرىن</item>
+        <item>قالىپتى</item>
+        <item>تەز</item>
+        <item>اقىرىن</item>
+        <item>ەرەكشە تەز</item>
+        <item>اسىرە تەز</item>
+        <item>وتە تەز</item>
+        <item>ەڭ تەز</item>
+    </array>
+    <array name="usage_stats_display_order_types">
+        <item>پايدالانۋ ۋاقىتى</item>
+        <item>الدىڭعى جولى پايدالانعان ۋاقىت</item>
+        <item>قولدانبا ەسىمى</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>زارياتتاۋ</item>
+        <item>MTP(مەديا جەتكىزۋ كەلىسىمى)</item>
+        <item>PTP(سۋرەت جەتكىزۋ كەلىسىمى)</item>
+        <item>RNDIS(USB ينتەرنەت تورابى)</item>
+        <item>دىبىس جيىلىگى قاينارى</item>
+        <item>MIDI</item>
+    </array>
+    <array name="vpn_proxy_settings">
+        <item>جوق</item>
+        <item>قولمەن جۇرگىزۋ</item>
+    </array>
+    <array name="vpn_states">
+        <item>جالعاۋ ٴۇزىلدى</item>
+        <item>باستالۋ كۇيىنە كەلتىرۋدە…</item>
+        <item>جالعانۋدا…</item>
+        <item>جالعاندى</item>
+        <item>ۋاقىت اسىپ كەتتى</item>
+        <item>ٴساتسىز</item>
+    </array>
+    <array name="wifi_calling_mode_choices_v2">
+        <item>Wi-Fi</item>
+        <item>جىلجىمالى ساندى مالىمەت</item>
+        <item>تەك Wi-Fi مەن شەكتەلەدى</item>
+    </array>
+    <array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item>Wi-Fi</item>
+        <item>جىلجىمالى ساندى مالىمەت</item>
+    </array>
+    <array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </array>
+    <array name="wifi_hidden_entries">
+        <item>جوق</item>
+        <item>ٴيا</item>
+    </array>
+    <array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>تىنىش كۇي</item>
+    </array>
+    <array name="wifi_metered_entries">
+        <item>اۆتوماتتى تەكسەرۋ</item>
+        <item>اعىن مولشەرىمەن اقى ەسەپتەۋ دەپ قاراۋ</item>
+        <item>اعىن مولشەرىمەن اقى ەسەپتەمەۋ دەپ قاراۋ</item>
+    </array>
+    <array name="wifi_p2p_status">
+        <item>جالعاندى</item>
+        <item>ۇسىنىس ەتىلدى</item>
+        <item>ٴساتسىز</item>
+        <item>پايدالانۋعا بولادى</item>
+        <item>شەكتەن اسىپ كەتتى</item>
+    </array>
+    <array name="wifi_p2p_wps_setup">
+        <item>باتىرما</item>
+        <item>تەڭدەس جابدىقتان يە بولعان PIN كودى</item>
+        <item>بۇل جابدىقتا پايدا بولعان PIN كودى</item>
+    </array>
+    <array name="wifi_privacy_entries">
+        <item>كەزدەيسوق MAC پايدالانۋ(ادەپكى)</item>
+        <item>MAC جابدىعىن پايدالانۋ</item>
+    </array>
+    <array name="wifi_signal">
+        <item>ٴالسىز</item>
+        <item>ٴالسىز</item>
+        <item>قالىپتى</item>
+        <item>جاقسى</item>
+        <item>كەرەمەت</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>سكانەرلەۋدە…</item>
+        <item>جالعانۋدا…</item>
+        <item>سالاۋات انىقتاۋدا…</item>
+        <item>IP ادرەسىن الۋدا…</item>
+        <item>جالعاندى</item>
+        <item>توقتاتىلدى</item>
+        <item>جالعاۋدى ۇزۋدە…</item>
+        <item>جالعانۋدان ٴۇزىلدى</item>
+        <item>ٴساتسىز</item>
+        <item>توقتاتىلدى</item>
+        <item>ۋاقىتشا جابۋ(توراپ جاعدايى جاقسى ەمەس)</item>
+    </array>
+    <array name="wifi_ttls_phase2_entries">
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>كارتوندى جابۋ</item>
+        <item>كارتوندى 0.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 1x كىشىرەيتۋ</item>
+        <item>كارتوندى 1.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 2x كىشىرەيتۋ</item>
+        <item>كارتوندى 5x كىشىرەيتۋ</item>
+        <item>كارتوندى 10x كىشىرەيتۋ</item>
+    </array>
+</resources>

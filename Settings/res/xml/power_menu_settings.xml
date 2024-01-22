@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/power_menu_setting_name">
+    <Preference android:title="@string/cards_passes_sentence" android:key="gesture_global_actions_panel_summary" android:fragment="com.android.settings.gestures.GlobalActionsPanelSettings" app:controller="com.android.settings.gestures.GlobalActionsPanelPreferenceController"/>
+    <Preference android:title="@string/device_controls_sentence" android:key="gesture_device_controls_summary" android:fragment="com.android.settings.gestures.DeviceControlsSettings" app:controller="com.android.settings.gestures.DeviceControlsPreferenceController"/>
+    <PreferenceCategory android:title="@string/power_menu_lock_screen_category">
+        <SwitchPreference android:title="@string/power_menu_privacy" android:key="gesture_power_menu_privacy" app:controller="com.android.settings.gestures.PowerMenuPrivacyPreferenceController"/>
+    </PreferenceCategory>
+</PreferenceScreen>

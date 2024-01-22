@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/date_and_time_settings_title" android:key="date_and_time_screen_key">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:order="10" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:layout="@layout/color_preference" android:title="@string/date_time_24hour_title" android:key="24 hour" android:order="20"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:order="30"/>
+    <com.coloros.settings.widget.preference.ColorRestrictedSwitchPreference android:title="@string/date_time_auto_setting" android:key="auto_time" android:order="40" app:useAdditionalSummary="true"/>
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:title="@string/date_time_set_timezone_title" android:key="timezone" android:order="50" android:fragment="com.coloros.settings.feature.othersettings.datetime.ZonePicker" app:showNormalColor="true" app:userRestriction="no_config_date_time"/>
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:layout="@layout/color_preference" android:title="@string/date_picker_title" android:key="dateset" android:order="60" app:showNormalColor="true" app:userRestriction="no_config_date_time"/>
+    <com.coloros.settings.widget.preference.ColorRestrictedJumpPreference android:layout="@layout/color_preference" android:title="@string/time_picker_title" android:key="timeset" android:order="70" app:showNormalColor="true" app:userRestriction="no_config_date_time"/>
+    <PreferenceCategory android:key="dual_clock_switch" android:order="80">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/dual_clock_desktop_world_clock_widget" android:key="key_world_clock" android:summary="@string/dual_clock_desktop_world_tips" android:order="90"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/dual_clock_settings" android:key="key_dual_clock" android:summary="@string/auto_show_dual_clock" android:order="100" android:fragment="com.coloros.settings.feature.othersettings.datetime.dualclock.ColorDualClockSettingsFragment"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:order="110"/>
+</PreferenceScreen>

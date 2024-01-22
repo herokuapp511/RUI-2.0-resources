@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>အန်နီမေးရှင်း ပိတ်ရန်</item>
+        <item>အန်နီမေးရှင်း စကေး 0.5x</item>
+        <item>အန်နီမေးရှင်း စကေး 1x</item>
+        <item>အန်နီမေးရှင်း စကေး 1.5x</item>
+        <item>အန်နီမေးရှင်း စကေး 2x</item>
+        <item>အန်နီမေးရှင်း စကေး 5x</item>
+        <item>အန်နီမေးရှင်း စကေး 10x</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>စံနှုန်း သတ်မှတ်ချက်</item>
+        <item>နောက်ခံ လုပ်ဆောင်မှုများ မရှိပါ</item>
+        <item>အများဆုံး လုပ်ဆောင်မှု ၁ ခု</item>
+        <item>အများဆုံး လုပ်ဆောင်မှု ၂ ခု</item>
+        <item>အများဆုံး လုပ်ဆောင်မှု ၃ ခု</item>
+        <item>အများဆုံး လုပ်ဆောင်မှု ၄ ခု</item>
+    </array>
+    <array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </array>
+    <array name="battery_options">
+        <item>ရာခိုင်နှုန်းဖြင့် အမြဲပြပါ</item>
+        <item>အားသွင်းနေစဉ် ဘက်ထရီကို ရာခိုင်နှုန်းဖြင့် ပြပါ (ပုံသေ)</item>
+        <item>ဤအိုင်ကွန်ကို မပြပါနှင့်</item>
+    </array>
+    <array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ပုံသေ)</item>
+        <item>မြေပုံ 1.3</item>
+        <item>မြေပုံ 1.4</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries_new">
+        <item>ပိတ်ထားသည်</item>
+        <item>စစ်ထုတ်မှုကို ဖွင့်ထားသည်</item>
+        <item>ဖွင့်ထားပြီး</item>
+        <item>ခေါင်းစီးများ စစ်ထုတ်မှုကို ဖွင့်ထားသည်</item>
+        <item>မီဒီယာ အစုံလိုက် စစ်ထုတ်မှုများကို ဖွင့်ထားသည်</item>
+    </array>
+    <array name="can_select_charge_or_ftp">
+        <item>အားသွင်းရန်သာ</item>
+        <item>ဖိုင်များ လွှဲပြောင်းရန်</item>
+    </array>
+    <array name="can_select_charge_or_mtp">
+        <item>အားသွင်းရန်သာ</item>
+        <item>ဓာတ်ပုံများ လွှဲပြောင်းရန်</item>
+    </array>
+    <array name="can_select_ftp_or_mtp">
+        <item>ဖိုင်များ လွှဲပြောင်းရန်</item>
+        <item>ဓာတ်ပုံများ လွှဲပြောင်းရန်</item>
+    </array>
+    <array name="clock_options">
+        <item>နာရီများ၊ မိနစ်များနှင့် စက္ကန့်များကို ပြပါ</item>
+        <item>နာရီများနှင့် မိနစ်များကို ပြပါ (ပုံသေ)</item>
+        <item>ဤအိုင်ကွန်ကို မပြပါနှင့်</item>
+    </array>
+    <array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>ပိုကောင်းအောင်လုပ်ထားသော အရောင်</item>
+        <item>မျက်လုံးသက်သက်ဖြင့် မြင်နိုင်သော သဘာဝ အရောင်များ</item>
+        <item>ဒစ်ဂျယ်တယ် အကြောင်းအရာအတွက် အရောင်များကို အကောင်းဆုံးလုပ်ထားသည်</item>
+    </array>
+    <array name="color_mode_names">
+        <item>တောက်ပ (ပုံသေ)</item>
+        <item>သဘာဝ</item>
+        <item>စံအဆင့်</item>
+    </array>
+    <array name="color_solor_mounth">
+        <item>ဇန်နဝါရီ</item>
+        <item>ဖေဖော်ဝါရီ</item>
+        <item>မတ်</item>
+        <item>ဧပြီ</item>
+        <item>မေ</item>
+        <item>ဇွန်</item>
+        <item>ဇူလိုင်</item>
+        <item>သြဂုတ်</item>
+        <item>စက်တင်ဘာ</item>
+        <item>အောက်တိုဘာ</item>
+        <item>နိုဝင်ဘာ</item>
+        <item>ဒီဇင်ဘာ</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>ပိတ်</item>
+        <item>အရောင်ထပ် ဆွဲသော နေရာများကို ပြပါ</item>
+        <item>ဒူတာရာနိုမလီအတွက် နေရာများကို ပြပါ</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>တစ်ခုမှမဟုတ်</item>
+        <item>Logcat</item>
+        <item>Systrace (ဂရပ်ဖစ်များ)</item>
+        <item>glGetError ပေါ်ရှိ ပုံနေသော ဖုန်းခေါ်ဆိုမှု</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCP စစ်ဆေးခြင်းကို ဘယ်တော့မှ အသုံးမပြုပါနှင့်</item>
+        <item>DRM အကြောင်းအရာအတွက်သာ HDCP စစ်ဆေးခြင်းကို အသုံးပြုပါ</item>
+        <item>HDCP စစ်ဆေးခြင်းကို အမြဲအသုံးပြုပါ</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>ဘယ်တော့မှ မစစ်ဆေးပါနှင့်</item>
+        <item>DRM အကြောင်းအရာကိုသာ စစ်ဆေးပါ</item>
+        <item>အမြဲတမ်း စစ်ဆေးပါ</item>
+    </array>
+    <array name="nav_bar_layouts">
+        <item>ပုံမှန်</item>
+        <item>ကျစ်လျစ်</item>
+        <item>ဘယ်တွင်ထား</item>
+        <item>ညာတွင်ထား</item>
+    </array>
+    <array name="oppo_time_picker_ampm">
+        <item>နံနက်</item>
+        <item>ညနေ</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>တစ်ခုမှမဟုတ်</item>
+        <item>480p</item>
+        <item>480p (လုံခြုံ)</item>
+        <item>720p</item>
+        <item>720p (လုံခြုံ)</item>
+        <item>1080p</item>
+        <item>1080p (လုံခြုံ)</item>
+        <item>4K</item>
+        <item>4K (လုံခြုံ)</item>
+        <item>4K (တိုးမြှင့်)</item>
+        <item>4K (လုံခြုံမှု၊ ပိုကောင်း)</item>
+        <item>720p, 1080p (စခရင် နှစ်ခု)</item>
+    </array>
+    <array name="qs_color_clock_size">
+        <item>33</item>
+        <item>33</item>
+        <item>33</item>
+        <item>33</item>
+        <item>30</item>
+    </array>
+    <array name="qs_color_date_size">
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>9</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>ပိတ်ရန်</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>ပိတ်ရန်</item>
+        <item>လော့ဂ်မှတ်ဉာဏ်တစ်ခုတွင် 64K</item>
+        <item>လော့ဂ်မှတ်ဉာဏ်တစ်ခုတွင် 256K</item>
+        <item>လော့ဂ်မှတ်ဉာဏ်တစ်ခုတွင် 1M</item>
+        <item>လော့ဂ်မှတ်ဉာဏ်တစ်ခုတွင် 4M</item>
+        <item>လော့ဂ်မှတ်ဉာဏ်တစ်ခုတွင် 16M</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>ပိတ်ရန်</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>ပိတ်ရန်</item>
+        <item>လော့ဘတ်ဖာများ အားလုံး</item>
+        <item>ရေဒီယိုမဟုတ်သော လော့ဘတ်ဖာများ အားလုံး</item>
+        <item>Kernel လော့ဘတ်ဖာများသာ</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>ပိတ်ရန်</item>
+        <item>အားလုံး</item>
+        <item>ရေဒီယိုမဟုတ်သော အားလုံး</item>
+        <item>Kernel မျှသာ</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>ပိတ်ရန်</item>
+        <item>အပြာထဲတွင် စတုဂံမဟုတ်သော ကလစ်အပိုင်းကို ဆွဲပါ</item>
+        <item>အစိမ်းထဲတွင် စမ်းသပ်ထားသော ညွှန်ကြားချက်များကို မြင်သာအောင်လုပ်ပါ</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>အန်နီမေးရှင်းကို ပိတ်ရန်</item>
+        <item>အန်နီမေးရှင်း စကေး 0.5x</item>
+        <item>အန်နီမေးရှင်း စကေး 1x</item>
+        <item>အန်နီမေးရှင်း စကေး 1.5x</item>
+        <item>အန်နီမေးရှင်း စကေး 2x</item>
+        <item>အန်နီမေးရှင်း စကေး 5x</item>
+        <item>အန်နီမေးရှင်း စကေး 10x</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>အလွန်နှေး</item>
+        <item>နှေး</item>
+        <item>ပုံမှန်</item>
+        <item>မြန်ဆန်</item>
+        <item>ပိုမြန်</item>
+        <item>အလွန်မြန်</item>
+        <item>အလွန့်အလွန် မြန်</item>
+        <item>သူတကာထက်မြန်</item>
+        <item>အမြန်ဆုံး</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>အားသွင်းရန်</item>
+        <item>MTP (မီဒီယာ လွှဲပြောင်းမှု ပရိုတိုကော)</item>
+        <item>PTP (ပုံလွှဲပြောင်းမှု ပရိုတိုကော)</item>
+        <item>RNDIS (USB အီသာနက်)</item>
+        <item>အော်ဒီယို ရင်းမြစ်</item>
+        <item>MIDI</item>
+    </array>
+    <array name="usb_type_select">
+        <item>အားသွင်းရန်သာ</item>
+        <item>ဖိုင်များ လွှဲပြောင်းရန်</item>
+        <item>ဓာတ်ပုံများ လွှဲပြောင်းရန်</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>စကန်ဖတ်နေသည်…</item>
+        <item>ချိတ်ဆက်နေသည်…</item>
+        <item>စစ်မှန်မှုစိစစ်နေ…</item>
+        <item>IP လိပ်စာ ရယူနေသည်…</item>
+        <item>ချိတ်ဆက်ထားသည်</item>
+        <item>ဆိုင်းငံ့ထား</item>
+        <item>ချိတ်ဆက်မှု ပယ်ဖျက်နေသည်…</item>
+        <item>ချိတ်ဆက်မထားပါ</item>
+        <item>မအောင်မြင်ပါ</item>
+        <item>ပိတ်ဆို့ထား</item>
+        <item>ကွန်နက်ရှင်မကောင်းခြင်းကို ယာယီ ရှောင်ထားသည်</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>အန်နီမေးရှင်း ပိတ်ရန်</item>
+        <item>အန်နီမေးရှင်း စကေး 0.5x</item>
+        <item>အန်နီမေးရှင်း စကေး 1x</item>
+        <item>အန်နီမေးရှင်း စကေး 1.5x</item>
+        <item>အန်နီမေးရှင်း စကေး 2x</item>
+        <item>အန်နီမေးရှင်း စကေး 5x</item>
+        <item>အန်နီမေးရှင်း စကေး 10x</item>
+    </array>
+</resources>

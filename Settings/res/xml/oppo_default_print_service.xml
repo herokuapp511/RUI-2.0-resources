@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.coloros.settings.feature.print.PrintTextPreference android:title="@string/default_print_service_description"/>
+    <PreferenceCategory>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/default_print_service" android:key="service_name"/>
+    </PreferenceCategory>
+    <com.coloros.settings.feature.print.ProgressCategory android:persistent="false" android:title="@string/available_device" android:key="available_device"/>
+</PreferenceScreen>

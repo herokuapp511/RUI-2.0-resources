@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s من الأجهزة متصلة بنقطة الاتصال الشخصية.</item>
+        <item quantity="other">%s من الأجهزة متصلة بنقطة الاتصال الشخصية.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s من الأجهزة متصلة عبر ربط Wi-Fi.</item>
+        <item quantity="other">%s من الأجهزة متصلة عبر ربط Wi-Fi.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d جهاز متصل بنقطة اتصال بيانات الهاتف.</item>
+        <item quantity="other">%d من الاجهزة متصلة بنقطة اتصال بيانات الهاتف.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d جهاز متصل بنقطة اتصال شخصية.</item>
+        <item quantity="other">%d من الأجهزة متصلة بنقطة اتصال شخصية.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d جهاز متصل عبر ربط Wi-Fi.</item>
+        <item quantity="other">%d من الأجهزة متصلة عبر ربط Wi-Fi.</item>
+    </plurals>
+</resources>

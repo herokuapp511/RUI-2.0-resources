@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.coloros.systemui.aod.widget.WeekView android:layout_width="match_parent" android:layout_height="32dp"/>
+    <com.coloros.systemui.aod.widget.DetailDateView android:id="@+id/mian2" android:layout_width="match_parent" android:layout_height="220dp" app:view_bgColor="@color/settings_bar_view_1_color" app:view_clickable="true" app:view_selectTextColor="@color/colorWhite" app:view_selectbgcolor="@color/aod_accessibility_color" app:view_showLunar="true" app:view_showLunarHoliday="true" app:view_showOtherMonthView="false" app:view_showSolarHoliday="true" app:view_showTerm="true"/>
+</LinearLayout>

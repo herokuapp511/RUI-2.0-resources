@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>كارتوندى جابۋ</item>
+        <item>كارتوندى 0.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 1x كىشىرەيتۋ</item>
+        <item>كارتوندى 1.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 2x كىشىرەيتۋ</item>
+        <item>كارتوندى 5x كىشىرەيتۋ</item>
+        <item>كارتوندى 10x كىشىرەيتۋ</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>ولشەم شەكتەمەسى</item>
+        <item>ارتقى تەكشەدە جۇرگىزىلۋدى قۇپتاماۋ</item>
+        <item>1 دامۋدان اسپاۋ</item>
+        <item>2 دامۋدان اسپاۋ</item>
+        <item>3 دامۋدان اسپاۋ</item>
+        <item>4 دامۋدان اسپاۋ</item>
+    </array>
+    <array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </array>
+    <array name="battery_options">
+        <item>ٴبىرتۇتاس پروتسەنت كورسەتۋ</item>
+        <item>زارياتتاعاندا پروتسەنت كورسەتۋ(ادەپكى)</item>
+        <item>بۇل بەلگىنى كورسەتپەۋ</item>
+    </array>
+    <array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ادەپكى)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries_new">
+        <item>توقتاتىلدى</item>
+        <item>”سۇزىلگەن“ ىسكە قوسىلدى</item>
+        <item>ىسكە قوسىلدى</item>
+        <item>سۇزىلگەن جانە ىسكە قوسىلعان تاقىرىپ</item>
+        <item>سۇزىلگەن جانە ىسكە قوسىلعان مەديا قورابى</item>
+    </array>
+    <array name="can_select_charge_or_ftp">
+        <item>تەك زارياتتاۋ</item>
+        <item>قۇجاتتاردى تاسىمالداۋ</item>
+    </array>
+    <array name="can_select_charge_or_mtp">
+        <item>تەك زارياتتاۋ</item>
+        <item>فوتو سۋرەتتەردى تاسىمالداۋ</item>
+    </array>
+    <array name="can_select_ftp_or_mtp">
+        <item>قۇجاتتاردى تاسىمالداۋ</item>
+        <item>فوتو سۋرەتتەردى تاسىمالداۋ</item>
+    </array>
+    <array name="clock_options">
+        <item>كورسەتۋ ۋاقىتى، مينۋت جانە سەكۋند</item>
+        <item>كورسەتۋ ساعاتى جانە مينۋتى(ادەپكى)</item>
+        <item>بۇل بەلگىنى كورسەتپەۋ</item>
+    </array>
+    <array name="color_lunar_mounth">
+        <item>1-اي</item>
+        <item>2-اي</item>
+        <item>3-اي</item>
+        <item>4-اي</item>
+        <item>5-اي</item>
+        <item>6-اي</item>
+        <item>7-اي</item>
+        <item>8-اي</item>
+        <item>9-اي</item>
+        <item>10-اي</item>
+        <item>11-اي</item>
+        <item>12-اي</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>كۇشەيتىلگەن ٴتۇس</item>
+        <item>كوزبەن كورە الاتىن تابيعي ٴتۇس</item>
+        <item>سيفر مازمۇنىن ساپالاندىرۋعا باعىتتالعان ٴتۇس</item>
+    </array>
+    <array name="color_mode_names">
+        <item>اشىق(ادەپكى)</item>
+        <item>تابيعي</item>
+        <item>ولشەمدى</item>
+    </array>
+    <array name="color_solor_mounth">
+        <item>قاڭتار</item>
+        <item>اقپان</item>
+        <item>ناۋرىز</item>
+        <item>ٴساۋىر</item>
+        <item>مامىر</item>
+        <item>ماۋسىم</item>
+        <item>شىلدە</item>
+        <item>تامىز</item>
+        <item>قىركۇيەك</item>
+        <item>قازان</item>
+        <item>قاراشا</item>
+        <item>جەلتوقسان</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>جابۋ</item>
+        <item>وتپەلى سىزۋ اۋماعىن كورسەتۋ</item>
+        <item>جاسىل ٴتۇستى كورۋ قۋاتى السىزدەردىڭ تەكسەرۋىنە ۇيلەسەتىن اۋماقتى كورسەتۋ</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>جوق</item>
+        <item>Logcat</item>
+        <item>Systrace(فيگۋرا)</item>
+        <item>glGetError داعى تەڭشەگىش قويماسى</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCP تەكسەرۋىن پايدالانباۋ</item>
+        <item>HDCP دەن عانا پايدالانىپ DRM مازمۇنىن تەكسەرۋ</item>
+        <item>باستان اياق HDCP تەكسەرۋىن پايدالانۋ</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>ماڭگى تەكسەرمەۋ</item>
+        <item>تەك DRM مازمۇنىن تەكسەرۋ</item>
+        <item>ۇنەمى تەكسەرۋ</item>
+    </array>
+    <array name="nav_bar_layouts">
+        <item>قالىپتى</item>
+        <item>جيناقى</item>
+        <item>سولعا جاقىنداۋ</item>
+        <item>وڭعا جاقىنداۋ</item>
+    </array>
+    <array name="oppo_time_picker_ampm">
+        <item>تۇستەن بۇرىن</item>
+        <item>تۇستەن كەيىن</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>جوق</item>
+        <item>480p</item>
+        <item>480p(حاۋىپسىز)</item>
+        <item>720p</item>
+        <item>720p(حاۋىپسىز)</item>
+        <item>1080p</item>
+        <item>1080p(حاۋىپسىز)</item>
+        <item>4K</item>
+        <item>4K(حاۋىپسىز)</item>
+        <item>4K(كورىنىستى جوعارىلاتۋ)</item>
+        <item>4K(كورىنىستى جوعارىلاتۋ، حاۋىپسىز)</item>
+        <item>720p، 1080p(قوس ەكران)</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>جابۋ</item>
+        <item>K64</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>جابۋ</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 64K</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 256K</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 1M</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 4M</item>
+        <item>ٴار كۇنگى بۋفەرلىك ساقتاۋ ورنى 16M</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>جابۋ</item>
+        <item>K64</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>M16</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>جابۋ</item>
+        <item>بارلىق كۇندىك بۋفەرلىك ساقتاۋ ورنى</item>
+        <item>بارلىق بەي سىمسىز راديو كۇندىك بۋفەرلىك ساقتاۋ ورنى</item>
+        <item>وزەك كۇندىك بۋفەرلىك ساقتاۋ ورنىمەن شەكتەلەدى</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>جابۋ</item>
+        <item>بارلىق</item>
+        <item>بارلىق بەي سىمسىز راديو</item>
+        <item>وزەكپەن شەكتەلەدى</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>جابۋ</item>
+        <item>كوك تۇسپەن بەي تورتكىل قيۋ اۋماعىن بوياۋ</item>
+        <item>جاسىل تۇسپەن تەكسەرۋ سىزۋ بۇيرىعىن كورسەتۋ</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>كارتوندى جابۋ</item>
+        <item>كارتوندى 0.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 1x كىشىرەيتۋ</item>
+        <item>كارتوندى 1.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 2x كىشىرەيتۋ</item>
+        <item>كارتوندى 5x كىشىرەيتۋ</item>
+        <item>كارتوندى 10x كىشىرەيتۋ</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>وتە اقىرىن</item>
+        <item>اقىرىن</item>
+        <item>قالىپتى</item>
+        <item>تەز</item>
+        <item>اقىرىن</item>
+        <item>ەرەكشە تەز</item>
+        <item>اسىرە تەز</item>
+        <item>وتە تەز</item>
+        <item>ەڭ تەز</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>زارياتتاۋ</item>
+        <item>MTP(مەديا جەتكىزۋ كەلىسىمى)</item>
+        <item>PTP(سۋرەت جەتكىزۋ كەلىسىمى)</item>
+        <item>RNDIS(USB ينتەرنەت تورابى)</item>
+        <item>دىبىس جيىلىگى قاينارى</item>
+        <item>MIDI</item>
+    </array>
+    <array name="usb_type_select">
+        <item>تەك زارياتتاۋ</item>
+        <item>قۇجاتتاردى تاسىمالداۋ</item>
+        <item>فوتو سۋرەتتەردى تاسىمالداۋ</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>كارتوندى جابۋ</item>
+        <item>كارتوندى 0.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 1x كىشىرەيتۋ</item>
+        <item>كارتوندى 1.5x كىشىرەيتۋ</item>
+        <item>كارتوندى 2x كىشىرەيتۋ</item>
+        <item>كارتوندى 5x كىشىرەيتۋ</item>
+        <item>كارتوندى 10x كىشىرەيتۋ</item>
+    </array>
+</resources>

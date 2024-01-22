@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/accessibility_color_mode" android:key="captioning_preference_screen">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory app:isFirstCategory="true"/>
+    <com.android.settingslib.widget.LayoutPreference android:enabled="false" android:clickable="false" android:layout="@layout/color_accessibility_color_mode_top" android:title="@string/summary_placeholder" android:selectable="false" android:key="key_accessibility_color_mode_diff" app:searchable="false"/>
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/accessibility_color_mode" android:key="key_accessibility_color_mode" app:controller="com.coloros.settings.feature.othersettings.controller.ColorAccessibilityColorModePreferenceController"/>
+    <PreferenceCategory/>
+    <com.android.settingslib.widget.LayoutPreference android:enabled="false" android:clickable="false" android:layout="@layout/color_accessibility_color_mode_desc" android:title="@string/summary_placeholder" android:selectable="false" android:key="key_accessibility_color_mode_desc" app:searchable="false"/>
+</PreferenceScreen>

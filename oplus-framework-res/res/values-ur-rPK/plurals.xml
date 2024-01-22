@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">‫‏%s‬ آلہ ذاتی ہاٹ اسپاٹ سے منسلک ہے۔</item>
+        <item quantity="other">‫‏%s‬ آلات ذاتی ہاٹ اسپاٹ سے منسلک ہیں۔</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">‫‏%s‬ آلہ Wi-Fi ٹیدرنگ کے ذریعے منسلک ہے۔</item>
+        <item quantity="other">‫‏%s‬ آلات Wi-Fi ٹیدرنگ کے ذریعے منسلک ہیں۔</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">‫‏%d‬ ڈیوائس آپ کے موبائل ڈیٹا ہاٹ اسپاٹ سے منسلک ہے۔</item>
+        <item quantity="other">‫‏%d‬ ڈیوائسز آپ کے موبائل ڈیٹا ہاٹ اسپاٹ سے منسلک ہیں۔</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">‫‏%d‬ ڈیوائس آپ کے ذاتی ہاٹ سپاٹ سے منسلک ہے۔</item>
+        <item quantity="other">‫‏%d‬ ڈیوائسز آپ کے ذاتی ہاٹ سپاٹ سے منسلک ہیں۔</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">‫‏%d‬ ڈیوائس Wi-Fi ٹیدرنگ کے ذریعے منسلک ہے۔</item>
+        <item quantity="other">‫‏%d‬ ڈیوائسز Wi-Fi ٹیدرنگ کے ذریعے منسلک ہیں۔</item>
+    </plurals>
+</resources>

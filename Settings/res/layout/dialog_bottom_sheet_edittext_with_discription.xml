@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/oppo_transparence" android:layout_width="match_parent" android:layout_height="match_parent">
+        <color.support.v7.widget.Toolbar android:id="@+id/normal_bottom_sheet_toolbar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="50dp"/>
+        <TextView android:textSize="14sp" android:textColor="@color/oppo_textview_default_normal" android:id="@+id/normal_bottom_sheet_edit_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:textAlignment="textStart" android:paddingStart="@dimen/oppo_toolbar_margin" android:paddingEnd="@dimen/oppo_toolbar_margin"/>
+        <com.color.support.widget.ColorEditText android:id="@+id/normal_bottom_sheet_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="40dp" android:singleLine="true" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" app:quickDelete="true" style="?attr/colorEditTextLineHintDisableStyle"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

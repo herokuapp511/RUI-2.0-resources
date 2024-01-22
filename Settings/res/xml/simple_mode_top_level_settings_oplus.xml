@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:key="simple_mode_top_level_settings">
+    <com.android.settings.applications.SpacePreference android:layout_height="@dimen/simple_header_space_height" android:key="key_header" android:order="-101"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="connect_settings_category" app:isFirstCategory="true" app:isSimpleFirstCategory="true">
+        <com.android.settings.applications.SpacePreference android:layout_height="@dimen/simple_title_space_height" android:key="key_space"/>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/settings_mobile_network_ic" android:title="@string/simple_mode_mobile_network_title" android:key="network_settings" app:showSummary="false" app:tintIcon="@integer/tint_item_icon_ops">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.simsettings.activity.OppoSimSettingsActivity"/>
+        </com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/settings_wifi_ic" android:title="@string/wifi_settings_title" android:key="wifi_settings" app:showSummary="false" app:tintIcon="@integer/tint_item_icon_ops">
+            <intent android:targetPackage="com.coloros.wirelesssettings" android:action="android.settings.WIFI_SETTINGS" android:targetClass="com.coloros.wirelesssettings.OppoWirelessSettingsActivity"/>
+        </com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/simple_mode_character_size" android:title="@string/simple_mode_font_size_title" android:key="simple_mode_font_size_key" app:showSummary="false" app:tintIcon="@integer/tint_item_icon_ops">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.coloros.settings.ColorSettings$FontAndDisplaySettingsActivity">
+                <extra android:name="extra_support_font" android:value="1"/>
+            </intent>
+        </com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/settings_sound_settings_ic" android:title="@string/sound_and_vibrator" android:key="sound_and_vibrator" app:showSummary="false" app:tintIcon="@integer/tint_item_icon_ops">
+            <intent android:targetPackage="com.android.settings" android:action="com.android.settings.SOUND_SETTINGS" android:targetClass="com.android.settings.Settings$SoundSettingsActivity"/>
+        </com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/settings_wallpaper_ic" android:title="@string/simple_mode_change_wallpaper_title" android:key="simple_mode_change_wallpaper_key" app:showSummary="false" app:tintIcon="@integer/tint_item_icon_ops"/>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/simple_mode_voice_broadcast" android:title="@string/simple_mode_voice_broadcast_title" android:key="simple_mode_voice_broadcast_key" app:showSummary="false" app:tintIcon="@integer/tint_item_icon_ops"/>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/settings_storage_ic" android:title="@string/simple_mode_clean_up_storage_title" android:key="simple_mode_clean_up_storage_key" app:showSummary="false" app:tintIcon="@integer/tint_item_icon_ops"/>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/simple_mode_emergency_interconnection" android:title="@string/simple_mode_emergency_contact_title" android:key="simple_mode_emergency_contact_key" app:showSummary="false" app:tintIcon="@integer/tint_item_icon_ops"/>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/settings_general_ic" android:title="@string/simple_mode_all_settings_title" android:key="simple_mode_all_settings_key" app:showSummary="false" app:tintIcon="@integer/tint_item_icon_ops"/>
+        <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference android:icon="@drawable/simple_mode_exit_icon" android:title="@string/simple_mode_exit_title" android:key="exit_simple_mode_key" app:isShowJumpArrow="false" app:tintIcon="@integer/tint_item_icon_ops"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SimpleModeSettingsJumpPreference app:isShowJumpArrow="false" app:selectable="false"/>
+</androidx.preference.PreferenceScreen>

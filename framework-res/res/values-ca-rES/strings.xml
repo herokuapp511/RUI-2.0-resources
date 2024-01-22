@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancel·la</string>
+    <string name="cut">Retalla</string>
+    <string name="paste">Enganxa</string>
+    <string name="selectAll">Selecciona-ho tot</string>
+    <string name="add_account_label">Afegeix un compte</string>
+    <string name="android_system_label">Sistema Android</string>
+    <string name="autofill_save_no">Més tard</string>
+    <string name="autofill_save_title_with_2types">Vols desar aquest %2$s i %1$s a %3$s?</string>
+    <string name="autofill_save_type_username">nom d\'usuari</string>
+    <string name="autofill_save_yes">Desa</string>
+    <string name="autofill_update_title_with_2types">Vols actualitzar aquest %2$s i %1$s a %3$s?</string>
+    <string name="autofill_update_yes">Actualitza</string>
+    <string name="capability_title_canRequestFilterKeyEvents">Observar el text que escriviu</string>
+    <string name="capability_title_canRetrieveWindowContent">Recupera el contingut de les finestres</string>
+    <string name="content_description_sliding_handle">Manipulació lliscant. Tocar i mantenir.</string>
+    <string name="decline_remote_bugreport_action">Rebutja</string>
+    <string name="global_action_emergency">Trucada d\'emergència</string>
+    <string name="kg_login_password_hint">Contrasenya</string>
+    <string name="lockscreen_glogin_password_hint">Contrasenya</string>
+    <string name="managed_profile_label">Canvia al perfil de treball</string>
+    <string name="minutes"> m</string>
+    <string name="notification_hidden_text">Entreu per visualitzar el contingut del missatge</string>
+    <string name="permgroupdesc_storage">Accediu a fotos, contingut multimèdia i fitxers del vostre dispositiu</string>
+    <string name="permlab_getTasks">recuperar les aplicacions en execució</string>
+    <string name="permlab_recordAudio">enregistrar àudio</string>
+    <string name="policydesc_expirePassword">Configura la freqüència amb què el sistema força que l\'usuari canviï la contrasenya de la pantalla de bloqueig, el PIN o el patró de desbloqueig.</string>
+    <string name="policydesc_limitPassword">Controla la longitud i els caràcters permesos a la contrasenya de la pantalla de bloqueig i el PIN.</string>
+    <string name="policydesc_resetPassword">Canvia la contrasenya de la pantalla de bloqueig.</string>
+    <string name="policydesc_watchLogin">Comprova la quantitat de vegades que s\'ha introduït una contrasenya incorrecta i bloqueja el telèfon o esborra totes les dades del telèfon quan s\'arribi a la quantitat màxima.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Comprova la quantitat de vegades que s\'ha introduït una contrasenya incorrecta i bloqueja el telèfon o esborra totes les dades de l\'usuari quan s\'arribi a la quantitat màxima.</string>
+    <string name="policylab_disableKeyguardFeatures">Desactiva funcions de bloqueig</string>
+    <string name="policylab_expirePassword">Estableix una data de caducitat per a la contrasenya de la pantalla de bloqueig </string>
+    <string name="policylab_forceLock">Bloqueja la pantalla</string>
+    <string name="policylab_resetPassword">Canvia la contrasenya de la pantalla de bloqueig</string>
+    <string name="policylab_wipeData">Esborrar totes les dades</string>
+    <string name="save_password_notnow">Més tard</string>
+    <string name="share_remote_bugreport_action">Comparteix</string>
+    <string name="ssl_certificate">Certificat de seguretat</string>
+    <string name="work_mode_off_message">S\'activaran les vostres aplicacions de treball, notificacions, dades i altres funcions del perfil de treball</string>
+    <string name="work_mode_off_title">Voleu activar el perfil de treball?</string>
+    <string name="zen_mode_default_every_night_name">Mode de repòs</string>
+</resources>

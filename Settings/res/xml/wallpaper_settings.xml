@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/wallpaper_settings_fragment_title" android:key="choose_wallpaper_from">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="wallpaper_type" app:controller="com.android.settings.wallpaper.WallpaperTypePreferenceController" app:isFirstCategory="true"/>
+</androidx.preference.PreferenceScreen>

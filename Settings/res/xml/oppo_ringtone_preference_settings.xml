@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt">
+    <androidx.preference.Preference android:layout="@layout/color_layout_preference_header" android:selectable="false" android:order="-100"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="vibrate_category_key" app:isFirstCategory="true">
+        <com.color.support.preference.ColorJumpPreference android:key="vibrate_key"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.ringtone.OppoRadioPreferencesGroup android:title="@string/ringtone_default" android:key="ringtone_default_category_key"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/ringtone_custom_title" android:key="ringtone_custom_category_key">
+        <com.color.support.preference.ColorJumpPreference android:key="from_filemanager"/>
+        <com.color.support.preference.ColorJumpPreference android:key="from_network"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/ringtone_duration_tips" android:key="ringtone_duration_tips_key" app:isFirstCategory="true" app:textAllCaps="false" app:textDefaultTypeface="true"/>
+</androidx.preference.PreferenceScreen>

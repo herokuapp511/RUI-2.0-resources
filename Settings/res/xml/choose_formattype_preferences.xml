@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:key="parent_screen">
+    <PreferenceCategory android:title="@string/preference_formattype_title" android:key="preference_formattype_category"/>
+    <PreferenceCategory android:title="@string/preference_information_title" android:key="preference_information_category">
+        <Preference android:layout="@layout/custom_summary_layout" android:key="preference_information_description"/>
+    </PreferenceCategory>
+</PreferenceScreen>

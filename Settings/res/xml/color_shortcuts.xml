@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt">
+    <shortcut android:icon="@drawable/desktop_menu_search" android:shortcutId="manifest-shortcut-search" android:shortcutShortLabel="@string/desktop_search">
+        <intent android:targetPackage="com.android.settings.intelligence" android:action="com.android.settings.action.SETTINGS_SEARCH"/>
+    </shortcut>
+</shortcuts>

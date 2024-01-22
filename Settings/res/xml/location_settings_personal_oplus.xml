@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/location_settings_title" android:key="location_settings" app:keywords="@string/keywords_location">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/location_category_recent_location_requests" android:key="recent_location_requests" app:controller="com.android.settings.location.RecentLocationRequestPreferenceController" app:isFirstCategory="true"/>
+    <Preference android:icon="@drawable/ic_chevron_right_24dp" android:title="@string/location_recent_location_requests_see_all" android:key="recent_location_requests_see_all_button" android:fragment="com.android.settings.location.RecentLocationRequestSeeAllFragment" app:searchable="false"/>
+    <Preference android:title="@string/location_app_level_permissions" android:key="app_level_permissions" app:controller="com.android.settings.location.AppLocationPermissionPreferenceController">
+        <intent android:action="android.intent.action.MANAGE_PERMISSION_APPS">
+            <extra android:name="android.intent.extra.PERMISSION_NAME" android:value="android.permission-group.LOCATION"/>
+        </intent>
+    </Preference>
+    <PreferenceCategory android:title="@string/location_gps_bg_control_title" android:key="location_background_services_control">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/location_scanning_screen_title" android:key="location_scanning" android:fragment="com.coloros.settings.feature.security.location.ColorScanningSettings"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="location_services" app:controller="com.android.settings.location.LocationServicePreferenceController"/>
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="location_footer" app:allowDividerAbove="false" app:controller="com.android.settings.location.LocationFooterPreferenceController"/>
+</PreferenceScreen>

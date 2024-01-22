@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="@color/close_btn_bg">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/notification_close_bg_radius"/>
+            <solid android:color="@color/lockscreen_notification_compass_bg"/>
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_light_theme" android:background="@drawable/color_dark_mode_preview_corner" android:paddingTop="10dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp" android:layout_marginEnd="10dp" android:forceDarkAllowed="false">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_light_image" android:layout_width="68dp" android:layout_height="147dp" android:src="@drawable/lightmode_sketch"/>
+        <TextView android:textSize="12sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tv_light_text" android:layout_width="108dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/light_mode_theme"/>
+        <RadioButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/rb_light_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/layout_dark_theme" android:background="@drawable/color_dark_mode_preview_corner" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp" android:forceDarkAllowed="false">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_dark_image" android:layout_width="68dp" android:layout_height="147dp" android:src="@drawable/darkmode_sketch"/>
+        <TextView android:textSize="12sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tv_dark_text" android:layout_width="108dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/dark_mode_theme"/>
+        <RadioButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/rb_dark_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

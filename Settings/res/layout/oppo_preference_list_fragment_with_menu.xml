@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/menu" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.coloros.settings.widget.SettingsColorButton android:enabled="true" android:id="@+id/menu_text" android:background="@drawable/color_large_main_button_bg" android:visibility="visible" android:layout_width="220dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="abc" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/common_margin" android:layout_marginEnd="@dimen/common_margin" style="?attr/colorButtonColorfulDefaultStyle"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@android:id/action_menu_presenter" android:paddingTop="@dimen/list_padding_top" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/menu"/>
+    </RelativeLayout>
+    <include layout="@layout/color_appbar_layout"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

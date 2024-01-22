@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_navigation_item_text_size">9sp</dimen>
+    <dimen name="color_search_linear_divider_width">1px</dimen>
+    <dimen name="display_font_preview_divider">1px</dimen>
+    <dimen name="dynamic_ringtone_list_item_radius">24px</dimen>
+    <dimen name="manage_application_lock_height">30dp</dimen>
+    <dimen name="manage_application_lock_padding">25dp</dimen>
+    <dimen name="manage_application_lock_width">30dp</dimen>
+    <dimen name="oppo_install_app_details_button_text_size">@dimen/color_font_size_10</dimen>
+    <dimen name="oppo_manage_application_loading_margin_tab">134dp</dimen>
+    <dimen name="oppo_simple_anim_textview_margin_tab">100dp</dimen>
+    <dimen name="oppo_simple_anim_textview_margin_top">140dp</dimen>
+    <dimen name="oppo_storage_overview_center_top">63dp</dimen>
+    <dimen name="oppo_storage_overview_cicle_diameter">256dp</dimen>
+    <dimen name="oppo_storage_overview_viewpager">283dp</dimen>
+</resources>

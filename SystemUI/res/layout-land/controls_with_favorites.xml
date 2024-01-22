@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp" android:layout_marginBottom="@dimen/controls_header_bottom_margin" android:layout_marginStart="15dp">
+        <Space android:layout_width="0dp" android:layout_height="1dp"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/controls_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/app_icon" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginEnd="8dp"/>
+            <TextView android:layout_gravity="center_vertical" android:id="@+id/app_or_structure_spinner" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/Control.Spinner.Header"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/controls_arrow_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ksh_key_down" android:importantForAccessibility="no" android:layout_marginStart="6dp" android:layout_marginEnd="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/global_actions_controls_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="13dp" android:layout_marginEnd="13dp"/>
+</merge>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s enhed er tilsluttet det personlige hotspot.</item>
+        <item quantity="other">%s enheder er tilsluttet det personlige hotspot.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s enhed er tilsluttet via Wi-Fi-tethering.</item>
+        <item quantity="other">%s enheder er tilsluttet via Wi-Fi-tethering.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d enhed er tilsluttet dit mobildatahotspot.</item>
+        <item quantity="other">%d enheder er tilsluttet dit mobildatahotspot.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d enhed er tilsluttet dit personlige hotspot.</item>
+        <item quantity="other">%d enheder er tilsluttet dit personlige hotspot.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d enhed er tilsluttet via Wi-Fi-internetdeling.</item>
+        <item quantity="other">%d enheder er tilsluttet via Wi-Fi-internetdeling.</item>
+    </plurals>
+</resources>

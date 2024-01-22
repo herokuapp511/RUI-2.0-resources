@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <^attr-private name="C01">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C02">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C03">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C04">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C05">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C06">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C07">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C08">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C09">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C10">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C11">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C12">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C13">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C14">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C15">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C16">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C17">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C18">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C19">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C20">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C21">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C22">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C23">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C24">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C25">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C26">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C27">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="C28">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="ImgViewBottomPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="ImgViewDrawableRes">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="ImgViewLeftPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="ImgViewRightPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="ImgViewTopPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="OplusCircleProgressBarLargeStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="OplusCircleProgressBarMediumStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="OplusCircleProgressBarStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="OplusLoadingViewColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="OplusLoadingViewHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="OplusLoadingViewStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="OplusLoadingViewType">
+        <item>65536</item>
+        <item>2</item>
+        <item>1</item>
+        <item>@null</item>
+    </^attr-private>
+    <^attr-private name="OplusLoadingViewWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="SlidePieceBkgRes">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="TextOfTextView">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="TextSizeOfTextView">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="TextViewBottomPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="TextViewColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="TextViewLeftPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="TextViewRightPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="TextViewShine">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="TextViewTopPadding">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="alertBackgroundDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="alertCornerRadius">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="alertShadowDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="apdupattern_mask">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="centerOffset">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="colorButtonBigStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorButtonColorfulDefaultStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorButtonColorfulStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorCancelNormalDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorCancelPressedDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorCancelText">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="colorCustomLayoutWidth">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="colorEmergencyNormalDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorEmergencyPressedDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorEmergencyText">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="colorErrorColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="colorLargeButtonLightStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorOuterCircleMaxAlpha">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="colorPathColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="colorRebootHint">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="colorRegularColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="colorShutdownHint">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="colorShutdownViewStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorSuccessColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="colorTintControlDisabled">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="colorTintControlNormal">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="colorTintControlPressed">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="colorTintLightNormal">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="colorTintLightPressed">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="colorToastOffsetY">
+        <item>65</item>
+    </^attr-private>
+    <^attr-private name="colorToastStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorWarningPointMode">
+        <item>65536</item>
+        <item>@null</item>
+        <item>2</item>
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorWarningPointNum">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="containerCornerRadius">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="containerDeltaLength">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="containerShadowColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="containerShadowRadius">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="deltaX">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="deltaY">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="description">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="detailColumn">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="dotClickable">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="dotColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="dotCornerRadius">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="dotIsStrokeStyle">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="dotSize">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="dotSpacing">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="dotStrokeWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="edgeWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="enable">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="frameMode">
+        <item>65540</item>
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="frameRadio">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="fromRollDegrees">
+        <item>160</item>
+    </^attr-private>
+    <^attr-private name="fromYRoll">
+        <item>160</item>
+    </^attr-private>
+    <^attr-private name="icon">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="isOplusTheme">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="landscapeMaxHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="landscapeMaxWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="listenEdges">
+        <item>131072</item>
+        <item>1</item>
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="lockAuthor">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="lockDescription">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="lockThumbleft">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="lockThumbnail">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="lockThumbright">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="max">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="mimeType">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="operable">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="oplusToastLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="oppoAddMaskView">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="oppoLockPatternViewLauncherStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="oppoLockPatternViewStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="oppoTextAppearanceBootMessage">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="oppoTextAppearanceBootPercent">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="oppoWindowActionBarAndStatusBarOverlay">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="oppoWindowContentOverlay">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="portraitMaxHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="portraitMaxWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="progress">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="progressBarBgCircleColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="progressBarColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="progressBarHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="progressBarType">
+        <item>65536</item>
+        <item>2</item>
+        <item>1</item>
+        <item>@null</item>
+    </^attr-private>
+    <^attr-private name="progressBarWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="reference_data">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="remoteViews">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="rfRadius">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="sceneModelType">
+        <item>65540</item>
+        <item>@null</item>
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="shaowHeight">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="singleFrame">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="summaryColumn">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="textPositionY1">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="textPositionY2">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="textPositionY3">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="textSize">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="themeType">
+        <item>65540</item>
+        <item>1</item>
+        <item>@null</item>
+    </^attr-private>
+    <^attr-private name="toRollDegrees">
+        <item>160</item>
+    </^attr-private>
+    <^attr-private name="toYRoll">
+        <item>160</item>
+    </^attr-private>
+    <^attr-private name="traceDotColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="translucentMode">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="windowEnterAnimation">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="windowExitAnimation">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="zoomEnable">
+        <item>8</item>
+    </^attr-private>
+</resources>

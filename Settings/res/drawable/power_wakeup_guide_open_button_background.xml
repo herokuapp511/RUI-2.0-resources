@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <solid android:color="@color/power_wakeup_guide_button_color"/>
+    <corners android:topLeftRadius="@dimen/power_wakeup_guide_button_corner" android:topRightRadius="@dimen/power_wakeup_guide_button_corner" android:bottomLeftRadius="@dimen/power_wakeup_guide_button_corner" android:bottomRightRadius="@dimen/power_wakeup_guide_button_corner"/>
+</shape>

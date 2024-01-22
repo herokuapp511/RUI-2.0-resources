@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/about_settings" android:key="my_device_info_pref_screen">
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/color_device_info_header" android:selectable="false" android:key="device_info_header" android:order="-10" app:controller="com.coloros.settings.feature.deviceinfo.controller.ColorDeviceInfoHeaderPreferenceController"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceNameEditPreference android:icon="@drawable/settings_info_phone_ic" android:title="@string/device_info_phone_name" android:key="phone_name" android:order="-1" android:dialogTitle="@string/device_change_device_name" android:dialogMessage="@string/device_change_device_name_message" android:positiveButtonText="@string/change" android:negativeButtonText="@string/cancel"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_version_ic" android:title="@string/device_version_info" android:key="version_info" android:summary="@string/device_version_info_summary" android:order="0" android:fragment="com.coloros.settings.feature.deviceinfo.aboutphone.ColorDeviceVersionInfoFragment" app:color_jump_mark="@null"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_system_ic" android:title="@string/device_info_show_ixd_version" android:selectable="false" android:key="coloros_version" android:order="5" app:colorClickStyle="2" app:color_jump_mark="@null"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_system_ic" android:title="@string/realme_device_info_show_ixd_version" android:selectable="false" android:key="realmeui_version" android:order="5" app:colorClickStyle="2" app:color_jump_mark="@null"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/firmware_version" android:key="firmware_version" android:order="10" android:fragment="com.coloros.settings.feature.deviceinfo.aboutphone.ColorAndroidVersionInfoFragment" app:color_jump_mark="@null" app:keywords="@string/keywords_android_version"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_cpu_ic" android:title="@string/device_info_show_CPU" android:selectable="false" android:key="cpu_info" android:order="15" app:colorClickStyle="2" app:color_jump_mark="@null"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_camera_ic" android:title="@string/device_camera_info" android:selectable="false" android:key="camera_info" android:order="20" app:colorClickStyle="2" app:color_jump_mark="@null"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceRamInfoItemPreference android:icon="@drawable/settings_info_memory_ic" android:title="@string/device_info_show_RAM" android:selectable="false" android:key="ram_info" android:order="25" android:fragment="com.coloros.settings.feature.ramexpand.RamExpandFragment" app:colorClickStyle="2" app:color_jump_mark="@null"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_hdd_ic" android:title="@string/device_info_show_ROM" android:selectable="false" android:key="mem_info" android:order="30" app:colorClickStyle="2" app:color_jump_mark="@null"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_legal_ic" android:title="@string/legal_information" android:key="legal_container" android:summary="@string/device_legal_info_summary" android:order="35" android:fragment="com.coloros.settings.feature.legalinfo.ColorLegalSettings" app:allowDividerAbove="true">
+        <extra android:name="dcs_event_id" android:value="about_device_legal_container"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_authentication_ic" android:title="@string/oppo_authentication_title" android:key="authentication_info" android:summary="@string/device_authentication_info_summary" android:order="40" android:fragment="com.coloros.settings.feature.deviceinfo.ColorAuthenticationInfoFragment">
+        <extra android:name="dcs_event_id" android:value="about_device_authentication_info"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_model_ic" android:title="@string/device_info_show_model_num" android:selectable="false" android:key="device_model" android:order="45" app:colorClickStyle="2" app:color_jump_mark="@null"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_sim_ic" android:title="@string/sim_status_title" android:key="sim_status" android:summary="@string/summary_placeholder" android:order="50" app:allowDividerAbove="true" app:keywords="@string/oplus_keywords_sim_status">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.coloros.settings.ColorSettings$ColorSimStatusInfoActivity"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_state_ic" android:layout="@layout/color_preference" android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_info_summary" android:order="55">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.coloros.settings.ColorSettings$ColorStatusInfoActivity"/> &gt; 
+        <extra android:name="dcs_event_id" android:value="about_device_status_info"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_contributor_ic" android:title="@string/coloros_co_creator_planet" android:key="contributor_info" android:summary="@string/outstanding_contributors_list" android:order="58" app:controller="com.coloros.settings.feature.deviceinfo.controller.ContributorInfoPreferenceController">
+        <intent android:action="oppo.intent.action.Contributors_List"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:layout="@layout/color_preference" android:title="@string/regulatory_labels" android:key="regulatory_info" android:order="60">
+        <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/safety_and_regulatory_info" android:key="safety_info" android:order="62">
+        <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/device_feedback" android:key="device_feedback" android:order="65"/>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/network_access_license" android:key="network_access_license" android:order="70">
+        <intent android:action="android.settings.NETWORK_ACCESS_LICENCE"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:title="@string/e_label" android:key="e_label" android:order="72"> android:icon=&quot;@drawable/settings_info_android_ic&quot; 
+        <intent android:action="oppo.settings.elable"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+    <com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference android:icon="@drawable/settings_info_android_ic" android:title="@string/network_access_license" android:key="regulatory_info_above_coloros_six" android:order="75">
+        <intent android:action="oppo.settings.regulatory"/>
+    </com.coloros.settings.feature.deviceinfo.DeviceInfoItemPreference>
+</PreferenceScreen>

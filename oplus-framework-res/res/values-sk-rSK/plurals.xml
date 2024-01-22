@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">Zariadenia pripojené k osobnému hotspotu: %s.</item>
+        <item quantity="other">Zariadenia pripojené k osobnému hotspotu: %s.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">Zariadenia pripojené pomocou zdieľania Wi-Fi: %s.</item>
+        <item quantity="other">Zariadenia pripojené pomocou zdieľania Wi-Fi: %s.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">Zariadenia pripojené k mobilnému dátovému hotspotu: %d.</item>
+        <item quantity="other">Zariadenia pripojené k mobilnému dátovému hotspotu: %d.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">Zariadenia pripojené k vášmu osobnému hotspotu: %d.</item>
+        <item quantity="other">Zariadenia pripojené k vášmu osobnému hotspotu: %d.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">Zariadenia pripojené pomocou zdieľania Wi-Fi: %d.</item>
+        <item quantity="other">Zariadenia pripojené pomocou zdieľania Wi-Fi: %d.</item>
+    </plurals>
+</resources>

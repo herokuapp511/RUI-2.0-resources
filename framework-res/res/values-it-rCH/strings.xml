@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_mode_done">Fine</string>
+    <string name="add_account_label">Aggiungi account</string>
+    <string name="autofill_save_no">Dopo</string>
+    <string name="autofill_save_title_with_2types">Salvare questo %2$s e %1$s in %3$s?</string>
+    <string name="autofill_save_type_username">nome utente</string>
+    <string name="autofill_save_yes">Salva</string>
+    <string name="autofill_update_title_with_2types">Aggiornare questo %2$s e %1$s in %3$s?</string>
+    <string name="autofill_update_yes">Aggiorna</string>
+    <string name="content_description_sliding_handle">Maniglia di scorrimento. Tocca e tieni premuto.</string>
+    <string name="decline_remote_bugreport_action">Rifiuta</string>
+    <string name="emergency_calls_only">Solo chiamate d\'emergenza</string>
+    <string name="global_action_emergency">Chiamata d\'emergenza</string>
+    <string name="kg_login_password_hint">Password</string>
+    <string name="lockscreen_carrier_default">Nessun servizio</string>
+    <string name="lockscreen_glogin_password_hint">Password</string>
+    <string name="managed_profile_label">Passa al profilo professionale</string>
+    <string name="minutes"> min</string>
+    <string name="permgroupdesc_storage">Accedi a foto, contenuti multimediali e file sul tuo dispositivo</string>
+    <string name="policydesc_expirePassword">Regola la frequenza con cui il sistema impone all\'utente di modificare la password della schermata di blocco, il PIN o la sequenza di sblocco.</string>
+    <string name="policydesc_limitPassword">Controlla la lunghezza e i caratteri consentiti nella password e nel PIN della schermata di blocco.</string>
+    <string name="policydesc_resetPassword">Imposta la password della schermata di blocco.</string>
+    <string name="policydesc_watchLogin">Monitorare il numero di immissioni della password non riuscite e bloccare il telefono o cancellare tutti i dati del telefono quando viene raggiunto il numero massimo.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Monitorare il numero di immissioni della password non riuscite e bloccare il telefono o cancellare tutti i dati quando viene raggiunto il numero massimo.</string>
+    <string name="policylab_expirePassword">Imposta la data di scadenza per la password della schermata di blocco </string>
+    <string name="policylab_resetPassword">Modifica la password della schermata di blocco.</string>
+    <string name="save_password_notnow">Dopo</string>
+    <string name="share_remote_bugreport_action">Condividi</string>
+    <string name="ssl_certificate">Certificato di sicurezza</string>
+    <string name="work_mode_off_message">Saranno attivate le app di lavoro, nonché le notifiche, i dati e le altre funzionalità relative al profilo professionale</string>
+    <string name="work_mode_off_title">Attivare il profilo professionale?</string>
+    <string name="zen_mode_default_every_night_name">Sonno</string>
+</resources>

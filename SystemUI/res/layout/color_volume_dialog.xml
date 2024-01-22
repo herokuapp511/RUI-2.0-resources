@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="left" android:layout_gravity="left" android:orientation="vertical" android:id="@+id/volume_dialog" android:paddingTop="3dp" android:paddingBottom="3dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/volume_new_dialog_left_margin" android:minWidth="@dimen/volume_new_dialog_panel_width" android:forceDarkAllowed="false">
+    <FrameLayout android:gravity="left" android:layout_gravity="left" android:id="@+id/ringer" android:background="@drawable/systemui_icon_volume_bg" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/volume_new_dialog_ringer_size">
+        <com.android.keyguard.AlphaOptimizedImageButton android:layout_gravity="center" android:id="@+id/ringer_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:soundEffectsEnabled="false" style="@style/VolumeButtonsTheme"/>
+    </FrameLayout>
+    <View android:id="@+id/volume_dialog_spacer" android:layout_width="match_parent" android:layout_height="@dimen/volume_dialog_spacer"/>
+    <FrameLayout android:id="@+id/dialog_main" android:layout_width="wrap_content" android:layout_height="@dimen/volume_dialog_main_background_height">
+        <View android:id="@+id/main_background" android:background="@drawable/systemui_icon_volume_bg" android:layout_width="wrap_content" android:layout_height="@dimen/volume_dialog_main_background_height"/>
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@+id/main" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="@dimen/volume_dialog_main_background_height" android:minWidth="@dimen/volume_new_dialog_panel_width">
+            <TextView android:textSize="12dp" android:textColor="@color/volume_header_message" android:ellipsize="end" android:gravity="center" android:id="@+id/volume_header_msg" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="16dp" android:maxLines="1" android:maxLength="20"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/volume_dialog_rows" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/volume_new_dialog_panel_width" android:layout_weight="1"/>
+            <FrameLayout android:id="@+id/volume_divider_main" android:layout_width="match_parent" android:layout_height="12.67dp">
+                <View android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/volume_divider" android:background="@drawable/systemui_icon_volume_line" android:layout_width="16dp" android:layout_height="0.67dp" style="@style/VolumeDividerTheme"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/settings_container" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="44dp">
+                <com.android.keyguard.AlphaOptimizedImageButton android:layout_gravity="center" android:id="@+id/settings" android:layout_width="@dimen/volume_new_dialog_row_icon_size" android:layout_height="@dimen/volume_new_dialog_row_icon_size" android:src="@drawable/systemui_icon_volume_more" android:scaleType="center" android:soundEffectsEnabled="false" android:contentDescription="@string/accessibility_volume_settings" style="@style/VolumeButtonsTheme"/>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:gravity="left" android:layout_gravity="left" android:id="@+id/double_ear_setting" android:background="@drawable/systemui_icon_volume_bg" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/volume_new_dialog_ringer_size">
+        <com.android.keyguard.AlphaOptimizedImageButton android:layout_gravity="center" android:id="@+id/double_ear_ib" android:padding="@dimen/volume_dialog_ringer_icon_padding" android:layout_width="@dimen/volume_new_dialog_row_icon_size" android:layout_height="@dimen/volume_new_dialog_row_icon_size" android:src="@drawable/ic_double_ear_icon" android:scaleType="center" android:soundEffectsEnabled="false" style="@style/VolumeButtonsTheme"/>
+    </FrameLayout>
+</LinearLayout>

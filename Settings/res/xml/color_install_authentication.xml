@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/install_authentication">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:title="@string/install_authentication" android:key="install_authentication_category" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/install_authentication_all" android:key="install_authentication_all"/>
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/install_authentication_not_appstore" android:key="install_authentication_not_appstore"/>
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:layout="@layout/color_preference" android:title="@string/install_authentication_none" android:key="install_authentication_none"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/authentication_settings" android:key="authentication_settings_category_key">
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:entries="@array/authentication_frequency_entries" android:layout="@layout/color_preference" android:title="@string/authentication_frequency_settings" android:key="authentication_frequency_settings" android:entryValues="@array/authentication_frequency_values" app:color_jump_mark="@null" app:keywords="@string/keywords_screen_timeout" app:showNormalColor="true" app:useAdminDisabledSummary="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory/>
+</PreferenceScreen>

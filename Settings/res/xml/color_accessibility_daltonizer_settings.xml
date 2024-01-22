@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/accessibility_display_daltonizer_preference_title" android:key="daltonizer_preference_screen">
+    <PreferenceCategory android:key="type_category">
+        <com.coloros.settings.widget.preference.SettingsSingleSelectListPreference android:icon="@drawable/ic_accessibility_illustration_colorblind" android:entries="@array/daltonizer_type_entries" android:title="@string/daltonizer_type" android:key="type_daltonizer" android:summary="%s" android:entryValues="@array/daltonizer_type_values" app:showNormalColor="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

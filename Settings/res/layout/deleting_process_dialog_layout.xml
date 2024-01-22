@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.color.support.widget.ColorLoadingView android:id="@+id/processpor" android:paddingTop="18dp" android:paddingBottom="18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?attr/colorLoadingViewLargeStyle"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="@dimen/TD08" android:textColor="@color/C20" android:layout_gravity="center_vertical" android:id="@+id/empty_text" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginBottom="2dp" android:layout_below="@+id/processpor"/>
+</RelativeLayout>

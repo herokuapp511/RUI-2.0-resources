@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/oppo_ft_avd_toarrow">
+    <target android:name="rectangle_path_2" android:animation="@anim/oppo_ft_avd_toarrow_rectangle_path_2_animation"/>
+    <target android:name="rectangle_path_3" android:animation="@anim/oppo_ft_avd_toarrow_rectangle_path_3_animation"/>
+    <target android:name="rectangle_path_1" android:animation="@anim/oppo_ft_avd_toarrow_rectangle_path_1_animation"/>
+    <target android:name="rectangle_path_4" android:animation="@anim/oppo_ft_avd_toarrow_rectangle_path_4_animation"/>
+    <target android:name="rectangle_path_6" android:animation="@anim/oppo_ft_avd_toarrow_rectangle_path_6_animation"/>
+</animated-vector>

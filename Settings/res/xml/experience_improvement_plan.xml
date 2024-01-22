@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/experience_improvement_plan_title" android:key="experience_improvement_plan_screen">
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/privacy_user_experience_title" android:key="user_inner_experience" app:colorEnalbeClickSpan="true"/>
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/system_stable_plan_tile" android:key="system_stable_plan" app:colorEnalbeClickSpan="true"/>
+</PreferenceScreen>

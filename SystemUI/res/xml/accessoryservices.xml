@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<profiles xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt">
+    <provider connectionType="BT|BLE|WIFI" impl="com.coloros.icdf.IcdfNotificationManagerProvider" limit="ANY" name="notification_manager" timeout="10" urn="icdf.IcdfNotificationManager:1.0">
+        <channel id="104" priority="high" reliability="disable"/>
+    </provider>
+</profiles>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="last_num_days">
+        <item quantity="one">במהלך %d היום החולף</item>
+        <item quantity="other">במהלך %d הימים האחרונים</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="one">תוצאה אחת</item>
+        <item quantity="other">תוצאה מספר %d (מתוך %d)</item>
+    </plurals>
+    <plurals name="pinpuk_attempts">
+        <item quantity="one">עדיין נותרו לך %d ניסיונות.כרטיס ה-SIM יינעל לאחר עוד ניסיון כושל אחד.</item>
+        <item quantity="other">עדיין נותרו לך %d ניסיונות.כרטיס ה-SIM יינעל לאחר עוד ניסיון כושל אחד.</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="one">נסה שוב בעוד שנייה אחת</item>
+        <item quantity="other">נסה שוב בעוד %d שניות</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">%1$d פריט נבחר</item>
+        <item quantity="other">%1$d פריטים נבחרו</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="one">ש&apos; אחת</item>
+        <item quantity="other">%d ש&apos;</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="one">ש&apos; אחת</item>
+        <item quantity="other">%d ש&apos;</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="one">שעה אחת (עד %2$s)</item>
+        <item quantity="other">%1$d שעות (עד %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="one">דקה אחת</item>
+        <item quantity="other">%d דק&apos;</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="one">דקה אחת</item>
+        <item quantity="other">%d דק&apos;</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="one">דקה אחת (עד %2$s)</item>
+        <item quantity="other">%1$d דקות (עד %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="one">דקה אחת (עד %2$s)</item>
+        <item quantity="other">%1$d דקות (עד %2$s)</item>
+    </plurals>
+</resources>

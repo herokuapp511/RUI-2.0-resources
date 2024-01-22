@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>འགུལ་རིས་ཁ་བསུམ་པར་བྱ།</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 0.5x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 1x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 1.5x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 2x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 5x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 10x</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>ཚད་ལྡན་ཚད་བཀག</item>
+        <item>སྟེགས་རྒྱབ་དུ་མཇུག་སྐྱེལ་མེད།</item>
+        <item>མང་མཐར་མཇུག་སྐྱེལ་1</item>
+        <item>མང་མཐར་མཇུག་སྐྱེལ་ 2</item>
+        <item>མང་མཐར་མཇུག་སྐྱེལ་ 3</item>
+        <item>མང་མཐར་མཇུག་སྐྱེལ་ 4</item>
+    </array>
+    <array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </array>
+    <array name="battery_options">
+        <item>དུས་རྟག་ཏུ་བརྒྱ་ཆ་ནང་འགྲེམ་སྟོན་བྱ།</item>
+        <item>གློག་གསོག་བྱེད་སྐབས་གློག་རྫས་གློག་ཁུངས་ཀྱི་བརྒྱ་ཆ་འགྲེམ་སྟོན་བྱ། (ཐོག་མ་ནས་ཡོད་པ།)</item>
+        <item>རྟགས་རིས་འདི་འགྲེམ་སྟོན་མི་བྱ།</item>
+    </array>
+    <array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (ཐོག་མ་ནས་ཡོད་པ།)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </array>
+    <array name="bluetooth_map_versions">
+        <item>MAP 1.2(སོར་བཞག)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries_new">
+        <item>སྤྱོད་མཚམས་བཞག་ཟིན།</item>
+        <item>འཚག་སེལ་བྱས་པ་སྤྱོད་འགོ་བརྩམས།</item>
+        <item>སྤྱོད་འགོ་བརྩམས།</item>
+        <item>སྤྱོད་འགོ་བརྩམས་པའི་ཁ་བྱང་འཚག་སེལ་བྱས་ཟིན།</item>
+        <item>སྤྱོད་འགོ་བརྩམས་པའི་སྨྱན་གཟུགས་ཐུམ་འཚག་སེལ་བྱས་ཟིན།</item>
+    </array>
+    <array name="can_select_charge_or_ftp">
+        <item>གློག་གསོག་པ་ཁོ་ན།</item>
+        <item>ཡིག་ཆ་བརྒྱུད་སྐུར།</item>
+    </array>
+    <array name="can_select_charge_or_mtp">
+        <item>གློག་གསོག་པ་ཁོ་ན།</item>
+        <item>འདྲ་པར་བརྒྱུད་སྐུར།</item>
+    </array>
+    <array name="can_select_ftp_or_mtp">
+        <item>ཡིག་ཆ་བརྒྱུད་སྐུར།</item>
+        <item>འདྲ་པར་བརྒྱུད་སྐུར།</item>
+    </array>
+    <array name="clock_options">
+        <item>འགྲེམ་སྟོན་བྱེད་པའི་ཆུ་ཚོད། སྐར་མ་དང་སྐར་ཆ།</item>
+        <item>འགྲེམ་སྟོན་བྱེད་པའི་ཆུ་ཚོད་དང་སྐར་མ། (ཐོག་མ་ནས་ཡོད་པ།)</item>
+        <item>རྟགས་རིས་འདི་འགྲེམ་སྟོན་མི་བྱ།</item>
+    </array>
+    <array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>ཁ་བསྣན་པའི་ཚོན་མདོག</item>
+        <item>མིག་རྗེན་པར་མཐོང་བའི་རང་བྱུང་གི་མཚོན་མདོག</item>
+        <item>གྲངས་འཛིན་ནང་དོན་ལ་བསྡེབས་པའི་ཚོན་མདོག</item>
+    </array>
+    <array name="color_mode_names">
+        <item>གསལ་ལྷིང་། (མོས་ཐང་།)</item>
+        <item>རང་བྱུང་</item>
+        <item>ཚད་ལྡན།</item>
+    </array>
+    <array name="color_solor_mounth">
+        <item>ཟླ་དང་པོ།</item>
+        <item>ཟླ་གཉིས་པ།</item>
+        <item>ཟླ་གསུམ་པ།</item>
+        <item>ཟླ་བཞི་བ།</item>
+        <item>ཟླ་ལྔ་བ།</item>
+        <item>ཟླ་དྲུག་པ།</item>
+        <item>ཟླ་བདུན་པ།</item>
+        <item>ཟླ་བརྒྱད་པ།</item>
+        <item>ཟླ་དགུ་བ།</item>
+        <item>ཟླ་བཅུ་བ།</item>
+        <item>ཟླ་བཅུ་གཅིག</item>
+        <item>ཟླ་བཅུ་གཉིས།</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>ཁ་བསུམ།</item>
+        <item>ཚད་བརྒལ་འབྲི་བཞེངས་ཁུལ་སྟོན་པར་བྱ།</item>
+        <item>ལྗང་མདོག་གསལ་བོར་མི་མཐོང་བའི་མི་དེ་དག་ལ་འཚམ་པའི་ཁུལ་སྟོན་པར་བྱ།</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>ཅང་མེད།</item>
+        <item>Logcat</item>
+        <item>Systrace (རིས་དབྱིབས།)</item>
+        <item>glGetError སྟེང་གི་དོས་ཅོལ་འཐེན་སྤྱོད།</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCP བརྟག་དཔྱོད་ཁྱོན་ནས་མ་སྤྱོད།</item>
+        <item>HDCP བརྟག་དཔྱོད་ DRM ནང་དོན་ཁོ་ནར་སྤྱོད།</item>
+        <item>རྟག་ཏུ་ HDCP བརྟག་དཔྱོད་སྤྱོད་པར་བྱ།</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>བརྟོག་དཔྱོད་ཁྱོན་ནས་མ་སྤྱོད།</item>
+        <item>DRM ནང་དོན་ཁོ་ནར་སྤྱོད།</item>
+        <item>རྒྱུན་ཏུ་དཔྱོད།</item>
+    </array>
+    <array name="nav_bar_layouts">
+        <item>རྒྱུན་ལྡན།</item>
+        <item>གཅེས་བསྡུས།</item>
+        <item>གཡོན་དུ་འཇོག</item>
+        <item>གཡས་སུ་འཇོག</item>
+    </array>
+    <array name="oppo_time_picker_ampm">
+        <item>སྔ་དྲོ།</item>
+        <item>ཕྱི་དྲོ།</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>ཅང་མེད།</item>
+        <item>480p</item>
+        <item>480p(བདེ་འཇགས་)</item>
+        <item>720p</item>
+        <item>720p(བདེ་འཇགས་)</item>
+        <item>1080p</item>
+        <item>1080p(བདེ་འཇགས་)</item>
+        <item>4K</item>
+        <item>4K(བདེ་འཇགས་)</item>
+        <item>4K(གོང་འཕེལ་བཏང་པ)</item>
+        <item>4K(གོང་འཕེལ་བཏང་བ། བདེ་འཇགས་)</item>
+        <item>720p། 1080p (བརྙན་ཤེལ་ཟུང་ལྡན་)</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>ཁ་བསུམ།</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>ཁ་བསུམ།</item>
+        <item>ཉིན་ཐོ་ལྷོད་གཏོང་ཁུལ་རེ་རེར་ 64K</item>
+        <item>ཉིན་ཐོ་ལྷོད་གཏོང་ཁུལ་རེ་རེར་ 256K</item>
+        <item>ཉིན་ཐོ་ལྷོད་གཏོང་ཁུལ་རེ་རེར་ 1M</item>
+        <item>ཉིན་ཐོ་ལྷོད་གཏོང་ཁུལ་རེ་རེར་ 4M</item>
+        <item>ཉིན་ཐོ་ལྷོད་གཏོང་ཁུལ་རེ་རེར་ 16M</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>ཁ་བསུམ།</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>ཁ་བསུམ།</item>
+        <item>ཐོ་འགོད་ལྷོད་གཏོང་ཁུལ་ཡོངས།</item>
+        <item>སྐུད་མེད་གློག་མིན་པའི་ཐོ་འགོད་ལྷོད་གཏོང་ཁུལ་ཡོངས།</item>
+        <item>ལྟེ་བའི་ཐོ་འགོད་ལྷོད་གཏོང་ཁུལ་ཁོ་ན།</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>ཁ་བསུམ།</item>
+        <item>ཡོངས།</item>
+        <item>སྐུད་མེད་གློག་མིན་ཡོངས།</item>
+        <item>ལྟེ་བ་ཁོ་ན།</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>ཁ་བསུམ།</item>
+        <item>ནར་དབྱིབས་འདྲེས་སྦྱོར་ཁུལ་སྔོ་མདོག་གིས་འབྲི་བར་བྱ།</item>
+        <item>ཚོད་ལྟ་བྱས་པའི་འབྲི་བཞེངས་བཀའ་བརྡ་ལྗང་མདོག་གིས་ནན་རྟགས་འགོད།</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>འགུལ་རིས་ཁ་བསུམ་པར་བྱ།</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 0.5x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 1x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 1.5x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 2x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 5x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 10x</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>ཤིན་ཏུ་དལ།</item>
+        <item>དལ།</item>
+        <item>རྒྱུན་ལྡན།</item>
+        <item>མགྱོགས།</item>
+        <item>མགྱོགས་པོ།</item>
+        <item>ཤིན་ཏུ་མགྱོགས།</item>
+        <item>བླ་ལྷག་ཏུ་མྱུར་བ།</item>
+        <item>ཁྱད་འཕགས་མྱུར་བ།</item>
+        <item>མགྱོགས་ཤོས།</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>གློག་གསོག</item>
+        <item>MTP (སྨྱན་གཟུགས་བརྒྱུད་འདྲེན་སྲོལ་ཡིག)</item>
+        <item>PTP (པར་རིས་བརྒྱུད་འདྲེན་སྲོལ་ཡིག)</item>
+        <item>RNDIS (USB ཨེ་ཐཱེར་དྲ་བ།)</item>
+        <item>སྒྲ་ཟློས་འབྱུང་ཁུངས།</item>
+        <item>MIDI</item>
+    </array>
+    <array name="usb_type_select">
+        <item>གློག་གསོག་པ་ཁོ་ན།</item>
+        <item>ཡིག་ཆ་བརྒྱུད་སྐུར།</item>
+        <item>འདྲ་པར་བརྒྱུད་སྐུར།</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>བཤེར་འབེབས་བྱེད…</item>
+        <item>མཐུད་སྦྱོར་བྱེད…</item>
+        <item>ཁུངས་སྐྱེལ་བྱེད…</item>
+        <item>IP ཁ་བྱང་ལེན…</item>
+        <item>མཐུད་ཟིན།</item>
+        <item>དུས་འགྱངས།</item>
+        <item>མཐུད་མཚམས་གཅོད…</item>
+        <item>སྦྲེལ་མཐུད་གཅོད་འདུག</item>
+        <item>ཐུབ་མ་སོང་།</item>
+        <item>འགོག་ཟིན་པ།</item>
+        <item>གནས་སྐབས་རིང་སྦྲེལ་མཐུད་ཞན་པོ་འཛེམ་སྤོང་བཞིན་པ།</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>འགུལ་རིས་ཁ་བསུམ་པར་བྱ།</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 0.5x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 1x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 1.5x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 2x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 5x</item>
+        <item>འགུལ་རིས་ཚད་གཞི། 10x</item>
+    </array>
+</resources>

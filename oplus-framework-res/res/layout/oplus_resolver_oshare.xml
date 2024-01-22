@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ViewStub android:id="@+id/resolver_open_oshare_Panel" android:layout="@layout/oplus_resolver_oshare_closed" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oplus_resolver_TD07"/>
+    <ViewStub android:id="@+id/resolver_notice_open_oshare" android:layout="@layout/oplus_resolver_oshare_opened" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oplus_resolver_TD07"/>
+    <ViewStub android:id="@+id/resolver_oshareing_Panel" android:layout="@layout/oplus_resolver_osharing" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/oplus_resolver_TD07"/>
+    <ImageView android:id="@+id/oplus_resolver_oshare_devider_line" android:background="@color/oplus_resolver_oshare_divider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2px" android:layout_marginTop="@dimen/oplus_resolve_dialog_oshareing_panel_padding_top_and_bottom" android:layout_marginStart="@dimen/oplus_resolver_TD24" android:layout_marginEnd="@dimen/oplus_resolver_TD24" android:forceDarkAllowed="false"/>
+</merge>

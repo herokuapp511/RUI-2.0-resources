@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/running_application_item_height" android:paddingStart="@dimen/running_applications_padding" android:paddingEnd="@dimen/running_applications_padding">
+    <ImageView android:id="@+id/app_icon" android:layout_width="@dimen/running_application_item_icon_size" android:layout_height="@dimen/running_application_item_icon_size" android:layout_centerVertical="true"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_toStartOf="@+id/app_more" android:layout_toEndOf="@+id/app_icon">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/running_application_item_name_margin_size"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/app_used" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/app_name" android:layout_alignStart="@+id/app_name"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/app_more" android:layout_width="@dimen/running_application_item_more_size" android:layout_height="@dimen/running_application_item_more_size" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/M10" android:paddingTop="@dimen/color_alert_dialog_content_panel_padding_top" android:paddingRight="@dimen/M10" android:paddingBottom="@dimen/M10" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/color_alert_dialog_content_text_color" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/accessibility_summery"/>
+        <RelativeLayout android:id="@+id/ver_center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5" android:layout_below="@+id/message">
+            <com.coloros.settings.utils.VerificationView android:id="@+id/verification_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <com.color.support.widget.ColorEditText android:ellipsize="end" android:id="@+id/edittext_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/M4" android:hint="@string/verification_text" android:singleLine="true" android:maxLength="4" android:layout_toLeftOf="@+id/verification_view" android:layout_centerVertical="true" android:inputType="text" app:quickDelete="true" style="?attr/colorEditTextLineHintDisableStyle"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

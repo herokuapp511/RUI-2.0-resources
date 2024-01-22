@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/battery_content" android:layout_width="@dimen/battery_background_width" android:layout_height="@dimen/battery_background_height" android:layout_marginStart="@dimen/battery_margin_start">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:id="@+id/stat_battery_view" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@drawable/stat_battery" android:max="100" android:progressDrawable="@drawable/status_bar_battery_progress_with_padding" android:mirrorForRtl="true" style="@style/Widget.ProgressBar.Horizontal"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/battery_percent_text_size" android:textColor="@color/status_bar_clock_color" android:gravity="center" android:id="@+id/battery_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:importantForAccessibility="no" android:fontVariationSettings="&apos;wght&apos; 900"/>
+</FrameLayout>

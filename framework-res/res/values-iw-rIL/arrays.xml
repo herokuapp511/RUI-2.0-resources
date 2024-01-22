@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="emailAddressTypes">
+        <item>אישי</item>
+        <item>עבודה</item>
+        <item>אחרים</item>
+        <item>התאם אישית</item>
+    </array>
+    <array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </array>
+    <array name="organizationTypes">
+        <item>עבודה</item>
+        <item>אחרים</item>
+        <item>מותאם</item>
+    </array>
+    <array name="phoneTypes">
+        <item>בית</item>
+        <item>טלפון</item>
+        <item>יחידה</item>
+        <item>פקס בעבודה</item>
+        <item>פקס בבית</item>
+        <item>זימונית</item>
+        <item>אחרים</item>
+        <item>התאם אישית</item>
+    </array>
+    <array name="postalAddressTypes">
+        <item>בית</item>
+        <item>עבודה</item>
+        <item>אחרים</item>
+        <item>מותאם</item>
+    </array>
+    <array name="imAddressTypes">
+        <item>בית</item>
+        <item>עבודה</item>
+        <item>אחרים</item>
+        <item>התאם אישית</item>
+    </array>
+    <array name="maps_starting_lat_lng">
+        <item>31046051</item>
+        <item>34851612</item>
+    </array>
+    <array name="maps_starting_zoom">
+        <item>4</item>
+    </array>
+</resources>

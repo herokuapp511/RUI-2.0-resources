@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/mobile_type_alone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null"/>
+        <ImageView android:id="@+id/data_inout_alone" android:visibility="gone" android:layout_width="5.6dp" android:layout_height="match_parent" android:scaleType="matrix" android:contentDescription="@null" android:layout_marginStart="15dp"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null"/>
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/mobile_roaming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null"/>
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/data_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/margin_M10" android:paddingEnd="@dimen/margin_M10">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?attr/textAppearanceDialogLarge" android:textSize="15sp" android:textColor="@color/color_bottom_alert_dialog_button_text_color" android:id="@+id/suggest_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/super_power_save_content" android:textAlignment="viewStart"/>
+    </ScrollView>
+</LinearLayout>

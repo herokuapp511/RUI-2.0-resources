@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quicklaunch-conf xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt">
+    <version>1.0.0
+    </version>
+    <isOpen>1
+    </isOpen>
+    <app-black-list>
+        <app>
+            <pkg>com.tencent.mm
+            </pkg>
+            <activity>qf.fake.className.wechat_traffic
+            </activity>
+        </app>
+    </app-black-list>
+</quicklaunch-conf>

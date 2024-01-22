@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_mode_done">Fertig</string>
+    <string name="add_account_label">Konto hinzufügen</string>
+    <string name="android_system_label">Android System</string>
+    <string name="autofill_save_no">Später</string>
+    <string name="autofill_save_title_with_2types">%2$s und %1$s nach %3$s speichern?</string>
+    <string name="autofill_save_type_username">Benutzername</string>
+    <string name="autofill_save_yes">Speichern</string>
+    <string name="autofill_update_title_with_2types">%2$s und %1$s in %3$s aktualisieren?</string>
+    <string name="autofill_update_yes">Aktualisierung</string>
+    <string name="capability_title_canRetrieveWindowContent">Fensterinhalt abrufen</string>
+    <string name="content_description_sliding_handle">Schiebegriff. Berühren und halten.</string>
+    <string name="decline_remote_bugreport_action">Ablehnen</string>
+    <string name="global_action_emergency">Notruf</string>
+    <string name="kg_login_password_hint">Passwort</string>
+    <string name="lockscreen_glogin_password_hint">Passwort</string>
+    <string name="managed_profile_label">Zum Arbeitsprofil wechseln</string>
+    <string name="minutes"> Min.</string>
+    <string name="permgroupdesc_storage">Fotos-, Medieninhalte- und Dateien-Zugriff auf Ihrem Gerät</string>
+    <string name="policydesc_expirePassword">Frequenz anpassen, auf welcher das System den Nutzer zwingt, das Sperrbildschirm-Passwort, PIN oder Entsperr-Raster zu ändern.</string>
+    <string name="policydesc_limitPassword">Überwache die erlaubte Länge und Zeichen des Sperrbildschirm-Passworts und PIN.</string>
+    <string name="policydesc_resetPassword">Sperrbildschirm-Passwort ändern.</string>
+    <string name="policydesc_watchLogin">Überwache die Anzahl falscher Passwort-Eingaben und sperre dein Telefon oder lösche sämtliche Daten, sobald die maximale Anzahl erreicht ist.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Überwache die Anzahl falscher Passwort-Eingaben und sperre dein Telefon oder lösche sämtliche Daten, sobald die maximale Anzahl erreicht ist.</string>
+    <string name="policylab_expirePassword">Ablaufdatum für Sperrbildschirm-Passwort festlegen </string>
+    <string name="policylab_resetPassword">Sperrbildschirm-Passwort ändern</string>
+    <string name="policylab_wipeData">Alle Daten löschen</string>
+    <string name="relationTypeAssistant">Assistent</string>
+    <string name="save_password_notnow">Später</string>
+    <string name="share_remote_bugreport_action">Teilen</string>
+    <string name="ssl_certificate">Sicherheitszertifikat</string>
+    <string name="work_mode_off_message">Deine Arbeitsapps, Benachrichtigungen, Daten und andere Arbeitsprofil-Funktionen werden eingeschaltet</string>
+    <string name="work_mode_off_title">Dein Arbeitsprofil einschalten?</string>
+    <string name="zen_mode_default_every_night_name">Schlafen</string>
+</resources>

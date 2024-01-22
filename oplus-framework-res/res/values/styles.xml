@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Android.DeviceDefault.QuickSettings">
+    </style>
+    <style name="Theme.Android.DeviceDefault.QuickSettings.Dialog">
+    </style>
+    <style name="Theme">
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.Inverse</item>
+        <item name="android:textColorPrimary">@color/oppo_primary_text_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/oppo_primary_text_dark</item>
+        <item name="android:textAppearanceLarge">@style/ListViewTextAppearance.Large</item>
+        <item name="android:textAppearanceMedium">@style/ListViewTextAppearance.Large</item>
+        <item name="android:textAppearanceSmall">@style/ListViewTextAppearance.Small</item>
+        <item name="android:buttonStyle">@style/Widget.Button</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/oppo_scrollbar_handle_horizontal</item>
+        <item name="android:scrollbarThumbVertical">@drawable/oppo_scrollbar_handle_vertical</item>
+        <item name="android:checkboxStyle">@style/Widget.CompoundButton.CheckBox</item>
+        <item name="android:radioButtonStyle">@style/Widget.CompoundButton.RadioButton</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/oppo_btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/oppo_btn_check</item>
+        <item name="android:textSelectHandleLeft">@drawable/oppo_text_select_left</item>
+        <item name="android:textSelectHandleRight">@drawable/oppo_text_select_right</item>
+        <item name="android:textSelectHandle">@drawable/oppo_text_select_middle</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.Widget.PopupMenu.Large</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearance.Widget.PopupMenu.Small</item>
+        <item name="android:textColorAlertDialogListItem">@color/oppo_list_text_color_small</item>
+        <item name="android:dialogTheme">@style/Theme.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.Dialog.Alert</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+        <item name="android:fastScrollOverlayPosition">atThumb</item>
+        <item name="android:textCursorDrawable">@drawable/color_text_cursor_default</item>
+        <item name="android:colorPressedHighlight">@android:color/holo_blue_light</item>
+        <item name="android:colorLongPressedHighlight">@android:color/holo_blue_bright</item>
+        <item name="android:colorFocusedHighlight">@android:color/holo_blue_dark</item>
+        <item name="android:colorActivatedHighlight">@android:color/holo_blue_dark</item>
+        <item name="android:colorMultiSelectHighlight">@android:color/holo_green_light</item>
+        <item name="android:textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+        <item name="android:colorAccent">@android:color/link_text_light</item>
+        <item name="android:bool.ImsConnectedDefaultValue">false</item>
+        <item name="?0x11200be">@drawable/oppo_quickcontact_badge_overlay</item>
+        <item name="?0x11200f1">@drawable/color_toast_frame</item>
+        <item name="colorOShareButtonTextColor">@color/oplus_resolver_oshare_bt_default</item>
+        <item name="colorOShareButtonBackground">@color/oplus_resolver_oshare_bt_default_background</item>
+        <item name="^attr-private.C01">@color/primary_color_lightest_default</item>
+        <item name="^attr-private.C02">@color/primary_color_lighter_default</item>
+        <item name="^attr-private.C03">@color/primary_color_light_default</item>
+        <item name="^attr-private.C04">@color/primary_color_standard_default</item>
+        <item name="^attr-private.C05">@color/primary_color_dark_default</item>
+        <item name="^attr-private.C06">@color/primary_color_darker_default</item>
+        <item name="^attr-private.C07">@color/secondary_color_lighter_default</item>
+        <item name="^attr-private.C08">@color/secondary_color_light_default</item>
+        <item name="^attr-private.C09">@color/secondary_color_standard_default</item>
+        <item name="^attr-private.C10">@color/secondary_color_dark_default</item>
+        <item name="^attr-private.C11">@color/secondary_color_darker_default</item>
+        <item name="^attr-private.C12">@color/monochrome_color_white_default</item>
+        <item name="^attr-private.C13">@color/monochrome_color_lightest_default</item>
+        <item name="^attr-private.C14">@color/monochrome_color_lighter_default</item>
+        <item name="^attr-private.C15">@color/monochrome_color_light_default</item>
+        <item name="^attr-private.C16">@color/monochrome_color_standard_default</item>
+        <item name="^attr-private.C17">@color/monochrome_color_dark_default</item>
+        <item name="^attr-private.C18">@color/monochrome_color_darker_default</item>
+        <item name="^attr-private.C19">@color/monochrome_color_darkest_default</item>
+        <item name="^attr-private.C20">@color/monochrome_color_grey_black_default</item>
+        <item name="^attr-private.C21">@color/monochrome_color_black_default</item>
+        <item name="^attr-private.C22">@color/hyperlink_color_default</item>
+        <item name="^attr-private.C23">@color/warning_color_light_default</item>
+        <item name="^attr-private.C24">@color/warning_color_standard_default</item>
+        <item name="^attr-private.C25">@color/brand_color_default</item>
+        <item name="^attr-private.C26">@color/background_color_light_default</item>
+        <item name="^attr-private.C27">@color/background_color_standard_default</item>
+        <item name="^attr-private.C28">@color/background_color_dark_default</item>
+        <item name="^attr-private.OplusCircleProgressBarLargeStyle">@style/Widget.OplusCircleProgressBar.Large</item>
+        <item name="^attr-private.OplusLoadingViewStyle">@style/Widget.OplusLoadingView</item>
+        <item name="^attr-private.colorShutdownViewStyle">@style/Widget.ShutdownView</item>
+        <item name="^attr-private.colorTintControlDisabled">@color/color_green_tint_control_disabled</item>
+        <item name="^attr-private.colorTintControlNormal">@color/color_green_tint_control_normal</item>
+        <item name="^attr-private.colorTintControlPressed">@color/color_green_tint_control_pressed</item>
+        <item name="^attr-private.colorTintLightNormal">@color/color_green_tint_light_normal</item>
+        <item name="^attr-private.colorTintLightPressed">@color/color_green_tint_light_pressed</item>
+        <item name="^attr-private.isOplusTheme">true</item>
+        <item name="^attr-private.oppoTextAppearanceBootMessage">@style/TextAppearance.BootMessage.Message</item>
+        <item name="^attr-private.oppoTextAppearanceBootPercent">@style/TextAppearance.BootMessage.Percent</item>
+        <item name="^attr-private.themeType">@null</item>
+    </style>
+    <style name="TextAppearance.Android.StatusBar">
+    </style>
+    <style name="TextAppearance.Android.DeviceDefault.Body2">
+    </style>
+    <style name="TextAppearance.Android.DeviceDefault.Subhead">
+    </style>
+    <style name="Theme.Dialog">
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.Inverse</item>
+        <item name="android:windowBackground">@drawable/oppo_alertdialog_content_full_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:borderlessButtonStyle">@style/Widget.Button.Borderless.Small</item>
+        <item name="android:buttonBarStyle">@style/ButtonBar</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/android_config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingLeft">16dp</item>
+        <item name="android:listPreferredItemPaddingRight">16dp</item>
+    </style>
+    <style name="Theme.Dialog.Alert">
+        <item name="android:textColorPrimaryDisableOnly">#ff141414</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+        <item name="android:windowMinWidthMajor">56%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="?0x101058c">true</item>
+        <item name="?0x1010590">true</item>
+    </style>
+    <style name="Widget.Android.Material.Notification.Text">
+    </style>
+    <style name="Widget.Android.DeviceDefault.Toolbar">
+    </style>
+    <style name="Widget.Android.DeviceDefault.Notification.Text">
+    </style>
+    <style name="ThemeOverlay.Android.DeviceDefault.Accent">
+    </style>
+    <style name="ThemeOverlay.Android.DeviceDefault.Accent.Light">
+    </style>
+    <style name="Theme.Realme">
+        <item name="colorOShareButtonTextColor">@color/oplus_resolver_oshare_bt_default_realme</item>
+        <item name="colorOShareButtonBackground">@color/oplus_resolver_oshare_bt_default_background_realme</item>
+        <item name="^attr-private.C01">@color/primary_color_lightest_default_realme</item>
+        <item name="^attr-private.C02">@color/primary_color_lighter_default_realme</item>
+        <item name="^attr-private.C03">@color/primary_color_light_default_realme</item>
+        <item name="^attr-private.C04">@color/primary_color_standard_default_realme</item>
+        <item name="^attr-private.C05">@color/primary_color_dark_default_realme</item>
+        <item name="^attr-private.C06">@color/primary_color_darker_default_realme</item>
+        <item name="^attr-private.C25">@color/brand_color_default_realme</item>
+        <item name="^attr-private.colorTintControlNormal">@color/color_blue_tint_control_normal_realme</item>
+        <item name="^attr-private.colorTintControlPressed">@color/color_blue_tint_control_pressed_realme</item>
+        <item name="^attr-private.colorTintLightNormal">@color/color_blue_tint_light_normal_realme</item>
+        <item name="^attr-private.colorTintLightPressed">@color/color_blue_tint_light_pressed_realme</item>
+    </style>
+    <style name="Theme.Realme.Dialog">
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.Inverse</item>
+        <item name="android:windowBackground">@drawable/oppo_alertdialog_content_full_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:borderlessButtonStyle">@style/Widget.Button.Borderless.Small</item>
+        <item name="android:buttonBarStyle">@style/ButtonBar</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/android_config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingLeft">16dp</item>
+        <item name="android:listPreferredItemPaddingRight">16dp</item>
+    </style>
+    <style name="Theme.Realme.Dialog.Alert">
+        <item name="android:textColorPrimaryDisableOnly">#ff141414</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+        <item name="android:windowMinWidthMajor">56%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="?0x101058c">true</item>
+        <item name="?0x1010590">true</item>
+    </style>
+    <style name="Theme.Realme.Dialog.Alert.Share">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog.Resolver</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item>
+        <item name="android:colorControlActivated">?android:attr/colorControlHighlight</item>
+        <item name="android:windowEnterTransition">@null</item>
+        <item name="android:windowExitTransition">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="PermissionControllerSettings">
+        <item name="android:windowBackground">@color/color_permission_controller_background</item>
+        <item name="android:actionBarStyle">@style/PermissionControllerActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/PermissionControllerActionOverflowButtonStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/color_permission_controller_back_arrow_normal</item>
+        <item name="android:actionBarTheme">@style/PermissionControllerActionBarTheme</item>
+        <item name="android:colorPrimaryDark">@color/color_permission_controller_background</item>
+        <item name="android:colorAccent">@color/color_permission_controller_green</item>
+        <item name="android:actionOverflowMenuStyle">@style/PermissionControllerActionOverflowMenuStyle</item>
+    </style>
+    <style name="PermissionControllerCategoryTitle">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.0727</item>
+    </style>
+    <style name="Theme.Android.DeviceDefault.Settings.Dialog">
+    </style>
+    <style name="TextAppearance.Android.DeviceDefault.Notification.Title">
+    </style>
+    <style name="TextAppearance.Android.DeviceDefault.Notification.Info">
+    </style>
+    <style name="Theme.OPPO">
+    </style>
+    <style name="Theme.OPPO.Dialog">
+    </style>
+    <style name="Theme.OPPO.Dialog.Alert">
+    </style>
+    <style name="AlertDialog">
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:fullDark">@null</item>
+        <item name="android:topDark">@null</item>
+        <item name="android:centerDark">@null</item>
+        <item name="android:bottomDark">@null</item>
+        <item name="android:fullBright">@null</item>
+        <item name="android:topBright">@null</item>
+        <item name="android:centerBright">@null</item>
+        <item name="android:bottomBright">@null</item>
+        <item name="android:bottomMedium">@null</item>
+        <item name="android:centerMedium">@null</item>
+        <item name="android:layout">@layout/color_center_alert_dialog</item>
+        <item name="android:bool.config_dontPreferApn">@layout/oppo_select_dialog_item</item>
+        <item name="android:bool.config_restartRadioAfterProvisioning">@layout/oppo_select_dialog</item>
+        <item name="android:bool.config_auto_attach_data_on_creation">@layout/oppo_select_dialog_multichoice</item>
+        <item name="?0x11200d8">@layout/oppo_select_dialog_singlechoice</item>
+    </style>
+    <style name="AlertDialog.BootMessage">
+        <item name="android:fullDark">?android:attr/windowBackground</item>
+        <item name="android:topDark">?android:attr/windowBackground</item>
+        <item name="android:centerDark">?android:attr/windowBackground</item>
+        <item name="android:bottomDark">?android:attr/windowBackground</item>
+        <item name="android:fullBright">?android:attr/windowBackground</item>
+        <item name="android:topBright">?android:attr/windowBackground</item>
+        <item name="android:centerBright">?android:attr/windowBackground</item>
+        <item name="android:bottomBright">?android:attr/windowBackground</item>
+        <item name="android:bottomMedium">?android:attr/windowBackground</item>
+        <item name="android:centerMedium">?android:attr/windowBackground</item>
+        <item name="android:layout">@layout/oppo_boot_message_dialog</item>
+        <item name="android:bool.config_showMenuShortcutsWhenKeyboardPresent">@layout/oppo_boot_message_progress</item>
+    </style>
+    <style name="AlertDialog.Transparent">
+        <item name="android:fullDark">@color/oppo_transparent</item>
+        <item name="android:fullBright">@color/oppo_transparent</item>
+    </style>
+    <style name="Animation">
+    </style>
+    <style name="Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/oplus_open_slide_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/oplus_open_slide_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/oppo_close_slide_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/oppo_close_slide_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/oppo_task_open_slide_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/oppo_task_open_slide_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/oppo_task_close_slide_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/oppo_task_close_slide_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/oppo_task_open_slide_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/oppo_task_open_slide_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/oppo_task_close_slide_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/oppo_task_close_slide_exit</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/oppo_wallpaper_open_enter</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/oppo_wallpaper_open_exit</item>
+        <item name="android:wallpaperCloseEnterAnimation">@anim/oppo_wallpaper_close_enter</item>
+        <item name="android:wallpaperCloseExitAnimation">@anim/oppo_wallpaper_close_exit</item>
+    </style>
+    <style name="Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/oppo_bottom_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/oppo_bottom_dialog_exit</item>
+    </style>
+    <style name="Animation.Dialog.Alpha">
+        <item name="android:windowEnterAnimation">@anim/oppo_center_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/oppo_center_dialog_exit</item>
+    </style>
+    <style name="Animation.Dialog.Resolver">
+        <item name="android:windowEnterAnimation">@anim/oplus_resolver_enter</item>
+        <item name="android:windowExitAnimation">@anim/oplus_resolver_exit</item>
+    </style>
+    <style name="Animation.Layer">
+    </style>
+    <style name="Animation.LockScreen">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@anim/oppo_lock_screen_exit</item>
+    </style>
+    <style name="Animation.OPPO.Dialog">
+    </style>
+    <style name="Animation.OPPO.Dialog.Alpha">
+    </style>
+    <style name="Animation.RecentApplications">
+    </style>
+    <style name="Animation.Task">
+        <item name="android:taskOpenEnterAnimation">@anim/oppo_task_open_slide_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/oppo_task_open_slide_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/oppo_task_close_slide_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/oppo_task_close_slide_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/oppo_task_open_slide_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/oppo_task_open_slide_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/oppo_task_close_slide_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/oppo_task_close_slide_exit</item>
+    </style>
+    <style name="Animation.VolumePanel">
+    </style>
+    <style name="Animation.ZoomButtons">
+    </style>
+    <style name="ButtonBar">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">0dp</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+    </style>
+    <style name="DefaultDialogItemTextStyle">
+        <item name="android:textSize">@dimen/oppo_dialog_button_text_size</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textColor">@color/color_bottom_alert_dialog_button_text_color</item>
+    </style>
+    <style name="DialogTextAppearance">
+        <item name="android:textStyle">@null</item>
+    </style>
+    <style name="DialogTextAppearance.Content">
+        <item name="android:textSize">@dimen/oppo_dialog_content_text_size</item>
+        <item name="android:textColor">?^attr-private/C20</item>
+    </style>
+    <style name="DialogTextAppearance.Title">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/TD11</item>
+        <item name="android:textColor">@color/oppo_alert_dialog_title_text_color</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="DialogWindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.DialogWindowTitle</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="ListViewTextAppearance">
+    </style>
+    <style name="ListViewTextAppearance.Large">
+        <item name="android:textSize">@dimen/oppo_list_text_size_large</item>
+        <item name="android:textColor">@color/oppo_list_text_color_large</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+    <style name="ListViewTextAppearance.Small">
+        <item name="android:textSize">@dimen/oppo_list_text_size_small</item>
+        <item name="android:textColor">@color/oppo_list_text_color_small</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+    <style name="PermissionControllerActionBarStyle">
+        <item name="android:background">@color/color_permission_controller_background</item>
+        <item name="android:titleTextStyle">@style/PermissionControllerTitleTextStyle</item>
+    </style>
+    <style name="PermissionControllerActionBarTheme">
+        <item name="android:colorControlNormal">?android:attr/textColorPrimary</item>
+        <item name="^attr-private.colorTintControlNormal">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="PermissionControllerActionOverflowButtonStyle">
+        <item name="android:src">@drawable/color_permission_controller_menu_icon_more_normal</item>
+        <item name="^attr-private.colorTintControlNormal">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="PermissionControllerActionOverflowMenuStyle">
+        <item name="android:popupBackground">@drawable/color_permission_controller_popup_list_window_bg</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+        <item name="android:dropDownVerticalOffset">0dp</item>
+        <item name="android:overlapAnchor">false</item>
+    </style>
+    <style name="PermissionControllerTitleTextStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="SegmentedButton">
+        <item name="android:background">@android:drawable/btn_erase_selected</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">@dimen/oppo_textview_text_size</item>
+    </style>
+    <style name="TextAppearance.BootMessage">
+    </style>
+    <style name="TextAppearance.BootMessage.Message">
+        <item name="android:textSize">@dimen/oppo_bootmessage_message_text_size</item>
+        <item name="android:textColor">@color/oppo_bootmessage_message_text_color</item>
+    </style>
+    <style name="TextAppearance.BootMessage.Percent">
+        <item name="android:textSize">@dimen/oppo_bootmessage_percent_text_size</item>
+        <item name="android:textColor">@color/oppo_bootmessage_percent_text_color</item>
+    </style>
+    <style name="TextAppearance.Caption">
+        <item name="android:textColor">@color/color_decor_title_light_color</item>
+    </style>
+    <style name="TextAppearance.Caption.Title">
+        <item name="android:textColor">@color/color_decor_title_light_color</item>
+    </style>
+    <style name="TextAppearance.Caption.Title.Light">
+        <item name="android:textColor">@color/color_decor_title_light_color</item>
+    </style>
+    <style name="TextAppearance.ColorStartingWindow.Title">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_toolbar_title_text_color</item>
+    </style>
+    <style name="TextAppearance.DialogWindowTitle">
+        <item name="android:textSize">@dimen/oppo_dialog_title_text_size</item>
+        <item name="android:textColor">@color/oppo_dialog_title_text_color</item>
+    </style>
+    <style name="TextAppearance.Inverse">
+        <item name="android:textSize">@dimen/oppo_textview_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
+    </style>
+    <style name="TextAppearance.Small">
+        <item name="android:textColor">@color/oppo_primary_text_dark</item>
+    </style>
+    <style name="TextAppearance.Widget.PopupMenu">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Widget.PopupMenu.Large">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/oppo_list_text_color_large</item>
+    </style>
+    <style name="TextAppearance.Widget.PopupMenu.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/oppo_list_text_color_small</item>
+    </style>
+    <style name="Theme.Dialog.Alert.BootMessage">
+        <item name="android:alertDialogStyle">@style/AlertDialog.BootMessage</item>
+    </style>
+    <style name="Theme.Dialog.Alert.Share">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog.Resolver</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item>
+        <item name="android:colorControlActivated">?android:attr/colorControlHighlight</item>
+        <item name="android:windowEnterTransition">@null</item>
+        <item name="android:windowExitTransition">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.OPPO.Dialog.Alert.BootMessage">
+    </style>
+    <style name="Theme.OPPO.Dialog.Alert.Share">
+    </style>
+    <style name="Theme.OPPO.Panel">
+    </style>
+    <style name="Theme.OPPO.Panel.Volume">
+    </style>
+    <style name="Theme.Panel">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Theme.Panel.Volume">
+        <item name="android:windowAnimationStyle">@style/Animation.VolumePanel</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="^attr-private.oppoAddMaskView">false</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.Button">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+        <item name="android:textSize">@dimen/oppo_btn_text_size</item>
+        <item name="android:textColor">@color/color_btn_default_text_color</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/oppo_btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:minWidth">@dimen/oppo_btn_small_width_min</item>
+        <item name="android:minHeight">@dimen/oppo_btn_small_height_min</item>
+    </style>
+    <style name="Widget.Button.Borderless">
+        <item name="android:textSize">@dimen/oppo_dialog_button_text_size</item>
+        <item name="android:textColor">@color/oppo_dialog_button_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">@dimen/M8</item>
+        <item name="android:paddingRight">@dimen/M8</item>
+        <item name="android:layout_height">@dimen/oppo_dialog_button_height</item>
+    </style>
+    <style name="Widget.Button.Borderless.Positive">
+        <item name="android:textSize">@dimen/oppo_dialog_button_text_size</item>
+        <item name="android:textColor">@color/oppo_dialog_button_text_color</item>
+        <item name="android:background">@drawable/color_button_bottom_single</item>
+        <item name="android:layout_height">@dimen/oppo_dialog_button_height</item>
+    </style>
+    <style name="Widget.Button.Borderless.Small">
+    </style>
+    <style name="Widget.CompoundButton">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textSize">@dimen/oppo_compoundbutton_text_size</item>
+        <item name="android:textColor">@color/oppo_compoundbutton_text_color</item>
+        <item name="android:gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Widget.CompoundButton.CheckBox">
+        <item name="android:button">?android:attr/listChoiceIndicatorMultiple</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">@dimen/M3</item>
+    </style>
+    <style name="Widget.CompoundButton.RadioButton">
+        <item name="android:button">?android:attr/listChoiceIndicatorSingle</item>
+    </style>
+    <style name="Widget.OplusCircleProgressBar">
+        <item name="^attr-private.progressBarBgCircleColor">?^attr-private/colorTintLightNormal</item>
+        <item name="^attr-private.progressBarColor">?^attr-private/colorTintControlNormal</item>
+        <item name="^attr-private.progressBarHeight">@dimen/color_loading_view_default_height</item>
+        <item name="^attr-private.progressBarType">@null</item>
+        <item name="^attr-private.progressBarWidth">@dimen/color_loading_view_default_width</item>
+    </style>
+    <style name="Widget.OplusCircleProgressBar.Large">
+        <item name="^attr-private.progressBarBgCircleColor">?^attr-private/colorTintLightNormal</item>
+        <item name="^attr-private.progressBarColor">?^attr-private/colorTintControlNormal</item>
+        <item name="^attr-private.progressBarHeight">@dimen/color_loading_view_large_height</item>
+        <item name="^attr-private.progressBarType">2</item>
+        <item name="^attr-private.progressBarWidth">@dimen/color_loading_view_large_width</item>
+    </style>
+    <style name="Widget.OplusCircleProgressBar.Medium">
+        <item name="^attr-private.progressBarBgCircleColor">?^attr-private/colorTintLightNormal</item>
+        <item name="^attr-private.progressBarColor">?^attr-private/colorTintControlNormal</item>
+        <item name="^attr-private.progressBarHeight">@dimen/color_loading_view_medium_height</item>
+        <item name="^attr-private.progressBarType">1</item>
+        <item name="^attr-private.progressBarWidth">@dimen/color_loading_view_medium_width</item>
+    </style>
+    <style name="Widget.OplusLoadingView">
+        <item name="^attr-private.OplusLoadingViewColor">@color/OplusLoadingViewMediumColor</item>
+        <item name="^attr-private.OplusLoadingViewHeight">@dimen/color_loading_view_default_height</item>
+        <item name="^attr-private.OplusLoadingViewType">@null</item>
+        <item name="^attr-private.OplusLoadingViewWidth">@dimen/color_loading_view_default_width</item>
+    </style>
+    <style name="Widget.ProgressBar">
+        <item name="android:maxWidth">48dp</item>
+        <item name="android:maxHeight">48dp</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:minHeight">14dp</item>
+        <item name="android:mirrorForRtl">true</item>
+    </style>
+    <style name="Widget.ProgressBar.Horizontal.BootMessage">
+        <item name="android:progressDrawable">@drawable/oppo_progress_horizontal_boot</item>
+    </style>
+    <style name="Widget.ShutdownView">
+        <item name="colorLockText">@string/lockscreen_manually_lock_text</item>
+        <item name="colorManuallyNormalDrawable">@drawable/color_global_action_manually_lock_normal</item>
+        <item name="^attr-private.colorCancelNormalDrawable">@drawable/color_global_action_cancel_normal</item>
+        <item name="^attr-private.colorCancelPressedDrawable">@drawable/color_global_action_cancel_pressed</item>
+        <item name="^attr-private.colorCancelText">@string/oppo_power_cancel_text</item>
+        <item name="^attr-private.colorEmergencyNormalDrawable">@drawable/color_global_action_emergency_normal</item>
+        <item name="^attr-private.colorEmergencyPressedDrawable">@drawable/color_global_action_emergency_pressed</item>
+        <item name="^attr-private.colorEmergencyText">@android:string/hours</item>
+    </style>
+    <style name="Widget.StackView">
+        <item name="android:bool.config_animateScreenLights">@android:color/holo_blue_light</item>
+        <item name="?0x11200c5">@android:color/holo_blue_light</item>
+    </style>
+</resources>

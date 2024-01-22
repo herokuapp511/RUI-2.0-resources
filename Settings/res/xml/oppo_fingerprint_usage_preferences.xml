@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:title="@string/fingerprint_usage" android:key="parent_screen">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="fingerprint_usedfor_category" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/fingerprint_unlock" android:key="fingerprint_unlock" android:defaultValue="false"/>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/privacy_title_apps_lock" android:key="fingerprint_encrypt_application" android:defaultValue="false"/>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/fingerprint_encrypt_file" android:key="fingerprint_encrypt_file_switch" android:defaultValue="false"/>
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/fingerprint_security_center_switch" android:key="fingerprint_security_center_switch" android:defaultValue="false"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory/>
+    <Preference android:layout="@layout/color_detail_preference" android:summary="@string/preference_information_description"/>
+</PreferenceScreen>

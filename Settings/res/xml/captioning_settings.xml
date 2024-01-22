@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:persistent="false" android:title="@string/accessibility_captioning_title">
+    <com.android.settingslib.widget.LayoutPreference android:persistent="false" android:layout="@layout/accessibility_captions_preview" android:title="@string/summary_placeholder" android:selectable="false" android:key="captions_preview" app:allowDividerBelow="true" app:searchable="false"/>
+    <SwitchPreference android:persistent="false" android:title="@string/accessibility_caption_master_switch_title" android:key="captioning_preference_switch" android:summary="@string/accessibility_caption_master_switch_summary" app:allowDividerAbove="true"/>
+    <Preference android:persistent="false" android:title="@string/captioning_caption_appearance_title" android:key="captioning_caption_appearance" android:fragment="com.android.settings.accessibility.CaptionAppearanceFragment"/>
+    <Preference android:persistent="false" android:title="@string/captioning_more_options_title" android:key="captioning_more_options" android:fragment="com.android.settings.accessibility.CaptionMoreOptionsFragment"/>
+    <com.android.settingslib.widget.FooterPreference android:persistent="false" android:title="@string/accessibility_caption_preference_summary" android:selectable="false" app:searchable="false"/>
+</PreferenceScreen>

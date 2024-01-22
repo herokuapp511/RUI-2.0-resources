@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/dialog_border" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:textSize="16dp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/new_pic_from_camera" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="10dp" android:text="@string/aod_camera"/>
+    <Button android:textSize="16dp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/new_pic_from_album" android:layout_width="match_parent" android:layout_height="52dp" android:text="@string/aod_album"/>
+    <View android:id="@+id/line_between_pic_and_button" android:background="#33979797" android:layout_width="match_parent" android:layout_height="0.6dp" android:layout_marginTop="10dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+    <Button android:textSize="16dp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/new_pic_get_cancel" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginBottom="16dp" android:text="@string/aod_cancel"/>
+</LinearLayout>

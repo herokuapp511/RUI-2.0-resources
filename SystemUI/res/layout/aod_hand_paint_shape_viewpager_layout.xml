@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/aod_hand_paint_shape_select_vp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <color.support.v7.widget.pageindicator.ColorPageIndicator android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/aod_hand_paint_shape_select_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_dp_2" app:dotColor="@color/aod_indicator_color" app:dotSize="@dimen/aod_clock_dp_4" app:dotSpacing="@dimen/aod_clock_dp_2" app:dotStrokeWidth="@dimen/aod_clock_dp_2" app:traceDotColor="@color/colorWhite"/>
+</LinearLayout>

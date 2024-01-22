@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oppo_dialog_max_height">488dp</dimen>
+    <dimen name="oppo_dialog_title_min_height">36dp</dimen>
+    <dimen name="oppo_float_panel_arrow_bottom_offset">1dp</dimen>
+    <dimen name="oppo_float_panel_arrow_top_offset">1dp</dimen>
+    <dimen name="oppo_list_item_normal_height_balck">60dp</dimen>
+    <dimen name="oppo_text_translate_down_arrow_bottom_offset">13dp</dimen>
+    <dimen name="oppo_text_translate_down_arrow_top_offset">2dp</dimen>
+    <dimen name="oppo_text_translate_panel_padding_end">5dp</dimen>
+    <dimen name="oppo_text_translate_panel_padding_start">6dp</dimen>
+    <dimen name="oppo_text_translate_panel_padding_top">3dp</dimen>
+    <dimen name="oppo_text_translate_up_arrow_bottom_offset">9dp</dimen>
+    <dimen name="oppo_text_translate_up_arrow_top_offset">3dp</dimen>
+</resources>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>ອານີເມຊັນ ປິດ</item>
+        <item>ອານີເມຊັນຂະໜາດ 0.5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1.5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 2x</item>
+        <item>ອານີເມຊັນຂະໜາດ 5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 10x</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>ຂີດຈໍາກັດມາດຕະຖານ</item>
+        <item>ບໍ່ມີຂະບວນການພື້ນຫຼັງ</item>
+        <item>ຢ່າງຫຼາຍ 1 ຂະບວນການ</item>
+        <item>ຢ່າງຫຼາຍ 2 ຂະບວນການ</item>
+        <item>ຢ່າງຫຼາຍ 3 ຂະບວນການ</item>
+        <item>ຢ່າງຫຼາຍ 4 ຂະບວນການ</item>
+    </array>
+    <array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </array>
+    <array name="battery_options">
+        <item>ສະແດງເປັນເປີເຊັນສະເໝີ</item>
+        <item>ສະແດງເປີເຊັນຂອງພະລັງງານແບັດເຕີຣີໃນຂະນະທີ່ສາກ (ຄ່າເດີມ)</item>
+        <item>ບໍ່ສະແດງໄອຄອນນີ້</item>
+    </array>
+    <array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (​ຄ່າ​ເລີ່ມ​ຕົ້ນ)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </array>
+    <array name="bluetooth_map_versions">
+        <item>MAP 1.2 (ຄ່າເດີມ)</item>
+        <item>ແຜນທີ່ 1.3</item>
+        <item>ແຜນທີ່ 1.4</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries_new">
+        <item>ປິດໃຊ້ແລ້ວ</item>
+        <item>ເປີດ​ໃຊ້​ກັ່ນຕອງແລ້ວ</item>
+        <item>ເປີດໃຊ້ແລ້ວ</item>
+        <item>ເປີດ​ໃຊ້​ສ່ວນ​ຫົວ​ທີ່​ກັ່ນ​ຕອງ​ແລ້ວ</item>
+        <item>​ເປີດ​ໃຊ້ Pkts ມີເດຍທີ່ກັ່ນຕອງ​ແລ້ວ</item>
+    </array>
+    <array name="can_select_charge_or_ftp">
+        <item>​ສາກ​ເທົ່າ​ນັ້ນ</item>
+        <item>ໂອນໄຟລ໌</item>
+    </array>
+    <array name="can_select_charge_or_mtp">
+        <item>​ສາກ​ເທົ່າ​ນັ້ນ</item>
+        <item>ໂອນຮູບຖ່າຍ</item>
+    </array>
+    <array name="can_select_ftp_or_mtp">
+        <item>ໂອນໄຟລ໌</item>
+        <item>ໂອນຮູບຖ່າຍ</item>
+    </array>
+    <array name="clock_options">
+        <item>ສະແດງຊົ່ວໂມງ, ນາທີ ແລະວິນາທີ</item>
+        <item>ສະແດງຊົ່ວໂມງ ແລະນາທີ (ຄ່າເດີມ)</item>
+        <item>ບໍ່ສະແດງໄອຄອນນີ້</item>
+    </array>
+    <array name="color_lunar_mounth">
+        <item>正月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>冬月</item>
+        <item>腊月</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>ສີທີ່ເພີ່ມທະວີ</item>
+        <item>ສີທໍາມະຊາດທີ່ເບິ່ງເຫັນດ້ວຍຕາເປົ່າ</item>
+        <item>ສີເໝາະສົມສໍາລັບເນື້ອໃນທີ່ເປັນດິຈິຕອນ</item>
+    </array>
+    <array name="color_mode_names">
+        <item>ສີສົດໃສ (ຄ່າເດີມ)</item>
+        <item>ທໍາມະຊາດ</item>
+        <item>ມາດຕະຖານ</item>
+    </array>
+    <array name="color_solor_mounth">
+        <item>ມັງກອນ</item>
+        <item>ກຸມພາ</item>
+        <item>ມີນາ</item>
+        <item>ເມສາ</item>
+        <item>ພຶດສະພາ</item>
+        <item>ມິຖຸນາ</item>
+        <item>ກໍລະກົດ</item>
+        <item>ສິງຫາ</item>
+        <item>ກັນຍາ</item>
+        <item>ຕຸລາ</item>
+        <item>ພະຈິກ</item>
+        <item>ທັນວາ</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>ປິດ</item>
+        <item>ສະແດງບໍລິເວນທີ່ແຕ້ມເກີນ</item>
+        <item>ສະແດງບໍລິເວນສຳລັບຕາບອດຈາງສີຂຽວ</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>ບໍ່ມີ</item>
+        <item>Logcat</item>
+        <item>Systrace (ກຣາຟິກ)</item>
+        <item>ການໂທກອງເທິງ glGetError</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>ຢ່າໃຊ້ການກວດ HDCP ຈັກເທື່ອ</item>
+        <item>ໃຊ້ການກວດ HDCP ສໍາລັບເນື້ອໃນ DRM ເທົ່ານັ້ນ</item>
+        <item>ໃຊ້ການກວດ HDCP ຢູ່ສະເໝີ</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>ຢ່າກວດຈັກເທື່ອ</item>
+        <item>ກວດເບິ່ງເນື້ອໃນ DRM ເທົ່ານັ້ນ</item>
+        <item>ກວດຢູ່ສະເໝີ</item>
+    </array>
+    <array name="nav_bar_layouts">
+        <item>ປົກກະຕິ</item>
+        <item>ກະທັດຮັດ</item>
+        <item>ຮັກສາໃຫ້ຢູ່ຊ້າຍມື</item>
+        <item>ຮັກສາໃຫ້ຢູ່ຂວາມື</item>
+    </array>
+    <array name="oppo_time_picker_ampm">
+        <item>AM</item>
+        <item>PM</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>ບໍ່ມີ</item>
+        <item>480p</item>
+        <item>480p (ປອດໄພ)</item>
+        <item>720p</item>
+        <item>720p (ປອດໄພ)</item>
+        <item>1080p</item>
+        <item>1080p (ປອດໄພ)</item>
+        <item>4K</item>
+        <item>4K (ປອດໄພ)</item>
+        <item>4K (ປັບປຸງ)</item>
+        <item>4K (ປັບປຸງ, ປອດໄພ)</item>
+        <item>720p, 1080p (ໜ້າຈໍຄູ່)</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>ປິດ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>ປິດ</item>
+        <item>64K ຕໍ່ບັບເຟີບັນທຶກ</item>
+        <item>256K ຕໍ່ບັບເຟີບັນທຶກ</item>
+        <item>1M ຕໍ່ບັບເຟີບັນທຶກ</item>
+        <item>4M ຕໍ່ບັບເຟີບັນທຶກ</item>
+        <item>16M ຕໍ່ບັບເຟີບັນທຶກ</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>ປິດ</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>ປິດ</item>
+        <item>ບັບເຟີບັນທຶກທັງໝົດ</item>
+        <item>ບັບເຟີບັນທຶກທັງໝົດທີ່ບໍ່ແມ່ນແບບວິທະຍຸ</item>
+        <item>ບັບເຟີບັນທຶກຂອງ kernel ເທົ່ານັ້ນ</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>ປິດ</item>
+        <item>ທັງໝົດ</item>
+        <item>ທັງໝົດທີ່ບໍ່ແມ່ນແບບວິທະຍຸ</item>
+        <item>Kernel ເທົ່ານັ້ນ</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>ປິດ</item>
+        <item>ແຕ້ມຂອບເຂດຄລິບທີ່ບໍ່ເປັນສີ່ຫຼ່ຽມໃນສີຟ້າ</item>
+        <item>ໝາຍເອົາຄຳສັ່ງແຕ້ມທີ່ຖືກທົດສອບໃນສີຂຽວ</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>ປິດອານີເມຊັນ</item>
+        <item>ອານີເມຊັນຂະໜາດ 0.5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1.5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 2x</item>
+        <item>ອານີເມຊັນຂະໜາດ 5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 10x</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>ຊ້າຫຼາຍ</item>
+        <item>ຊ້າ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ໄວ</item>
+        <item>ໄວກວ່າ</item>
+        <item>ໄວຫຼາຍ</item>
+        <item>ໄວສຸດໆ</item>
+        <item>ໄວທີ່ສຸດ</item>
+        <item>ໄວສຸດ</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>ສາກ</item>
+        <item>MTP (ໂພຣໂຕຄໍການໂອນຍ້າຍມີເດຍ)</item>
+        <item>PTP (ໂພຣໂຕຄໍການໂອນຍ້າຍຮູບພາບ)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>ແຫຼ່ງສຽງ</item>
+        <item>MIDI</item>
+    </array>
+    <array name="usb_type_select">
+        <item>​ສາກ​ເທົ່າ​ນັ້ນ</item>
+        <item>ໂອນໄຟລ໌</item>
+        <item>ໂອນຮູບຖ່າຍ</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>ກໍາລັງສະແກນ…</item>
+        <item>ກໍາລັງເຊື່ອມຕໍ່…</item>
+        <item>ກໍາລັງກວດຮັບຮອງ…</item>
+        <item>ຂໍເອົາທີ່ຢູ່ IP…</item>
+        <item>ເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ໂຈະແລ້ວ</item>
+        <item>ກໍາລັງຕັດເຊື່ອມຕໍ່…</item>
+        <item>ຕັດເຊື່ອມຕໍ່ແລ້ວ</item>
+        <item>ບໍ່ສຳເລັດຜົນ</item>
+        <item>ບລັອກແລ້ວ</item>
+        <item>ການຫຼີກ​ລຽງການເຊື່ອມຕໍ່ບໍ່ດີຊົ່ວຄາວ</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>ອານີເມຊັນ ປິດ</item>
+        <item>ອານີເມຊັນຂະໜາດ 0.5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1x</item>
+        <item>ອານີເມຊັນຂະໜາດ 1.5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 2x</item>
+        <item>ອານີເມຊັນຂະໜາດ 5x</item>
+        <item>ອານີເມຊັນຂະໜາດ 10x</item>
+    </array>
+</resources>

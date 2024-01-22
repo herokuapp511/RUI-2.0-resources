@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.android.internal.widget.DialogTitle android:ellipsize="end" android:gravity="center" android:id="@android:id/noHideDescendants" android:paddingLeft="@dimen/color_alert_dialog_message_padding_left" android:paddingTop="@dimen/color_alert_dialog_title_margin_top" android:paddingRight="@dimen/color_alert_dialog_message_padding_left" android:paddingBottom="@dimen/color_alert_dialog_title_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/oppo_dialog_title_min_height" android:text="@string/color_select_input_method_title" android:singleLine="true" style="@style/DialogTextAppearance.Title"/>
+    <LinearLayout android:orientation="vertical" android:id="@android:id/account_row_text" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:ellipsize="marquee" android:gravity="center_vertical" android:orientation="vertical" android:background="?android:attr/selectableItemBackground" android:paddingLeft="16dp" android:paddingTop="5dp" android:paddingRight="0dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:layout_weight="1">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="?android:attr/textColorAlertDialogListItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/lockscreen_glogin_instructions" android:singleLine="true"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorAlertDialogListItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0x1040786" android:singleLine="true"/>
+            </LinearLayout>
+            <Switch android:layout_gravity="center_vertical" android:id="@android:id/datePicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

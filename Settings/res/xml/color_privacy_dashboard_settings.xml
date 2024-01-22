@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/privacy_catogory" android:key="privacy_dashboard_page">
+    <Preference android:title="@string/work_policy_privacy_settings" android:key="work_policy_info" android:summary="@string/work_policy_privacy_settings_summary" android:order="10" app:allowDividerAbove="true" app:controller="com.android.settings.privacy.WorkPolicyInfoPreferenceController"/>
+    <com.color.support.preference.ColorPreferenceCategory android:title="@string/app_permissions_category" android:key="category_system_permission" android:order="20" app:isFirstCategory="true"/>
+    <Preference android:title="@string/accessibility_usage_title" android:key="privacy_accessibility_usage" android:order="30" app:allowDividerAbove="true" app:controller="com.android.settings.privacy.AccessibilityUsagePreferenceController">
+        <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES"/>
+    </Preference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:key="privacy_manage_perms" android:order="40" app:allowDividerAbove="true" app:controller="com.coloros.settings.feature.privacy.AppPermissionJumpPreferenceController"/>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/security_title_private_info_protect" android:key="key_private_info_protect" android:order="50" app:controller="com.coloros.settings.feature.privacy.PrivateInfoProtectPreferenceController"/>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/location_settings_title" android:key="location" android:order="60" android:fragment="com.coloros.settings.feature.security.location.ColorLocationSettings" app:controller="com.coloros.settings.feature.privacy.ColorLocationPreferenceController"/>
+    <com.color.support.preference.ColorPreferenceCategory android:title="@string/security_category_privacy_protect" android:key="category_privacy_protected" android:order="70">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/codebook" android:key="key_codebook" android:order="80" app:controller="com.coloros.settings.feature.privacy.CodeBookPreferenceController"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/privacy_title_apps_lock" android:key="key_apps_security" android:order="90"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/privacy_title_apps_hiden" android:key="key_app_hiden" android:order="100"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/security_title_data_protect_kit" android:key="key_data_protect_kit" android:order="110" app:controller="com.coloros.settings.feature.privacy.DataProtectKitPreferenceController"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/multi_system" android:key="key_system_clone" android:order="120"/>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/children_space_settings" android:key="key_children_space" android:order="130" app:controller="com.coloros.settings.feature.privacy.ChildrenSpacePreferenceController"/>
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.color.support.preference.ColorPreferenceCategory android:title="@string/security_passwords_title" android:key="category_privacy_protect" android:order="140"/>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/devices_id_and_advertise" android:key="devices_id" android:order="150" android:fragment="com.coloros.settings.feature.notification.DevicesIdentifyFragment"/>
+    <com.coloros.settings.widget.preference.ColorRestrictedListPreference android:title="@string/lock_screen_notifications_title" android:key="privacy_lock_screen_notifications" android:summary="@string/summary_placeholder" android:order="160" app:searchable="true"/>
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/show_password" android:key="show_password" android:summary="@string/show_password_summary" android:order="170" app:controller="com.coloros.settings.feature.privacy.ColorShowPasswordPreferenceController"/>
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/privacy_user_experience_title" android:key="user_experience" android:order="180" app:colorEnalbeClickSpan="true"/>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/experience_improvement_plan_title" android:key="experience_improvement_plan" android:order="185" android:fragment="com.coloros.settings.privacy.ExperienceImprovePlanSettings" app:allowDividerAbove="true"/>
+    <com.coloros.settings.widget.preference.SettingSwitchPreference android:title="@string/oppo_feedback_log_title" android:key="oppo_feedback_log_switch" android:order="190" app:colorEnalbeClickSpan="true"/>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/more_privacy_settings" android:key="privacy_more_settings" android:order="200" android:fragment="com.coloros.settings.privacy.ColorMorePrivacySettings" app:allowDividerAbove="true" app:controller="com.coloros.settings.feature.privacy.MoreAdvancedSettingController"/>
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="privacy_services" android:order="210"/>
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="220"/>
+    <PreferenceCategory android:title="@string/profile_section_header" android:key="privacy_work_profile_notifications_category" android:order="998" app:searchable="false">
+        <com.android.settings.RestrictedListPreference android:title="@string/locked_work_profile_notification_title" android:key="privacy_lock_screen_work_profile_notifications" android:summary="@string/summary_placeholder" android:order="999" app:searchable="false"/>
+    </PreferenceCategory>
+    <SwitchPreference android:title="@string/content_capture" android:key="content_capture" android:summary="@string/content_capture_summary" android:order="1100" app:controller="com.android.settings.privacy.EnableContentCapturePreferenceController"/>
+    <com.android.settings.widget.MasterSwitchPreference android:title="@string/content_capture" android:key="content_capture_custom_settings" android:summary="@string/content_capture_summary" android:order="1110" app:controller="com.android.settings.privacy.EnableContentCaptureWithServiceSettingsPreferenceController"/>
+    <com.color.support.preference.ColorPreferenceCategory android:order="1200">
+        <androidx.preference.Preference android:layout="@layout/color_preference_bottom" android:selectable="false" android:order="1210"/>
+    </com.color.support.preference.ColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.RecommendedPreference android:key="privacy_bottom_recommended" android:order="1500"/>
+</PreferenceScreen>

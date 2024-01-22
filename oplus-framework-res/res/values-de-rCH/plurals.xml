@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s Gerät ist verbunden mit persönlichem Hotspot.</item>
+        <item quantity="other">%s Geräte sind verbunden mit persönlichem Hotspot.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s Gerät ist verbunden via Wi-Fi-tethering.</item>
+        <item quantity="other">%s Geräte sind verbunden via Wi-Fi-tethering.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d Das Gerät ist mit Ihrem mobilen Daten-Hotspot verbunden.</item>
+        <item quantity="other">%d Die Geräte sind mit Ihrem mobilen Daten-Hotspot verbunden.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d Das Gerät ist mit Ihrem persönlichen Hotspot verbunden.</item>
+        <item quantity="other">%d Die Geräte sind Ihrem persönlichen Hotspot verbunden.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d Das Gerät ist über WLAN-Tethering verbunden.</item>
+        <item quantity="other">%d Die Geräte sind über WLAN-Tethering verbunden.</item>
+    </plurals>
+</resources>

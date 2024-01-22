@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/list_optimize_title" android:key="realme_lab_list_optimize_preferencescreen" app:keywords="@string/list_optimize_title">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="realme_lab_list_optimize_preferencecategory">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:persistent="false" android:title="@string/list_optimize_title" android:key="lab_list_optimize" android:summary="@string/list_optimize_summary"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:selectable="false" android:key="realme_lab_list_optimize_contain" app:colorClickStyle="2">
+        <com.coloros.settings.widget.preference.LikeFunctionPreference android:key="realme_lab_list_optimize_likekey"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BouncerSecurityContainer">
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+    </style>
+    <style name="BrightnessDialogContainer">
+        <item name="android:layout_width">@dimen/notification_panel_width</item>
+    </style>
+    <style name="TextAppearance.QS.UserSwitcher">
+        <item name="android:textSize">@dimen/kg_user_switcher_text_size</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:fontFamily">@android:string/permdesc_setPreferredApplications</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.UserSwitcher">
+        <item name="android:textSize">@dimen/kg_user_switcher_text_size</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textColor">?attr/wallpaperTextColor</item>
+        <item name="android:fontFamily">@android:string/permdesc_setPreferredApplications</item>
+    </style>
+    <style name="UserDetailView">
+        <item name="numColumns">4</item>
+    </style>
+    <style name="Widget.Design.TabLayout">
+        <item name="tabGravity">1</item>
+        <item name="tabMode">1</item>
+    </style>
+</resources>

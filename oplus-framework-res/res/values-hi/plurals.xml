@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s डिवाइस, व्यक्तिगत हॉटस्पॉट से कनेक्ट है।</item>
+        <item quantity="other">%s डिवाइसें, व्यक्तिगत हॉटस्पॉट से कनेक्ट हैं।</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s डिवाइस Wi-Fi टेथरिंग के जरिए कनेक्ट है।</item>
+        <item quantity="other">%s डिवाइसें Wi-Fi टेथरिंग के जरिए कनेक्ट हैं।</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d डिवाइस आपके मोबाइल डेटा हॉटस्पॉट से कनेक्ट किया गया है।</item>
+        <item quantity="other">%d डिवाइस आपके मोबाइल डेटा हॉटस्पॉट से कनेक्ट किए गए हैं।</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d डिवाइस आपके पर्सनल हॉटस्पॉट से कनेक्ट किया गया है।</item>
+        <item quantity="other">%d डिवाइस आपके पर्सनल हॉटस्पॉट से कनेक्ट किए गए हैं।</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d डिवाइस Wi-Fi टेदरिंग के जरिए कनेक्ट किया गया है।</item>
+        <item quantity="other">%d डिवाइस Wi-Fi टेदरिंग के जरिए कनेक्ट किए गए हैं।</item>
+    </plurals>
+</resources>

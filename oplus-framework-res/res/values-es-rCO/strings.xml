@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="available_good_ssid">, por favor seleccione otra red Wi-Fi o celular.</string>
+    <string name="available_ssid">Calidad de red deficiente</string>
+    <string name="gr_abandon">Descartar</string>
+    <string name="gr_cancel">Cancelar</string>
+    <string name="gr_do_down">Instale ahora</string>
+    <string name="gr_do_down_down">Descargar e instalar ahora</string>
+    <string name="gr_down_tip_content">Instalación del Marco de servicios de Google en curso. Por favor, espere...</string>
+    <string name="gr_down_tip_content_down">Descarga e instalación del Marco de servicios de Google en curso. Por favor, espere...</string>
+    <string name="gr_exception">No se pudo instalar el Marco de servicios de Google. Intente de nuevo más tarde.</string>
+    <string name="gr_exception_down">No se pudo descargar e instalar el Marco de servicios de Google. Intente de nuevo más tarde.</string>
+    <string name="gr_network">Error de red. Por favor revise el estado de la red y vuelva a intentar.</string>
+    <string name="gr_never_remind">No preguntar de nuevo</string>
+    <string name="gr_no_oppo_roam_tip">No se puede acceder a los servicios Google debido a restricciones del operador. Por favor cambie a una SIM local o use Wi-Fi y vuelva a intentar.</string>
+    <string name="gr_not_access_tip">No se puede acceder a los servicios Google en la red actual.</string>
+    <string name="gr_ok">OK</string>
+    <string name="gr_oppo_roam_tip">No se puede acceder a los servicios Google debido a restricciones del operador. Por favor cambie a una SIM local, use Wi-Fi o compre datos locales a través de \"ORoaming\" y vuelva a intentar.</string>
+    <string name="gr_reinstall_progress_tip_content">Es necesario volver a inicializar %s antes de usar el Marco de servicios de Google. Por favor, espere...</string>
+    <string name="gr_space">El almacenamiento disponible es insuficiente. Por favor libere espacio y vuelva a intentar.</string>
+    <string name="gr_succ">Finalizó la inicialización. Toque OK para iniciar %s.</string>
+    <string name="gr_succ_down">El Marco de servicios de Google se instaló con éxito. Toque OK para iniciar %s.</string>
+    <string name="gr_tip_content">%s requiere el Marco de servicios de Google para ejecutarse correctamente. ¿Instalar esto ahora?</string>
+    <string name="gr_tip_content_down">%s requiere el Marco de servicios de Google para ejecutarse correctamente. Al descargar esto se consumirán datos. ¿Descargar e instalar el Marco de servicios de Google ahora?</string>
+    <string name="gr_tip_title">Consejos</string>
+    <string name="know_unavailable_ssid">Recordar cada vez que se cambie</string>
+    <string name="oppo_sla_cancel">Cancelar</string>
+    <string name="oppo_sla_go_and_set">Ir a Configuración</string>
+    <string name="oppo_sla_reminder">Se detectó que el Wi-Fi actual está en condiciones deficientes. Active \"Aceleración de red de doble canal\" para usar datos de Wi-Fi y celulares simultáneamente para lograr una experiencia de Internet más fluida.</string>
+    <string name="oppo_wifi_p2p_frequency_conflict_message">Se desconectará el Wi-Fi durante la conexión.</string>
+    <string name="type_wifi_connect_failed">Falló la conexión Wi-Fi.</string>
+    <string name="unavailable_ssid">No hay conexión de datos</string>
+    <string name="wifi_assistant_allow">Permitir</string>
+    <string name="wifi_assistant_deny">Declinar</string>
+    <string name="wifi_enhance_know">OK</string>
+    <string name="wifi_enhance_unvalid">No se puede conectar a la red</string>
+    <string name="wifi_p2p_connect">Conectar</string>
+    <string name="wifi_p2p_dialog_default_title">¿Conectar a \"%1$s\"?</string>
+    <string name="wifi_p2p_failed_dialog_title">No se pudo habilitar Wi-Fi Direct</string>
+    <string name="wifi_p2p_message">¿Aceptar la invitación a conectarse con \"%1$s\"?</string>
+    <string name="wifi_p2p_ok">OK</string>
+    <string name="wlan_assistant_select">, ¿permitir que el Asistente de Wi-Fi cambie la red a una mejor?</string>
+    <string name="wlan_switch_data">, Asistente de Wi-Fi ha cambiado la red a celular.</string>
+    <string name="wlan_switch_data_checkbox">No preguntar de nuevo</string>
+    <string name="wlan_switch_data_message">Puede desactivar esta característica en \"Configuración - Wi-Fi - Asistente de Wi-Fi\".</string>
+</resources>

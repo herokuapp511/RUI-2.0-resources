@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@android:id/action_menu_presenter" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <com.color.support.widget.ColorListView android:id="@android:id/list" android:background="@drawable/color_list_preference_bg" android:paddingTop="@dimen/list_padding_top" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="false" android:divider="@null"/>
+            <include layout="@layout/loading_container"/>
+        </FrameLayout>
+        <com.coloros.settings.widget.EmptyListView android:layout_gravity="center" android:id="@android:id/empty" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <include layout="@layout/color_appbar_layout"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.color.support.widget.ColorRoundImageView android:layout_gravity="center_horizontal" android:id="@+id/user_photo" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:src="@drawable/ic_user_avatar_for_tint_default" app:colorType="0"/>
+</LinearLayout>

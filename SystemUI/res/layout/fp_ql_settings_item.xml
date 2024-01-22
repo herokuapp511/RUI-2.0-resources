@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:layout_width="@dimen/ql_settings_app_frame_size" android:layout_height="@dimen/ql_settings_app_frame_size" android:layout_marginTop="32dp" android:contentDescription="@string/fingerprint_ql_preview_description" android:layout_marginStart="16.5dp">
+    <ImageView android:layout_gravity="center" android:id="@+id/image_item_background" android:layout_width="@dimen/ql_settings_app_background_size" android:layout_height="@dimen/ql_settings_app_background_size"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/image_item" android:layout_width="@dimen/ql_settings_app_size" android:layout_height="@dimen/ql_settings_app_size"/>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/image_app" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="@dimen/ql_settings_shortcut_second_app_size" android:layout_height="@dimen/ql_settings_shortcut_second_app_size" android:scaleType="fitXY" android:paddingEnd="2dp"/>
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s eszköz kapcsolódik személyes csatlakozási ponton keresztül.</item>
+        <item quantity="other">%s eszköz kapcsolódik személyes csatlakozási ponton keresztül.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s eszköz kapcsolódik Wi-Fi-internetmegosztáson keresztül.</item>
+        <item quantity="other">%s eszköz kapcsolódik Wi-Fi-internetmegosztáson keresztül.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d eszköz kapcsolódik mobiladat csatlakozási pontjához.</item>
+        <item quantity="other">%d eszköz kapcsolódik mobiladat csatlakozási pontjához.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d eszköz kapcsolódik személyes hotspotjához.</item>
+        <item quantity="other">%d eszköz kapcsolódik személyes hotspotjához.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d eszköz kapcsolódik Wi-Fi-internetmegosztáson keresztül.</item>
+        <item quantity="other">%d eszköz kapcsolódik Wi-Fi-internetmegosztáson keresztül.</item>
+    </plurals>
+</resources>

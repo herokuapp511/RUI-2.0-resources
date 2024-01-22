@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/rootView" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/aod_include_layout_toolbar"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/hand_painting_layout" android:background="@drawable/aod_shape_bg_gash_corner" android:padding="@dimen/aod_clock_dp_1" android:layout_width="@dimen/aod_clock_dp_340" android:layout_height="@dimen/aod_clock_dp_340"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_dp_15">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/hand_paint_switch_ll" android:layout_width="@dimen/aod_clock_dp_60" android:layout_height="wrap_content" android:minWidth="@dimen/aod_clock_dp_24">
+            <ImageView android:id="@+id/hand_paint_switch_btn" android:background="@drawable/aod_hand_paint_switch" android:clickable="false" android:layout_width="@dimen/aod_clock_dp_24" android:layout_height="@dimen/aod_clock_dp_24"/>
+            <TextView android:textSize="11sp" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_dp_7" android:maxWidth="@dimen/aod_clock_dp_60" android:text="@string/aod_auto" android:lines="1"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="top" android:id="@+id/hand_paint_undo_btn" android:layout_width="@dimen/aod_clock_dp_34" android:layout_height="@dimen/aod_clock_dp_24" android:src="@drawable/aod_hand_paint_undo" android:alpha="0" android:paddingStart="@dimen/aod_clock_dp_5" android:paddingEnd="@dimen/aod_clock_dp_5" android:layout_marginStart="@dimen/aod_clock_dp_43"/>
+        <ImageView android:layout_gravity="top" android:id="@+id/hand_paint_redo_btn" android:layout_width="@dimen/aod_clock_dp_34" android:layout_height="@dimen/aod_clock_dp_24" android:src="@drawable/aod_hand_paint_redo" android:alpha="0" android:paddingStart="@dimen/aod_clock_dp_5" android:paddingEnd="@dimen/aod_clock_dp_5" android:layout_marginStart="@dimen/aod_clock_dp_43"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/hand_paint_clear_ll" android:layout_width="@dimen/aod_clock_dp_60" android:layout_height="wrap_content" android:minWidth="@dimen/aod_clock_dp_24" android:layout_marginStart="@dimen/aod_clock_dp_43">
+            <ImageView android:id="@+id/hand_paint_clear_btn" android:background="@drawable/aod_hand_paint_clear" android:clickable="false" android:layout_width="@dimen/aod_clock_dp_24" android:layout_height="@dimen/aod_clock_dp_24"/>
+            <TextView android:textSize="11sp" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:id="@+id/hand_paint_clear_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_dp_7" android:maxWidth="@dimen/aod_clock_dp_60" android:text="@string/aod_clear" android:lines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/aod_hand_paint_fragment" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.ColorRecyclerView android:id="@+id/aod_hand_paint_select_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="@dimen/aod_clock_dp_15" android:paddingEnd="@dimen/aod_clock_dp_15"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">Kifaa cha %s kimeunganishwa na muunganisho wa Wi-Fi ya kibinafsi.</item>
+        <item quantity="other">Vifaa vya %s vimeunganishwa na muunganisho wa Wi-Fi ya kibinafsi.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">Kifaa cha %s kimeunganishwa kwa kutumia Wi-Fi.</item>
+        <item quantity="other">Vifaa vya %s vimeunganishwa kupitia Wi-Fi.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">Kifaa %d kimeunganishwa kwenye muunganisho wa Wi-Fi wa data yako ya rununu.</item>
+        <item quantity="other">Vifaa %d vimeunganishwa kwenye muunganisho wa Wi-Fi wa data yako ya rununu.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">Kifaa %d kimeunganishwa kwenye muunganisho wako wa Wi-Fi wa kibinafsi.</item>
+        <item quantity="other">Vifaa %d vimeunganishwa kwenye muunganisho wako wa Wi-Fi wa kibinafsi.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">Kifaa %d kimeunganishwa kupitia muunganisho wa Wi-Fi.</item>
+        <item quantity="other">Vifaa %d vimeunganishwa kupitia muunganisho wa Wi-Fi.</item>
+    </plurals>
+</resources>

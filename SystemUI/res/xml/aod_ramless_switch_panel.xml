@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/aod_style_display">
+    <com.color.support.preference.ColorPreferenceCategory android:key="key_aod_preference_category" app:isFirstCategory="true">
+        <com.color.support.preference.ColorMarkPreference android:persistent="false" android:title="@string/aod_display_time_energy_saving" android:key="key_energy_saving_open" android:disableDependentsState="true"/>
+        <com.color.support.preference.ColorMarkPreference android:persistent="false" android:title="@string/aod_display_time_timing" android:key="key_timing_display_open" android:disableDependentsState="true"/>
+        <com.coloros.systemui.aod.widget.AodSwitchTimePreference android:key="key_fixed_time_settings" app:isPreferenceVisible="false"/>
+        <com.color.support.preference.ColorMarkPreference android:persistent="false" android:title="@string/aod_display_time_all_day" android:key="key_always_display_open" android:disableDependentsState="true"/>
+    </com.color.support.preference.ColorPreferenceCategory>
+    <PreferenceCategory android:key="key_aod_tips_category">
+        <androidx.preference.Preference android:layout="@layout/color_pager_footer_preference" android:selectable="false" android:key="key_tips_summary" android:summary="@string/aod_battery_hint_tips"/>
+    </PreferenceCategory>
+</PreferenceScreen>

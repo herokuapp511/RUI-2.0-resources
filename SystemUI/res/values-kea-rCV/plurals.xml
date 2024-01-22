@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="color_controls_number_of_favorites">
+        <item quantity="zero">874775_%s controls added</item>
+        <item quantity="one">820824_%s control added</item>
+        <item quantity="two">874778_%s controls added</item>
+        <item quantity="few">874776_%s controls added</item>
+        <item quantity="many">874777_%s controls added</item>
+        <item quantity="other">837374_%s controls added</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="one">101254_Please Enter the PIN for SIM Card %d. %d Attempt Remaining. You&apos;ll Need to Contact the Carrier to Help Unlock the Device If It Is Incorrect Again.</item>
+        <item quantity="other">836315_Please Enter the PIN for SIM Card %d. %d Attempts Remaining.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">83403_Incorrect SIM PIN. %d attempt remaining. You&apos;ll need to contact the carrier to help unlock the device if it is incorrect again.</item>
+        <item quantity="other">836210_Incorrect SIM PIN. %d attempts remaining.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="one">101253_Incorrect PIN for SIM Card %d. %d Attempt Remaining. You&apos;ll Need to Contact the Carrier to Help Unlock the Device If It Is Incorrect Again.</item>
+        <item quantity="other">836314_Incorrect PIN for SIM Card %d. %d Attempts Remaining.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">83405_Incorrect SIM PUK code. %d attempt remaining. SIM will be permanently disabled if it is incorrect again.</item>
+        <item quantity="other">836211_Incorrect SIM PUK code. %d attempts remaining. SIMs will be permanently disabled if it is incorrect again.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">83424_The device has been locked for %d hour. Please confirm the password.</item>
+        <item quantity="other">836215_The device has been locked for %d hours. Please confirm the password.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">83422_The device has been locked for %d hour.Please confirm the unlock pattern.</item>
+        <item quantity="other">836212_The device has been locked for %d hours.Please confirm the unlock pattern.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">83423_The device has been locked for %d hour.Please confirm the PIN.</item>
+        <item quantity="other">836213_The device has been locked for %d hours.Please confirm the PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="one">101252_Please Retry After 1 Second.</item>
+        <item quantity="other">836313_Please Retry After %d Seconds.</item>
+    </plurals>
+    <plurals name="notification_count_content">
+        <item quantity="zero">874731_You have %1$d new notifications from the system clone. Switch to the clone to view them.</item>
+        <item quantity="one">819458_You have %1$d new notification from the system clone. Switch to the clone to view it.</item>
+        <item quantity="two">874734_You have %1$d new notifications from the system clone. Switch to the clone to view them.</item>
+        <item quantity="few">874732_You have %1$d new notifications from the system clone. Switch to the clone to view them.</item>
+        <item quantity="many">874733_You have %1$d new notifications from the system clone. Switch to the clone to view them.</item>
+        <item quantity="other">837363_You have %1$d new notifications from the system clone. Switch to the clone to view them.</item>
+    </plurals>
+    <plurals name="notification_count_content_from_main">
+        <item quantity="zero">874735_You have %1$d new notifications from the main system. Switch to the main system to view them.</item>
+        <item quantity="one">819459_You have %1$d new notification from the main system. Switch to the main system to view it.</item>
+        <item quantity="two">874738_You have %1$d new notifications from the main system. Switch to the main system to view them.</item>
+        <item quantity="few">874736_You have %1$d new notifications from the main system. Switch to the main system to view them.</item>
+        <item quantity="many">874737_You have %1$d new notifications from the main system. Switch to the main system to view them.</item>
+        <item quantity="other">837364_You have %1$d new notifications from the main system. Switch to the main system to view them.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="zero">871792_There are still %s notifications in this group.</item>
+        <item quantity="one">81948_There is still %s notification in this group.</item>
+        <item quantity="two">871795_There are still %s notifications in this group.</item>
+        <item quantity="few">871793_There are still %s notifications in this group.</item>
+        <item quantity="many">871794_There are still %s notifications in this group.</item>
+        <item quantity="other">836202_There are still %s notifications in this group.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">840949_%d new notification</item>
+        <item quantity="other">840948_%d new notifications</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="zero">872000_%d hours</item>
+        <item quantity="one">93036_%d hour</item>
+        <item quantity="two">872003_%d hours</item>
+        <item quantity="few">872001_%d hours</item>
+        <item quantity="many">872002_%d hours</item>
+        <item quantity="other">836282_%d hours</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="zero">872004_%d minutes</item>
+        <item quantity="one">93037_%d minute</item>
+        <item quantity="two">872007_%d minutes</item>
+        <item quantity="few">872005_%d minutes</item>
+        <item quantity="many">872006_%d minutes</item>
+        <item quantity="other">836283_%d minutes</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">147850_%1$d device connected</item>
+        <item quantity="other">836758_%1$d devices connected</item>
+    </plurals>
+</resources>

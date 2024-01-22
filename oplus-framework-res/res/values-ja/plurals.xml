@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s 台のデバイスがパーソナルホットスポットに接続されています。</item>
+        <item quantity="other">%s 台のデバイスがパーソナルホットスポットに接続されています。</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s 台のデバイスが接続されています。Wi-Fi テザリングを使用して</item>
+        <item quantity="other">%s 台のデバイスが接続されています。</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d 台のデバイスがご利用のモバイルデータホットスポットに接続されています。</item>
+        <item quantity="other">%d 台のデバイスがご利用のモバイルデータホットスポットに接続されています。</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d 台のデバイスがパーソナルホットスポットに接続されています。</item>
+        <item quantity="other">%d 台のデバイスがパーソナルホットスポットに接続されています。</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">Wi-Fi テザリングを使用して %d 台のデバイスが接続されています。</item>
+        <item quantity="other">Wi-Fi テザリングを使用して %d 台のデバイスが接続されています。</item>
+    </plurals>
+</resources>

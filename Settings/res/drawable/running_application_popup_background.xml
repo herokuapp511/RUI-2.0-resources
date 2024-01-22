@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <corners android:radius="@dimen/running_application_popup_radius"/>
+    <stroke android:width="2px" android:color="@color/running_application_popup_stroke_color"/>
+    <solid android:color="@color/running_application_popup_background_color"/>
+</shape>

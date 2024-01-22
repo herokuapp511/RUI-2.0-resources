@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt">
+    <androidx.preference.Preference android:layout="@layout/color_layout_preference_header" android:selectable="false"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="ringtone_category_key" app:isFirstCategory="true"/>
+    <androidx.preference.PreferenceCategory android:title="@string/exp_tag_name_481" android:key="special_category_key"/>
+    <androidx.preference.PreferenceCategory android:key="none_category_key"/>
+    <androidx.preference.PreferenceCategory/>
+</androidx.preference.PreferenceScreen>

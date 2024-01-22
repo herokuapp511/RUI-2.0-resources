@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="color_controls_number_of_favorites">
+        <item quantity="other">​ເພີ່ມ %s ການ​ຄວບ​ຄຸມ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="one">ກະ​ລຸ​ນາ​ປ້ອນ PIN ສຳ​ລັບ​ແຜ່ນ SIM %d. ຍັງ​ເຫຼືອ​ຄວາມ​ພະ​ຍາ​ຍາມ​ອີກ %d ຄັ້ງ. ທ່ານຈະຈຳ​ເປັນຕ້ອງຕິດຕໍ່​ຫາຜູ້ໃຫ້ບໍລິການເພື່ອໃຫ້ຊ່ວຍປົດລັອກອຸປະກອນຖ້າ​ມັນບໍ່ຖືກຕ້ອງອີກ​ຄັ້ງ.</item>
+        <item quantity="other">ກະ​ລຸ​ນາປ້ອນ PIN ສຳ​ລັບແຜ່ນ SIM %d. ​ຍັງ​ເຫຼືອ​ຄວາມ​ພະ​ຍາ​ຍາມ​ອີກ %d ຄັ້ງ.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງ. ເຫຼືອການລອງອີກ %d ຄັ້ງ. ທ່ານຈະຕ້ອງຕິດຕໍ່ຜູ້ໃຫ້ບໍລິການເພື່ອໃຫ້ຊ່ວຍປົດລັອກອຸປະກອນຖ້າວ່າບໍ່ຖືກຕ້ອງອີກ.</item>
+        <item quantity="other">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງ. ເຫຼືອການລອງອີກ %d ຄັ້ງ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="one">PIN ບໍ່​ຖືກ​ຕ້ອງ​ສຳ​ລັບແຜ່ນ SIM %d. ຍັງ​ເຫຼືອ​ຄວາມ​ພະ​ຍາ​ຍາມ​ອີກ %d ຄັ້ງ. ທ່ານຈະຈຳ​ເປັນຕ້ອງຕິດຕໍ່​ຫາຜູ້ໃຫ້ບໍລິການເພື່ອໃຫ້ຊ່ວຍປົດລັອກອຸປະກອນຖ້າ​ມັນບໍ່ຖືກຕ້ອງອີກ​ຄັ້ງ.</item>
+        <item quantity="other">PIN ບໍ່​ຖືກ​ຕ້ອງສຳ​ລັບແຜ່ນ SIM %d. ຍັງ​ເຫຼືອ​ຄວາມ​ພະ​ຍາ​ຍາມ​ອີກ %d ​ຄັ້ງ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">ລະຫັດ PUK ຂອງ SIM ບໍ່ຖືກຕ້ອງ. ເຫຼືອການລອງອີກ %d ຄັ້ງ. SIM ຈະຖືກປິດໃຊ້ງານຢ່າງຖາວອນຖ້າວ່າບໍ່ຖືກຕ້ອງອີກ.</item>
+        <item quantity="other">ລະຫັດ PUK ຂອງ SIM ບໍ່ຖືກຕ້ອງ. ເຫຼືອການລອງອີກ %d ຄັ້ງ. SIM ຈະຖືກປິດໃຊ້ງານຢ່າງຖາວອນຖ້າວ່າບໍ່ຖືກຕ້ອງອີກ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">ອຸປະກອນໄດ້ຖືກລັອກໄວ້ເປັນເວລາ %d ຊົ່ວໂມງແລ້ວ.​ ກະລຸນາຢືນຢັນລະຫັດຜ່ານ.</item>
+        <item quantity="other">ອຸປະກອນໄດ້ຖືກລັອກໄວ້ເປັນເວລາ %d ຊົ່ວໂມງແລ້ວ. ກະລຸນາຢືນຢັນລະຫັດຜ່ານ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">ອຸປະກອນໄດ້ຖືກລັອກເປັນເວລາ %d ຊົ່ວໂມງ.ກະລຸນາຢືນຢັນຮູບແບບການປົດລັອກ.</item>
+        <item quantity="other">ອຸປະກອນໄດ້ຖືກລັອກເປັນເວລາ %d ຊົ່ວໂມງ.ກະລຸນາຢືນຢັນຮູບແບບການປົດລັອກ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">ອຸປະກອນໄດ້ຖືກລັອກເປັນເວລາ %d ຊົ່ວໂມງ.ກະລຸນາຢືນຢັນລະຫັດ PIN.</item>
+        <item quantity="other">ອຸປະກອນໄດ້ຖືກລັອກເປັນເວລາ %d ຊົ່ວໂມງ.ກະລຸນາຢືນຢັນລະຫັດ PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="one">ກະ​ລຸ​ນາ​ລອງ​ໃໝ່​ຫຼັງ​ຈາກ 1 ວິ​ນາ​ທີ.</item>
+        <item quantity="other">ກະ​ລຸ​ນາ​ລອງ​ໃໝ່​ຫຼັງ​ຈາກ %d ວິ​ນາ​ທີ.</item>
+    </plurals>
+    <plurals name="notification_count_content">
+        <item quantity="other">​ທ່ານ​ມີ %1$d ການ​ແຈ້ງ​ເຕືອນ​ໃໝ່​ຈາກ​ລະ​ບົບ​ສຳ​ເນົາ. ສັບ​ປ່ຽນ​ເປັນ​ສຳ​ເນົາ​ເພື່ອ​ເບິ່ງ​ພວກມັນ.</item>
+    </plurals>
+    <plurals name="notification_count_content_from_main">
+        <item quantity="other">​ທ່ານ​ມີ %1$d ການ​ແຈ້ງ​ເຕືອນ​ໃໝ່​ຈາກ​ລະ​ບົບ​ຫຼັກ. ສັບ​ປ່ຽນ​ເປັນ​ລະ​ບົບຫຼັກເພື່ອ​ເບິ່ງ​​ພວກມັນ.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">ຍັງມີ %s ການແຈ້ງເຕືອນໃນກຸ່ມນີ້.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ການແຈ້ງເຕືອນໃໝ່</item>
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ນາທີ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_mode_done">Terminé</string>
+    <string name="add_account_label">Ajouter un compte</string>
+    <string name="autofill_save_no">Plus tard</string>
+    <string name="autofill_save_title_with_2types">Enregistrer cela %2$s et %1$s dans %3$s ?</string>
+    <string name="autofill_save_type_username">Nom d’utilisateur</string>
+    <string name="autofill_save_yes">Enregistrer</string>
+    <string name="autofill_update_title_with_2types">Mettre à jour cela %2$s et %1$s dans%3$s ?</string>
+    <string name="autofill_update_yes">Mise à jour</string>
+    <string name="content_description_sliding_handle">Poignée coulissante. Maintenez le doigt appuyé.</string>
+    <string name="decline_remote_bugreport_action">Refuser</string>
+    <string name="emailTypeCustom">Personnaliser</string>
+    <string name="global_action_emergency">Appel d’urgence</string>
+    <string name="kg_login_password_hint">Mot de passe</string>
+    <string name="lockscreen_glogin_password_hint">Mot de passe</string>
+    <string name="managed_profile_label">Basculer vers le profil professionnel</string>
+    <string name="minutes"> min</string>
+    <string name="permgroupdesc_storage">Accédez aux photos, aux contenus multimédia et aux fichiers sur votre appareil</string>
+    <string name="permlab_install_shortcut">installer des raccourcis</string>
+    <string name="permlab_readSyncStats">lecture des statistiques de synchronisation</string>
+    <string name="phoneTypeFaxHome">Fax domicile</string>
+    <string name="policydesc_expirePassword">Adapter la fréquence à laquelle le système oblige l’utilisateur à changer le mot de passe de verrouillage d’écran, le code PIN ou le schéma de déverrouillage.</string>
+    <string name="policydesc_limitPassword">Contrôle la longueur et les caractères autorisés dans le mot de passe de verrouillage d’écran et le code PIN.</string>
+    <string name="policydesc_resetPassword">Changer le mot de passe de verrouillage d\'écran.</string>
+    <string name="policydesc_watchLogin">Contrôler le nombre de saisies erronées de mot de passe et verrouiller le téléphone ou effacer toutes les données du téléphone quand le nombre maximal a été atteint.</string>
+    <string name="policydesc_watchLogin_secondaryUser">Contrôler le nombre de saisies erronées de mots de passe et verrouiller le téléphone ou effacer toutes les données utilisateur quand le nombre maximal a été atteint.</string>
+    <string name="policylab_expirePassword">Configurer une date d’expiration pour le mot de passe de déverrouillages d’écran. </string>
+    <string name="policylab_resetPassword">Changer le mot de passe de verrouillage d’écran</string>
+    <string name="relationTypeManager">Responsable</string>
+    <string name="save_password_notnow">Plus tard</string>
+    <string name="share_remote_bugreport_action">Partager</string>
+    <string name="ssl_certificate">Certificat de sécurité</string>
+    <string name="work_mode_off_message">Vos applications de travail, notifications, données et autres fonctions de profil de travail seront activées.</string>
+    <string name="work_mode_off_title">Activer le profil de travail ?</string>
+    <string name="zen_mode_default_every_night_name">Veille</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/PreferenceFragment.OPPO">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@android:id/action_menu_presenter" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:divider="@null" android:layout_below="@+id/time_picker_layout" app:springEnabled="true"/>
+        <ImageView android:background="#19000000" android:layout_width="match_parent" android:layout_height="0.67dp" android:layout_marginStart="@dimen/oppo_toolbar_margin" android:layout_marginEnd="@dimen/oppo_toolbar_margin"/>
+        <RelativeLayout android:id="@+id/finish_button_area" android:background="@android:drawable/bottom_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/finish_button" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/finish_button_label" android:drawablePadding="3dp" android:drawableEnd="@drawable/ic_btn_next" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <TextView android:id="@+id/sync_settings_error_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/sync_is_failing" android:layout_marginStart="@dimen/M9" android:layout_marginEnd="@dimen/M9"/>
+        <com.color.support.widget.navigation.ColorNavigationView android:layout_gravity="bottom" android:id="@+id/color_bottom_menu_view_id" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/M5" layout="@layout/title"/>
+    </LinearLayout>
+    <color.support.design.widget.ColorAppBarLayout android:id="@+id/abl" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="0dp" app:layout_behavior="@string/color_appbarlayout_collapse_behavior">
+        <color.support.v7.widget.Toolbar android:id="@+id/toolbar" android:background="@drawable/color_toolbar_bg" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="60dp" app:colorLayoutScrollFlags="3" app:supportTitleTextAppearance="@style/textAppearanceSecondTitle"/>
+    </color.support.design.widget.ColorAppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

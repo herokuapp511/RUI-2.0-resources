@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/rg_keyboard_position" android:paddingTop="14dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/img_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oplus_keyboard_position_default" android:forceDarkAllowed="false"/>
+        <TextView android:id="@+id/tv_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/keyboard_position_default" style="@style/ColorPreferenceSummaryStyle"/>
+        <RadioButton android:id="@+id/rb_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="32dp">
+        <ImageView android:id="@+id/img_raise" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/oplus_keyboard_position_raised" android:forceDarkAllowed="false"/>
+        <TextView android:id="@+id/tv_raise" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/keyboard_position_raise" style="@style/ColorPreferenceSummaryStyle"/>
+        <RadioButton android:id="@+id/rb_raise" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+</LinearLayout>

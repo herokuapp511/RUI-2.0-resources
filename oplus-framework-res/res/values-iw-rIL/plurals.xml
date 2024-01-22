@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">מכשיר %s מחובר אל הנקודה החמה האישית.</item>
+        <item quantity="other">%s מכשירים מחוברים אל הנקודה החמה האישית.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">מכשיר %s מחובר באמצעות קשירת Wi-Fi.</item>
+        <item quantity="other">%s מכשירים מחוברים באמצעות קשירת Wi-Fi.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d מכשיר מחובר לנקודה החמה של הנתונים הסלולריים שלך.</item>
+        <item quantity="other">%d מכשירים מחוברים לנקודה החמה של הנתונים הסלולריים.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d מכשיר מחובר לנקודה החמה האישית שלך.</item>
+        <item quantity="other">%d מכשירים מחוברים לנקודה החמה האישית שלך.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d מכשיר מחובר באמצעות קשירת Wi-Fi.</item>
+        <item quantity="other">%d מכשירים מחוברים באמצעות קשירת Wi-Fi.</item>
+    </plurals>
+</resources>

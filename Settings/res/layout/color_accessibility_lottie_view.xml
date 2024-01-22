@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.coloros.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@+id/accessibility_lottie_view" android:layout_width="wrap_content" android:layout_height="280dp" android:scaleType="centerCrop" android:forceDarkAllowed="false" app:anim_autoPlay="true" app:anim_loop="true" app:anim_renderMode="1"/>
+    <TextView android:id="@android:id/summary" android:paddingTop="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/M10" android:layout_marginEnd="@dimen/M10" style="@style/OppoListViewTextAppearance.Small"/>
+</LinearLayout>

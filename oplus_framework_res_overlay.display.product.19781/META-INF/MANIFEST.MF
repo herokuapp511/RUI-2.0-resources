@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA-256-Digest: 3mbrWTCt2togg+tNTH9w2p0aiBjU5rZpN3upL3F+oOo=
+
+Name: res/drawable-xxhdpi-v4/oplus_rc_bottom_left.png
+SHA-256-Digest: un9KijgwBgC2HfipikP5/sL4uBIT0y2AbUGaCcwnidA=
+
+Name: res/drawable-xxhdpi-v4/oplus_rc_bottom_right.png
+SHA-256-Digest: PIGJCfEgmFaTvERAOpMxXAtNnlkZ8wXxdZVnKhByRJg=
+
+Name: res/drawable-xxhdpi-v4/oplus_rc_cutout.png
+SHA-256-Digest: AnEwv1u/3UvgLT2uhj1KSSN/2o+fDTRDQE3YsKnzkOo=
+
+Name: res/drawable-xxhdpi-v4/oplus_rc_top_left.png
+SHA-256-Digest: M00e7pGRD6ZCjOsk6UZWGro5+jxTXgZQzeV7FzpEt/k=
+
+Name: res/drawable-xxhdpi-v4/oplus_rc_top_right.png
+SHA-256-Digest: ZecK8sGEXazCa6auFau9UA+G/WBEwPb8qJlQJno7TmM=
+
+Name: resources.arsc
+SHA-256-Digest: bPvWJN19IePKuwVcedPxZoruHgFuEn3uSDm0dU23PZo=
+

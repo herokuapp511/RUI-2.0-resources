@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>ھەرىكەتلىك سۈرەتنى ئېتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى ‪‎0.5‬x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 1x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى ‪‎1.5‬x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 2x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 5x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 10x كىچىكلىتىش</item>
+    </array>
+    <array name="aod_date_entries">
+        <item>مىلادىيە چېسلاسىنى كۆرسىتىش</item>
+        <item>مىلادىيە ۋە دېھقانلار چېسلاسىنى كۆرسىتىش</item>
+        <item>كۆرسەتمەسلىك</item>
+    </array>
+    <array name="apn_auth_entries">
+        <item>يوق</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ياكى CHAP</item>
+    </array>
+    <array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </array>
+    <array name="app_install_location_entries">
+        <item>ئىچكى ساقلىغۇچ</item>
+        <item>چىقارغىلى بولىدىغان SD كارتىسى</item>
+        <item>سىستېما جەزىملەيدۇ</item>
+    </array>
+    <array name="app_ops_categories">
+        <item>ئورۇن</item>
+        <item>شەخىس</item>
+        <item>SMS</item>
+        <item>ۋاستە</item>
+        <item>ئۈسكۈنە</item>
+    </array>
+    <array name="app_ops_labels">
+        <item>ئورۇن</item>
+        <item>ئورۇن</item>
+        <item>ئورۇن</item>
+        <item>تىترەش</item>
+        <item>ئالاقىداشلارنى ئوقۇش</item>
+        <item>ئالاقىداشنى ئۆزگەرتىش</item>
+        <item>سۆزلىشىش خاتىرىسىنى ئوقۇش</item>
+        <item>سۆزلىشىش خاتىرىسىنى ئۆزگەرتىش</item>
+        <item>كالېندارنى ئوقۇش</item>
+        <item>كالېندارنى ئۆزگەرتىش</item>
+        <item>ئورۇن</item>
+        <item>ئۇقتۇرۇش چىقىرىش</item>
+        <item>ئورۇن</item>
+        <item>تېلېفون ئۇرۇش</item>
+        <item>ئۇچۇر / رەڭلىك ئۇچۇر ئوقۇش</item>
+        <item>ئۇچۇر / رەڭلىك ئۇچۇر يېزىش</item>
+        <item>ئۇچۇر / رەڭلىك ئۇچۇر قوبۇللاش</item>
+        <item>ئۇچۇر / رەڭلىك ئۇچۇر قوبۇللاش</item>
+        <item>ئۇچۇر / رەڭلىك ئۇچۇر قوبۇللاش</item>
+        <item>ئۇچۇر / رەڭلىك ئۇچۇر قوبۇللاش</item>
+        <item>ئۇچۇر / رەڭلىك ئۇچۇر يوللاش</item>
+        <item>ئۇچۇر / رەڭلىك ئۇچۇر ئوقۇش</item>
+        <item>ئۇچۇر / رەڭلىك ئۇچۇر يېزىش</item>
+        <item>تەڭشەكنى ئۆزگەرتىش</item>
+        <item>مەزمۇننى ئەڭ ئۈستۈنكى قەۋەتتە كۆرسىتىش</item>
+        <item>ئۇقتۇرۇشلارنى زىيارەت قىلىش</item>
+        <item>كامېرا</item>
+        <item>ئاۋاز ئېلىش</item>
+        <item>ئاۋازنى قويۇش</item>
+        <item>چاپلاش تاختىسىدىكى مەزمۇننى ئوقۇش</item>
+        <item>چاپلاش تاختىسىدىكى مەزمۇننى ئۆزگەرتىش</item>
+        <item>مېدىيا كۇنۇپكىسى</item>
+        <item>ئۈن فوكۇسى</item>
+        <item>ئاساسىي ئاۋاز مىقدارى</item>
+        <item>ئاۋاز يۇقىرى-تۆۋەنلىكى</item>
+        <item>قوڭغۇراق ئاۋازى مىقدارى</item>
+        <item>تاراتقۇ ئاۋاز مىقدارى</item>
+        <item>قوڭغۇراقلىق سائەت ئاۋازى مىقدارى</item>
+        <item>ئۇقتۇرۇش ئاۋاز مىقدارى</item>
+        <item>كۆكچىش ئاۋاز مىقدارى</item>
+        <item>ئويغاق ھالەتنى ساقلاش</item>
+        <item>ئورۇن</item>
+        <item>ئورۇن ئۇچۇرى</item>
+        <item>ئىشلىتىش ئەھۋالى ئىستاتىستىكا ئۇچۇرىغا ئېرىشىش</item>
+        <item>مىكروفوننى ئاۋازسىز قىلىش ياكى ئۇنى بىكار قىلىش</item>
+        <item>سالاملىشىش سۆزىنى كۆرسىتىش</item>
+        <item>مېدىيا پرويېكسىيەلەش</item>
+        <item>VPNنى ئاكتىپلاش</item>
+        <item>تەگلىك يېزىش</item>
+        <item>ياردەمچى قۇرۇلما</item>
+        <item>ئېكراننى سۈرەتكە تارتىشقا ياردەملىشىش</item>
+        <item>تېلېفون ھالىتىنى ئوقۇش</item>
+        <item>ئاۋازلىق تورخەت قوشۇش</item>
+        <item>SIPنى ئىشلىتىش</item>
+        <item>ئۇرۇلغان تېلېفونلارنى بىر تەرەپ قىلىش</item>
+        <item>بارماق ئىزى</item>
+        <item>بەدەن سېنزورى</item>
+        <item>رايون رادىيوسىنى ئوقۇش</item>
+        <item>تەقلىدىي ئورۇن</item>
+        <item>ساقلاش بوشلۇقىنى ئوقۇش</item>
+        <item>ساقلاش بوشلۇقىنى يېزىش</item>
+        <item>ئېكراننى ئېچىش</item>
+        <item>ھېساباتقا ئېرىشىش</item>
+        <item>ئارقا سۇپىدا يۈرۈش</item>
+        <item>توسالغۇسىز ئىقتىدار ئاۋاز مىقدارى</item>
+    </array>
+    <array name="app_ops_summaries">
+        <item>تەخمىنەن ئورنى</item>
+        <item>ئېنىق ئورنى</item>
+        <item>GPS</item>
+        <item>تىترەش</item>
+        <item>ئالاقىداشلارنى ئوقۇش</item>
+        <item>ئالاقىداشنى ئۆزگەرتىش</item>
+        <item>سۆزلىشىش خاتىرىسىنى ئوقۇش</item>
+        <item>سۆزلىشىش خاتىرىسىنى ئۆزگەرتىش</item>
+        <item>كالېندارنى ئوقۇش</item>
+        <item>كالېندارنى ئۆزگەرتىش</item>
+        <item>Wi-Fi سايىلەش</item>
+        <item>ئۇقتۇرۇش</item>
+        <item>تېلېفون تورىدا سايىلەش</item>
+        <item>تېلېفون ئۇرۇش</item>
+        <item>ئۇچۇر ئوقۇش</item>
+        <item>ئۇچۇر يېزىش</item>
+        <item>ئۇچۇر قوبۇللاش</item>
+        <item>جىددىي ئۇچۇر قوبۇللاش</item>
+        <item>رەڭلىك ئۇچۇر قوبۇللاش</item>
+        <item>ئۇچۇرىنى قوبۇللاش WAP PUSH</item>
+        <item>ئۇچۇر يوللاش</item>
+        <item>ICC ئۇچۇرى ئوقۇش</item>
+        <item>ICC ئۇچۇرى يېزىش</item>
+        <item>تەڭشەكنى ئۆزگەرتىش</item>
+        <item>مەزمۇننى ئەڭ ئۈستۈنكى قەۋەتتە كۆرسىتىش</item>
+        <item>ئۇقتۇرۇشلارنى زىيارەت قىلىش</item>
+        <item>كامېرا</item>
+        <item>ئاۋاز ئېلىش</item>
+        <item>ئاۋازنى قويۇش</item>
+        <item>چاپلاش تاختىسىدىكى مەزمۇننى ئوقۇش</item>
+        <item>چاپلاش تاختىسىدىكى مەزمۇننى ئۆزگەرتىش</item>
+        <item>مېدىيا كۇنۇپكىسى</item>
+        <item>ئۈن فوكۇسى</item>
+        <item>ئاساسىي ئاۋاز مىقدارى</item>
+        <item>ئاۋاز يۇقىرى-تۆۋەنلىكى</item>
+        <item>قوڭغۇراق ئاۋازى مىقدارى</item>
+        <item>تاراتقۇ ئاۋاز مىقدارى</item>
+        <item>قوڭغۇراقلىق سائەت ئاۋازى مىقدارى</item>
+        <item>ئۇقتۇرۇش ئاۋاز مىقدارى</item>
+        <item>كۆكچىش ئاۋاز مىقدارى</item>
+        <item>ئويغاق ھالەتنى ساقلاش</item>
+        <item>ئورۇننى ئۆلچەش</item>
+        <item>يۇقىرى توك سەرپىياتى ئورنىنى نازارەت قىلىش ئۇچۇر مۇلازىمىتى</item>
+        <item>ئىشلىتىش ئەھۋالى ئىستاتىستىكا ئۇچۇرىغا ئېرىشىش</item>
+        <item>مىكروفوننى ئاۋازسىز قىلىش ياكى ئۇنى بىكار قىلىش</item>
+        <item>سالاملىشىش سۆزىنى كۆرسىتىش</item>
+        <item>مېدىيا پرويېكسىيەلەش</item>
+        <item>VPNنى ئاكتىپلاش</item>
+        <item>تەگلىك يېزىش</item>
+        <item>ياردەمچى قۇرۇلما</item>
+        <item>ئېكراننى سۈرەتكە تارتىشقا ياردەملىشىش</item>
+        <item>تېلېفون ھالىتىنى ئوقۇش</item>
+        <item>ئاۋازلىق تورخەت قوشۇش</item>
+        <item>SIPنى ئىشلىتىش</item>
+        <item>ئۇرۇلغان تېلېفونلارنى بىر تەرەپ قىلىش</item>
+        <item>بارماق ئىزى</item>
+        <item>بەدەن سېنزورى</item>
+        <item>رايون رادىيوسىنى ئوقۇش</item>
+        <item>تەقلىدىي ئورۇن</item>
+        <item>ساقلاش بوشلۇقىنى ئوقۇش</item>
+        <item>ساقلاش بوشلۇقىنى يېزىش</item>
+        <item>ئېكراننى ئېچىش</item>
+        <item>ھېساباتقا ئېرىشىش</item>
+        <item>ئارقا سۇپىدا يۈرۈش</item>
+        <item>توسالغۇسىز ئىقتىدار ئاۋاز مىقدارى</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>ئۆلچەملىك چەكلىمە</item>
+        <item>ئارقا سۇپىدا يۈرۈشكە يول قويماسلىق</item>
+        <item>1 جەرياندىن ئېشىپ كەتمەسلىك</item>
+        <item>2 جەرياندىن ئېشىپ كەتمەسلىك</item>
+        <item>3 جەرياندىن ئېشىپ كەتمەسلىك</item>
+        <item>4 جەرياندىن ئېشىپ كەتمەسلىك</item>
+    </array>
+    <array name="authentication_frequency_entries">
+        <item>باشتىن-ئاخىر ئېھتىياجلىق</item>
+        <item>15 مىنۇتتىن كېيىن ئېھتىياجلىق</item>
+    </array>
+    <array name="autofill_logging_level_entries">
+        <item>ئېتىش</item>
+        <item>تەڭشەپ سىناش</item>
+        <item>تەپسىلىي</item>
+    </array>
+    <array name="automatic_storage_management_days">
+        <item>30 كۈندىن ئاشقان</item>
+        <item>60 كۈندىن ئاشقان</item>
+        <item>90 كۈندىن ئاشقان</item>
+    </array>
+    <array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>سىستېما تاللىشىنى ئىشلىتىش (سۈكۈتتىكى)</item>
+        <item>16خانا/ئەۋرىشكە</item>
+        <item>24خانا/ئەۋرىشكە</item>
+        <item>32خانا/ئەۋرىشكە</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>سىستېما تاللىشىنى ئىشلىتىش (سۈكۈتتىكى)</item>
+        <item>16خانا/ئەۋرىشكە</item>
+        <item>24خانا/ئەۋرىشكە</item>
+        <item>32خانا/ئەۋرىشكە</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>سىستېما تاللىشىنى ئىشلىتىش (سۈكۈتتىكى)</item>
+        <item>يەككە ئاۋاز يولى</item>
+        <item>ستېرېئولۇق ئاۋاز</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>سىستېما تاللىشىنى ئىشلىتىش (سۈكۈتتىكى)</item>
+        <item>يەككە ئاۋاز يولى</item>
+        <item>ستېرېئولۇق ئاۋاز</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>ئۈن سۈپىتىگە ئاساسلىنىش</item>
+        <item>ئۈن ۋە ئۇلىنىش سۈپىتىگە تەڭ ئاساسلىنىش</item>
+        <item>ئۇلىنىش سۈپىتىگە ئاساسلىنىش</item>
+        <item>ئىمكانقەدەر تېخىمۇ ياخشى ئاۋاز سۈپىتىدە تەمىنلەش (ئۆزلۈكىدىن ماسلىشىدىغان بىت نىسبىتى)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>ئۈن سۈپىتىگە ئاساسلىنىش (990kbps/909kbps)</item>
+        <item>ئۈن ۋە ئۇلىنىش سۈپىتىگە تەڭ ئاساسلىنىش (660kbps/606kbps)</item>
+        <item>ئۇلىنىش سۈپىتىگە ئاساسلىنىش (330kbps/303kbps)</item>
+        <item>ئىمكانقەدەر تېخىمۇ ياخشى ئاۋاز سۈپىتىدە تەمىنلەش (ئۆزلۈكىدىن ماسلىشىدىغان بىت نىسبىتى)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>سىستېما تاللىشىنى ئىشلىتىش (سۈكۈتتىكى)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>سىستېما تاللىشىنى ئىشلىتىش (سۈكۈتتىكى)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </array>
+    <array name="bluetooth_audio_active_device_summaries">
+        <item />
+        <item>، ئىشلىتىلىۋاتىدۇ</item>
+        <item>، ئىشلىتىلىۋاتىدۇ (مېدىيا)</item>
+        <item>، ئىشلىتىلىۋاتىدۇ (تېلېفون)</item>
+    </array>
+    <array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </array>
+    <array name="bluetooth_avrcp_versions">
+        <item>AVRCP ‪‎1.4‬ (سۈكۈتتىكى)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </array>
+    <array name="bluetooth_map_versions">
+        <item>MAP 1.2 (سۈكۈتتىكى) </item>
+        <item>MAP 1.3 </item>
+        <item>MAP 1.4</item>
+    </array>
+    <array name="bluetooth_max_connected_audio_devices">
+        <item>سىستېمىنىڭ سۈكۈتتىكى قىممىتىنى ئىشلىتىش: %1$d </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <array name="bluetooth_visibility_timeout_entries">
+        <item>2 مىنۇت</item>
+        <item>5 مىنۇت</item>
+        <item>1 سائەت</item>
+        <item>مەڭگۈ ۋاقتى ئېشىپ كەتمەسلىك</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries">
+        <item>توختىتىلدى</item>
+        <item>&quot;سۈزۈلدى&quot; قوزغىتىلدى</item>
+        <item>قوزغىتىلىندى</item>
+    </array>
+    <array name="bt_hci_snoop_log_entries_new">
+        <item>توختىتىلدى </item>
+        <item>«سۈزۈلدى» قوزغىتىلدى </item>
+        <item>قوزغىتىلىندى </item>
+        <item>سۈزۈلدى قوزغىتىلدى تېمىسى </item>
+        <item>سۈزۈلدى قوزغىتىلدى تاراتقۇ بوغچىسى</item>
+    </array>
+    <array name="captioning_edge_type_selector_titles">
+        <item>ئېتىراپ قىلغان</item>
+        <item>يوق</item>
+        <item>ئىزنا</item>
+        <item>سايە</item>
+        <item>چوقچايغان</item>
+        <item>ئويمان</item>
+    </array>
+    <array name="captioning_font_size_selector_titles">
+        <item>بەك كىچىك</item>
+        <item>كىچىك</item>
+        <item>سۈكۈتتىكى</item>
+        <item>چوڭ</item>
+        <item>بەك چوڭ</item>
+    </array>
+    <array name="captioning_opacity_selector_titles">
+        <item>‪‎25%‬</item>
+        <item>‪‎50%‬</item>
+        <item>‪‎75%‬</item>
+        <item>‪‎100%‬</item>
+    </array>
+    <array name="captioning_preset_selector_titles">
+        <item>ئەپتىن تەڭشەش</item>
+        <item>قارا تەگلىك ئاق خەت</item>
+        <item>ئاق تەگلىك قارا خەت</item>
+        <item>قارا تەگلىك سېرىق خەت</item>
+        <item>كۆك تەگلىك سېرىق خەت</item>
+        <item>ئىختىيارىي</item>
+    </array>
+    <array name="captioning_typeface_selector_titles">
+        <item>سۈكۈتتىكى</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </array>
+    <array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </array>
+    <array name="cdma_system_select_choices">
+        <item>پەقەت يەرلىك سېستىمىلا</item>
+        <item>ئاپتوماتىك</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>كۈچەيتىلگەن رەڭ</item>
+        <item>كۆز بىلەن كۆرگىلى بولىدىغان تەبىئىي رەڭ</item>
+        <item>رەقەملىك مەزمۇننىڭ ياخشىلانغان رەڭگى</item>
+    </array>
+    <array name="color_mode_names">
+        <item>يورۇق (سۈكۈتتىكى)</item>
+        <item>تەبىئەت</item>
+        <item>ئۆلچەملىك</item>
+    </array>
+    <array name="color_solor_mounth">
+        <item>1- ئاي</item>
+        <item>2- ئاي</item>
+        <item>3- ئاي</item>
+        <item>4- ئاي</item>
+        <item>5- ئاي</item>
+        <item>6- ئاي</item>
+        <item>7- ئاي</item>
+        <item>8- ئاي</item>
+        <item>9- ئاي</item>
+        <item>10- ئاي</item>
+        <item>11- ئاي</item>
+        <item>12- ئاي</item>
+    </array>
+    <array name="cut_mode_entries">
+        <item>ئاپتوماتىك جۈپلەش</item>
+        <item>چوققا رايونىدا كۆرسىتىش</item>
+        <item>چوققا رايوننى يوشۇرۇش (ئارا يۈزىنى تولۇق ئېكراندا كۆرسىتىش)</item>
+    </array>
+    <array name="dark_ui_mode_entries">
+        <item>قېنىق رەڭ</item>
+        <item>ئاچ رەڭ</item>
+    </array>
+    <array name="data_usage_data_range">
+        <item>ئۆتكەن 30 كۈن</item>
+        <item>ئېقىم دەۋرىيلىكىنى تەڭشەش...</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>ئېتىش</item>
+        <item>ئارتۇقچە سىزىلغان رايونلارنى كۆرسىتىش</item>
+        <item>يېشىلنى غۇۋا كۆرۈدىغانلار كۆرۈشكە ماس كېلىدىغان رايوننى كۆرسىتىش</item>
+    </array>
+    <array name="default_volume_type">
+        <item>قوڭغۇراق ئاۋاز مىقدارى</item>
+        <item>مېدىيا ئاۋاز مىقدارى</item>
+    </array>
+    <array name="dream_timeout_entries">
+        <item>مەڭگۈ بولمايدۇ</item>
+        <item>15 سېكۇنت</item>
+        <item>30 سېكۇنت</item>
+        <item>1 مىنۇت</item>
+        <item>2 مىنۇت</item>
+        <item>5 مىنۇت</item>
+        <item>10 مىنۇت</item>
+        <item>30 مىنۇت</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>يوق</item>
+        <item>Logcat</item>
+        <item>Systrace (شەكىل)</item>
+        <item>glGetErrorدىكى تەڭشەپ ئىشلىتىلىدىغان ئامبار</item>
+    </array>
+    <array name="entries_font_size">
+        <item>كىچىك</item>
+        <item>سۈكۈتتىكى</item>
+        <item>چوڭ</item>
+        <item>ئەڭ چوڭ</item>
+    </array>
+    <array name="eq_preset_names">
+        <item>تاقاش</item>
+        <item>مودا</item>
+        <item>روك مۇزىكىسى</item>
+        <item>يېزا</item>
+        <item>جاز</item>
+        <item>كلاسسىك</item>
+        <item>مېتال</item>
+        <item>بۇلۇس</item>
+        <item>Hip Hop</item>
+        <item>ئۇسۇل ناخشىسى</item>
+        <item>ئېلېكترون</item>
+        <item>ئۆزى ئېنىقلىما بېرىش</item>
+    </array>
+    <array name="format_type_entries">
+        <item>‪‎FAT32‬ (سۈكۈتتىكى)</item>
+        <item>exFAT</item>
+    </array>
+    <array name="format_type_summarys">
+        <item>ئەڭ كۆپ ئىشلىتىلىدىغان كۆچمە ساقلىغۇچ ھۆججىتى سىستېما تىپى</item>
+        <item>يېڭىلانغان ھۆججەت سىستېما تىپى ‪‎4G‬دىن چوڭ يەككە ھۆججەتنى قوللايدۇ، PC غا ئۇلىغاندا ئالدى بىلەن قوزغاتقۇچى قاچىلاشنى تەلەپ قىلىشى مۇمكىن.</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCP تەكشۈرۈشنى بىردەك ئىشلەتمەسلىك</item>
+        <item>HDCP تەكشۈرۈشىنى پەقەت DRM مەزمۇنىغىلا ئىشلىتىش</item>
+        <item>HDCP تەكشۈرۈشىنى ئىزچىل ئىشلىتىش</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>مەڭگۈ تەكشۈرمەسلىك</item>
+        <item>DRM مەزمۇنىنىلا تەكشۈرۈش</item>
+        <item>دائىم تەكشۈرۈش</item>
+    </array>
+    <array name="lock_after_timeout_entries">
+        <item>دەرھال</item>
+        <item>5 سېكۇنت</item>
+        <item>15 سىكۇنت</item>
+        <item>30 سىكۇنت</item>
+        <item>1 مىنۇت</item>
+        <item>2 مىنۇت</item>
+        <item>5 مىنۇت</item>
+        <item>10 مىنۇت</item>
+        <item>30 مىنۇت</item>
+    </array>
+    <array name="long_press_timeout_selector_titles">
+        <item>قىسقا</item>
+        <item>ئوتتۇراھال</item>
+        <item>ئۇزۇن</item>
+    </array>
+    <array name="mvno_type_entries">
+        <item>يوق</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+        <item>ICCID</item>
+    </array>
+    <array name="notification_prompt_mode_entries">
+        <item>سىنبەلگىنى كۆرسىتىش</item>
+        <item>سانىنى كۆرسىتىش</item>
+        <item>كۆرسەتمەسلىك</item>
+    </array>
+    <array name="notification_prompt_mode_entries_new">
+        <item>سىنبەلگىنى كۆرسىتىش</item>
+        <item>سانىنى كۆرسىتىش</item>
+    </array>
+    <array name="oppo_app_install_location_entries_removable_sd">
+        <item>سىستېما بوشلۇقى</item>
+        <item>SD كارتا بوشلۇقى</item>
+        <item>سىستېما بەلگىلەيدۇ</item>
+    </array>
+    <array name="oppo_app_install_location_entries_unremovable_sd">
+        <item>سىستېما بوشلۇقى</item>
+        <item>يان تېلېفون ساقلىغۇچى</item>
+        <item>سىستېما بەلگىلەيدۇ</item>
+    </array>
+    <array name="oppo_time_picker_ampm">
+        <item>چۈشتىن بۇرۇن</item>
+        <item>چۈشتىن كېيىن</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>يوق</item>
+        <item>480p</item>
+        <item>480p (بىخەتەر)</item>
+        <item>720p</item>
+        <item>720p (بىخەتەر)</item>
+        <item>1080p</item>
+        <item>1080p (بىخەتەر)</item>
+        <item>4K</item>
+        <item>4K (بىخەتەر)</item>
+        <item>4K (سۈرەت سۈپىتى يۇقىرى كۆتۈرۈلدى)</item>
+        <item>4K (سۈرەت سۈپىتى يۇقىرى كۆتۈرۈلدى، بىخەتەر)</item>
+        <item>720p، 1080p (قوش ئېكران)</item>
+    </array>
+    <array name="presskey_backlight_timeout_entries">
+        <item>6 سېكۇنت</item>
+        <item>دائىم يورۇق</item>
+        <item>ئېتىش</item>
+    </array>
+    <array name="privacy_question_list">
+        <item>سىزنىڭ بىر مۇئەللىمىڭىزنىڭ ئىسمى؟</item>
+        <item>ئانىڭىزنىڭ ئىسمى؟</item>
+        <item>ئاتىڭىزنىڭ ئىسمى؟</item>
+        <item>تولۇق ئوتتۇرا مەكتىپىڭىزنىڭ ئىسمى؟</item>
+        <item>سىز ئەڭ ياقتۇرىدىغان ئاشخانىنىڭ ئىسمى؟</item>
+    </array>
+    <array name="proc_stats_memory_states">
+        <item>نورمال</item>
+        <item>ئوتتۇرا دەرىجە</item>
+        <item>يېتىشمەسلىك</item>
+        <item>جىددىي يېتىشمەسلىك</item>
+    </array>
+    <array name="proc_stats_process_states">
+        <item>دائىمىي تۇرۇشلۇق</item>
+        <item>چوققا قەۋەت Activity</item>
+        <item>مۇھىم (ئالدى سۇپا)</item>
+        <item>مۇھىم (ئارقا سۇپا)</item>
+        <item>زاپاسلاش</item>
+        <item>مۇھىم دەرىجىلىك</item>
+        <item>مۇلازىمەت (ئىجرا بولۇۋاتىدۇ)</item>
+        <item>مۇلازىمەت (قايتا قوزغىلىۋاتىدۇ)</item>
+        <item>قوبۇللىغۇچ</item>
+        <item>ئاساسىي ئېكران</item>
+        <item>ئالدىنقى Activity</item>
+        <item>غەملەندى (Activity)</item>
+        <item>غەملەندى (Activity تېرمىنالى)</item>
+        <item>غەملەندى (قۇرۇق)</item>
+    </array>
+    <array name="ram_states">
+        <item>نورمال</item>
+        <item>ئوتتۇرا دەرىجە</item>
+        <item>يېتىشمەسلىك</item>
+        <item>جىددىي يېتىشمەسلىك</item>
+        <item>نامەلۇم</item>
+    </array>
+    <array name="realme_preset_names">
+        <item>سۈكۈتتىكى</item>
+        <item>مودا</item>
+        <item>روك مۇزىكىسى</item>
+        <item>يېزا</item>
+        <item>جاز</item>
+        <item>كلاسسىك</item>
+        <item>مېتال</item>
+        <item>بۇلۇس</item>
+        <item>Hip Hop</item>
+        <item>ئۇسۇل ناخشىسى</item>
+        <item>ئېلېكترون</item>
+        <item>خاسلاشتۇرۇش</item>
+    </array>
+    <array name="running_applications_tabs">
+        <item>ئۈچ تەرەپ ئەپ</item>
+        <item>سېستىمىدىكى ئەپ</item>
+    </array>
+    <array name="screen_timeout_entries">
+        <item>15 سېكۇنت</item>
+        <item>30 سېكۇنت</item>
+        <item>1 مىنۇت</item>
+        <item>2 مىنۇت</item>
+        <item>5 مىنۇت</item>
+        <item>10 مىنۇت</item>
+        <item>30 مىنۇت</item>
+    </array>
+    <array name="security_settings_premium_sms_values">
+        <item>سۈرۈشتۈرۈش</item>
+        <item>مەڭگۈ يول قويماسلىق</item>
+        <item>ئىزچىل يول قويۇش</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>ئېتىش</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>ئېتىش</item>
+        <item>ھەربىر كۈندىلىك خاتىرە بۇففېرى 64K</item>
+        <item>ھەربىر كۈندىلىك خاتىرە بۇففېرى 256K</item>
+        <item>ھەربىر كۈندىلىك خاتىرە بۇففېرى 1M</item>
+        <item>ھەربىر كۈندىلىك خاتىرە بۇففېرى 4M</item>
+        <item>ھەربىر كۈندىلىك خاتىرە بۇففېرى 16M</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>تاقاش</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>ئېتىش</item>
+        <item>بارلىق كۈندىلىك خاتىرە غەملەك رايونى</item>
+        <item>بارلىق غەيرىي رادىئو كۈندىلىك خاتىرە غەملەك رايونى</item>
+        <item>پەقەت ئىچكى يادرو كۈندىلىك خاتىرە غەملەك رايونىلا</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>تاقاش</item>
+        <item>ھەممىسى</item>
+        <item>بارلىق سىملىق</item>
+        <item>ئچكى يادرولا</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>ئېتىش</item>
+        <item>غەيرىي تىك تۆت تەرەپلىك كېسىش رايونىنى كۆك رەڭدە بوياش</item>
+        <item>سىناپ سىزىش بۇيرۇقىنى يېشىل رەڭدە كۆرۈنەرلىك كۆرسىتىش</item>
+    </array>
+    <array name="swipe_direction_values">
+        <item>1</item>
+        <item>@null</item>
+    </array>
+    <array name="timezone_filters">
+        <item>ئامېرىكا قىتئەسى</item>
+        <item>ياۋروپا</item>
+        <item>ئافرىقا قىتئەسى</item>
+        <item>ئاسىيا قىتئەسى</item>
+        <item>ئاۋسترالىيە</item>
+        <item>شىمالىي تىنچ ئوكيان</item>
+        <item>ھەممىسى</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>ئېتىش</item>
+        <item>ئېكراندا لېنتىسىمان دىياگرامما قىلىپ كۆرسىتىش</item>
+        <item>adb shell dumpsys gfxinfoدە</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>ھەرىكەتلىك سۈرەتنى ئېتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى ‪‎0.5‬x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 1x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى ‪‎1.5‬x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 2x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 5x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 10x كىچىكلىتىش</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>ناھايىتى ئاستا</item>
+        <item>ئاستا</item>
+        <item>نورمال</item>
+        <item>تېز</item>
+        <item>تىزراق</item>
+        <item>ئىنتايىن تىز</item>
+        <item>بەك تېز</item>
+        <item>ناھايىتى تېز</item>
+        <item>ئەڭ تىز</item>
+    </array>
+    <array name="usage_stats_display_order_types">
+        <item>ئىشلىتىش ۋاقتى</item>
+        <item>ئۆتكەنكى ئىشلەتكەن ۋاقىت</item>
+        <item>ئەپ نامى</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>زەرەتلەش</item>
+        <item>(مېيدىيا يوللاش كېلىشىمى) MTP</item>
+        <item>(رەسىم يوللاش كېلىشىمى) PTP</item>
+        <item>(USB ئېتىر تورى) RNDIS</item>
+        <item>ئۈن مەنبەسى</item>
+        <item>MIDI</item>
+    </array>
+    <array name="vpn_proxy_settings">
+        <item>يوق</item>
+        <item>قولدا</item>
+    </array>
+    <array name="vpn_states">
+        <item>ئۇلىنىش ئۈزۈلدى</item>
+        <item>دەسلىپىگە قايتۇرۇۋاتىدۇ...</item>
+        <item>قوبۇللاۋاتىدۇ...</item>
+        <item>ئۇلاندى</item>
+        <item>ۋاقىتتىن ھالقىپ كېتىش</item>
+        <item>مەغلۇب بولدى</item>
+    </array>
+    <array name="wifi_calling_mode_choices_v2">
+        <item>WLAN</item>
+        <item>كۆچمە سانلىق مەلۇمات</item>
+        <item>WLAN بىلەنلا چەكلىنىش</item>
+    </array>
+    <array name="wifi_calling_mode_choices_v2_without_wifi_only">
+        <item>WLAN</item>
+        <item>كۆچمە سانلىق مەلۇمات</item>
+    </array>
+    <array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </array>
+    <array name="wifi_hidden_entries">
+        <item>ياق</item>
+        <item>ھەئە</item>
+    </array>
+    <array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>تىنچ ھالەت</item>
+    </array>
+    <array name="wifi_metered_entries">
+        <item>ئاپتوماتىك تەكشۈرۈش</item>
+        <item>ئېقىم مىقدارى بويىچە ھەق ھېسابلاش دەپ قاراش</item>
+        <item>ئېقىم مىقدارى بويىچە ھەق ھېسابلىماسلىق دەپ قاراش</item>
+    </array>
+    <array name="wifi_p2p_status">
+        <item>ئۇلاندى</item>
+        <item>تەكلىپ قىلىندى</item>
+        <item>مەغلۇب بولدى</item>
+        <item>ئىشلەتكىلى بولىدۇ</item>
+        <item>دائىرىدىن ھالقىغان</item>
+    </array>
+    <array name="wifi_p2p_wps_setup">
+        <item>كۇنۇپكىسى</item>
+        <item>باراۋەر ئۈسكۈنىدىن ئېرىشكەن PIN كودى</item>
+        <item>بۇ ئۈسكۈنىدىن ھاسىللانغان PIN كودى</item>
+    </array>
+    <array name="wifi_privacy_entries">
+        <item>ئىختىيارىي MACنى ئىشلىتىش (سۈكۈتتىكى)</item>
+        <item>ئىشلەتكەن ئۈسكۈنە MAC</item>
+    </array>
+    <array name="wifi_signal">
+        <item>ئاجىز</item>
+        <item>ئاجىز</item>
+        <item>ئادەتتىكى</item>
+        <item>ياخشى</item>
+        <item>كۈچلۈك</item>
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>سىكاننېرلاۋاتىدۇ...</item>
+        <item>ئۇلىنىۋاتىدۇ...</item>
+        <item>سالاھىيەتنى دەلىللەۋاتىدۇ...</item>
+        <item>IP ئادرېسىغا ئېرىشىۋاتىدۇ...</item>
+        <item>ئۇلاندى</item>
+        <item>تورمۇزلاندى</item>
+        <item>ئۇلىنىش ئۈزۈلۈۋاتىدۇ...</item>
+        <item>ئۇلىنىش ئۈزۈۋېتىلدى</item>
+        <item>مەغلۇب بولدى</item>
+        <item>توختىتىلدى</item>
+        <item>ۋاقىتلىق ئېتىلدى (تور ياخشى ئەمەس)</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>ھەرىكەتلىك سۈرەتنى ئېتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى ‪‎0.5‬x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 1x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى ‪‎1.5‬x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 2x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 5x كىچىكلىتىش</item>
+        <item>ھەرىكەتلىك سۈرەتنى 10x كىچىكلىتىش</item>
+    </array>
+</resources>

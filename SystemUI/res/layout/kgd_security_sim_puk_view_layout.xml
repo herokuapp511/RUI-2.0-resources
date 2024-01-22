@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.security.view.KeyguardSimPukView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/Theme.ColorSupport" android:id="@+id/coloros_kgd_security_sim_puk_view" android:paddingTop="@dimen/kgd_security_padding_top" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/kgd_security_sim_view_layout"/>
+</com.coloros.systemui.keyguard.security.view.KeyguardSimPukView>

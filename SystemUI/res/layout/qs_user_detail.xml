@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.qs.widget.ColorUserDetailView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <com.android.systemui.qs.tiles.UserDetailView android:id="@+id/mUserDetailView" android:layout_width="match_parent" android:layout_height="match_parent" app:horizontalSpacing="0dp" app:verticalSpacing="0dp" style="@style/UserDetailView"/>
+</com.coloros.systemui.qs.widget.ColorUserDetailView>

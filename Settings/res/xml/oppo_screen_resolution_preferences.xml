@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/screen_resolution" android:key="key_screen_resolution">
+    <androidx.preference.Preference android:layout="@layout/color_pager_header_preference" android:selectable="false" android:summary="@string/screen_resolution_change_tips_new"/>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="screen_resolution_category" app:isFirstCategory="false">
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_refresh_rate_auto_switch" android:key="screen_resolution_auto" android:summary="@string/screen_resolution_change_auto" android:order="1"/>
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_resolution_fhd" android:key="screen_resolution_fhd" android:summary="@string/screen_resolution_fhd_summery" android:order="2"/>
+        <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:persistent="false" android:title="@string/screen_resolution_qhd" android:key="screen_resolution_qhd" android:summary="@string/screen_resolution_qhd_summery" android:order="3"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="disable_qhd_category">
+        <com.coloros.settings.widget.preference.SettingsColorSpannablePreference android:persistent="false" android:layout="@layout/color_detail_preference" android:key="disable_qhd_preference"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</PreferenceScreen>

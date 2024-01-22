@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:scrollbarStyle="outsideOverlay" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="locale">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="32dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+            <TextView android:id="@+id/tv_title" android:text="@string/accessibility_tutorial_dialog_title_button" style="@style/AccessibilityDialogTitle"/>
+            <TextView android:id="@+id/tv_subtitle" android:text="@string/accessibility_service_enable_dialog_software_tips" style="@style/AccessibilityDialogDescription"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/iv_illustration" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/illustration_accessibility_button" android:scaleType="fitCenter"/>
+        <TextureView android:layout_gravity="center_horizontal" android:id="@+id/tv_video" android:visibility="gone" android:layout_width="200dp" android:layout_height="200dp"/>
+        <com.color.support.widget.ColorButton android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/btn_confirm" android:background="@drawable/color_large_main_button_bg" android:layout_width="220dp" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="36dp" android:text="@string/accessibility_tutorial_dialog_button" android:contentDescription="@string/accessibility_tutorial_dialog_button" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" style="?attr/colorButtonColorfulDefaultStyle"/>
+    </LinearLayout>
+</ScrollView>

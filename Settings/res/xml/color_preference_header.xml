@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:key="color_preference_header_screen" android:order="-1000">
+    <androidx.preference.Preference android:layout="@layout/color_layout_preference_header" android:selectable="false" android:key="color_preference_header" android:order="-900"/>
+</androidx.preference.PreferenceScreen>

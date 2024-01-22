@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_global_action_view_paddingtop">108dp</dimen>
+    <dimen name="oppo_globalactions_cancelmode_paddingtop">74dp</dimen>
+</resources>

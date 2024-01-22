@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <interpolator name="color_multichoice_interpolator_fade_in">@android:interpolator/decelerate_quint</interpolator>
+    <interpolator name="color_multichoice_interpolator_fade_out">@android:interpolator/accelerate_quint</interpolator>
+    <interpolator name="color_multichoice_interpolator_left_in">@android:interpolator/accelerate_quad</interpolator>
+    <interpolator name="color_multichoice_interpolator_left_out">@android:interpolator/decelerate_quad</interpolator>
+    <interpolator name="color_multichoice_interpolator_right_in">@android:interpolator/accelerate_quad</interpolator>
+    <interpolator name="color_multichoice_interpolator_right_out">@android:interpolator/decelerate_quad</interpolator>
+    <interpolator name="oppo_actionbar_interpolator_enter">@android:interpolator/decelerate_cubic</interpolator>
+    <interpolator name="oppo_actionbar_interpolator_exit">@android:interpolator/decelerate_cubic</interpolator>
+    <interpolator name="oppo_multiselect_interpolator_bottom_in">@android:interpolator/decelerate_cubic</interpolator>
+    <interpolator name="oppo_multiselect_interpolator_bottom_out">@android:interpolator/decelerate_cubic</interpolator>
+</resources>

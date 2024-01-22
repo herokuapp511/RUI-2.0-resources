@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SudThemeGlifV3.Light">
+        <item name="android:navigationBarColor">@color/sud_glif_v3_nav_bar_color_light</item>
+        <item name="?0x101056c">true</item>
+        <item name="?0x101056d">@color/sud_glif_v3_nav_bar_divider_color_light</item>
+        <item name="sucLightSystemNavBar">?unknown_attr_ref: 101056c</item>
+    </style>
+    <style name="SuwThemeGlifV3.Light">
+        <item name="android:navigationBarColor">@color/suw_glif_v3_nav_bar_color_light</item>
+        <item name="?0x101056c">true</item>
+        <item name="?0x101056d">@color/suw_glif_v3_nav_bar_divider_color_light</item>
+    </style>
+</resources>

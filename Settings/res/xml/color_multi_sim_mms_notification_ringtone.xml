@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/oppo_sms_notification_sound_title" android:key="sound_settings">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="ring_tone_category" app:isFirstCategory="true">
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/oppo_sms_notification_sound_title" android:key="sms_notification_ringtone_1" android:ringtoneType="notification" app:colorRingtoneType="10" app:simSlot="sim1"/>
+        <com.coloros.settings.widget.preference.ColorRingtonePreference android:persistent="false" android:title="@string/oppo_sms_notification_sound_title" android:key="sms_notification_ringtone_2" android:ringtoneType="notification" app:colorRingtoneType="20" app:simSlot="sim2"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+</PreferenceScreen>

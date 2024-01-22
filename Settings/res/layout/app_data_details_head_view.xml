@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/all_details" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oppo_list_item_left_margin" android:layout_marginTop="18dp" android:layout_marginRight="@dimen/oppo_list_item_right_margin" android:layout_marginBottom="18dp">
+        <ImageView android:id="@+id/app_icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="5dp"/>
+        <LinearLayout android:orientation="vertical" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oppo_list_item_left_margin" android:layout_marginRight="@dimen/oppo_list_item_right_margin">
+            <TextView android:textSize="@dimen/color_font_size_9" android:textColor="@color/color_preference_title_color" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/color_font_size_13" android:textColor="@color/color_preference_secondary_text_color" android:id="@+id/app_version" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

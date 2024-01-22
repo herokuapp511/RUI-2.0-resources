@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s пристрій підключено в режимі модема.</item>
+        <item quantity="other">Стільки пристроїв підключено в режимі модема: %s.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s пристрій підключено через прив’язку Wi-Fi.</item>
+        <item quantity="other">Стільки пристроїв підключено через прив’язку Wi-Fi: %s.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d пристрій підключено до мобільної точки доступу.</item>
+        <item quantity="other">Стільки пристроїв підключено до мобільної точки доступу: %d.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d пристрій підключено в режимі модема.</item>
+        <item quantity="other">У режимі модема підключено стільки пристроїв: %d.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d пристрій підключено через модем Wi-Fi.</item>
+        <item quantity="other">Стільки пристроїв підключено через модем Wi-Fi: %d.</item>
+    </plurals>
+</resources>

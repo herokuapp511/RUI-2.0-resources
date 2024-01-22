@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:color="#08000000">
+    <item android:id="@android:id/mask" android:drawable="@drawable/color_permission_controller_button_middle"/>
+</ripple>

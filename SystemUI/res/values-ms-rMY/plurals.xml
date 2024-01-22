@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="color_controls_number_of_favorites">
+        <item quantity="one">%s kawalan ditambah</item>
+        <item quantity="other">%s kawalan ditambah</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="one">Sila Masukkan PIN untuk Kad SIM %d. %d Baki Percubaan. Anda Akan Perlu Menghubungi Pembawa Untuk Membantu Membuka Kunci Peranti Jika Ia Salah Sekali Lagi.</item>
+        <item quantity="other">Sila Masukkan PIN untuk Kad SIM %d. %d Baki Percubaan.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">PIN SIM salah. %d baki percubaan. Anda akan perlu menghubungi pembawa untuk membantu membuka kunci peranti jika ia tidak betul sekali lagi.</item>
+        <item quantity="other">PIN SIM salah. %d baki percubaan.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="one">PIN Salah untuk Kad SIM %d. %d Baki Percubaan. Anda Akan Perlu Menghubungi Pembawa Untuk Membantu Membuka Kunci Peranti Jika Ia Salah Sekali Lagi.</item>
+        <item quantity="other">PIN Salah untuk Kad SIM %d. %d Baki Percubaan.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">Kod PUK SIM salah.%d baki percubaan. SIM akan dinyahdayakan secara kekal jika ia tidak betul sekali lagi.</item>
+        <item quantity="other">Kod PUK SIM salah. %d baki percubaan. SIM akan dinyahdayakan secara kekal jika tidak betul sekali lagi.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">Peranti telah dikunci selama %d jam. Sila sahkan kata laluan.</item>
+        <item quantity="other">Peranti telah dikunci selama %d jam. Sila sahkan kata laluan.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">Peranti telah dikunci selama %d jam.Sila sahkan corak buka kunci.</item>
+        <item quantity="other">Peranti telah dikunci selama %d jam.Sila sahkan corak buka kunci.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">Peranti telah dikunci selama %d jam.Sila sahkan PIN.</item>
+        <item quantity="other">Peranti telah dikunci selama %d jam.Sila sahkan PIN.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="one">Sila Cuba Lagi Selepas 1 Saat.</item>
+        <item quantity="other">Sila Cuba Lagi Selepas %d Saat.</item>
+    </plurals>
+    <plurals name="notification_count_content">
+        <item quantity="one">Anda mempunyai %1$d pemberitahuan baharu daripada sistem klon. Tukar kepada klon untuk melihatnya.</item>
+        <item quantity="other">Anda mempunyai %1$d pemberitahuan baharu daripada sistem klon. Tukar kepada klon untuk melihatnya.</item>
+    </plurals>
+    <plurals name="notification_count_content_from_main">
+        <item quantity="one">Anda mempunyai %1$d pemberitahuan baharu daripada sistem utama. Tukar kepada sistem utama untuk melihatnya.</item>
+        <item quantity="other">Anda mempunyai %1$d pemberitahuan baharu daripada sistem utama. Tukar kepada sistem utama untuk melihatnya.</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">Masih %s pemberitahuan dalam kumpulan ini.</item>
+        <item quantity="other">Masih terdapat %s pemberitahuan dalam kumpulan ini.</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d pemberitahuan baharu</item>
+        <item quantity="other">%d pemberitahuan baharu</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="one">%d jam</item>
+        <item quantity="other">%d jam</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="one">%d minit</item>
+        <item quantity="other">%d minit</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<color.support.v7.widget.cardview.ColorCardView xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/weather_alarm_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" app:cardCornerRadius="15dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <VideoView android:id="@+id/weather_alarm_preview_video" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0">
+            <com.coloros.anim.EffectiveAnimationView android:id="@+id/weather_alarm_anim" android:layout_width="12.33dp" android:layout_height="12dp" android:layout_centerVertical="true" android:layout_marginEnd="15.67dp" android:layout_alignParentEnd="true"/>
+            <TextView android:textSize="@dimen/color_font_size_14SP" android:textColor="@android:color/white" android:id="@+id/weather_alarm_preview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="4.67dp" android:layout_toStartOf="@+id/weather_alarm_anim"/>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</color.support.v7.widget.cardview.ColorCardView>

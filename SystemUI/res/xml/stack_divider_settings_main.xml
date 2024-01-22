@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/oppo_setting_split_screen_title" android:key="split_screen">
+    <com.coloros.systemui.stackdivider.setting.SplitScreenGuidePreference android:key="setting_split_screen_guide_key"/>
+    <com.color.support.preference.ColorSwitchPreference android:title="@string/oppo_setting_split_screen_title" android:key="setting_split_screen_switch_key"/>
+    <com.color.support.preference.ColorPreferenceCategory/>
+    <com.color.support.preference.ColorSwitchPreference android:title="@string/oppo_setting_split_screen_user_guide_trible_finger_title" android:key="setting_double_finger_split_screen_switch_key"/>
+    <com.color.support.preference.ColorPreferenceCategory android:key="preference_category_divider"/>
+</androidx.preference.PreferenceScreen>

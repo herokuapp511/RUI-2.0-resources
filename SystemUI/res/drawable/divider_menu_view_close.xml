@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="50dp" android:width="50dp" android:viewportWidth="150" android:viewportHeight="150">
+    <path android:fillColor="@color/divider_meun_button_background_color" android:pathData="M75,75m-75,0a75,75 0,1 1,150 0a75,75 0,1 1,-150 0" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+    <path android:fillColor="@color/divider_meun_button_path_color" android:pathData="M75,72.172L90.556,56.615L93.385,59.444L77.828,75L93.385,90.556L90.556,93.385L75,77.828L59.444,93.385L56.615,90.556L72.172,75L56.615,59.444L59.444,56.615L75,72.172Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="android_push_down_in">@android:anim/wallpaper_close_exit</anim>
+    <anim name="android_push_down_out">@android:anim/wallpaper_exit</anim>
+    <anim name="android_push_up_in">@android:anim/wallpaper_intra_close_exit</anim>
+    <anim name="android_push_up_out">@android:anim/wallpaper_intra_open_enter</anim>
+</resources>

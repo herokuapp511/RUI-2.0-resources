@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <color.support.v7.widget.Toolbar android:id="@+id/enroll_tool_bar" android:background="@android:color/transparent" android:paddingTop="@dimen/toolbar_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content" app:showBottomDivider="false"/>
+    <include android:id="@+id/guide_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/enroll_tool_bar" layout="@layout/oppo_face_register_guide_3d"/>
+    <RelativeLayout android:id="@+id/main_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/enroll_tool_bar">
+        <RelativeLayout android:id="@+id/enrolling_layout" android:layout_width="match_parent" android:layout_height="480dp">
+            <FrameLayout android:id="@+id/camera_preview_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/back_view" android:background="@drawable/face_3d_back" android:layout_width="305dp" android:layout_height="305dp" android:layout_centerInParent="true"/>
+            <com.coloros.settings.feature.face.OriginMaskView android:id="@+id/mask_view" android:background="#80000000" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/front_animaion_view" android:layout_width="305dp" android:layout_height="305dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/TD07" android:textColor="@color/C12" android:gravity="center" android:id="@+id/warn_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:maxLines="2" android:layout_centerHorizontal="true" style="@style/LockText"/>
+        <RelativeLayout android:id="@+id/front_guide" android:background="@color/C28" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_alignParentTop="true"/>
+        <TextView android:gravity="center" android:id="@+id/prompt_text_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/enrolling_layout" android:layout_centerHorizontal="true" style="@style/EnrollSmallTextStyle"/>
+    </RelativeLayout>
+    <include android:id="@+id/fail_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/enroll_tool_bar" layout="@layout/oppo_face_register_fail"/>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/security_shield_face_footer"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/volume_row_frame" android:tag="row" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/volume_new_dialog_panel_width" android:layout_height="wrap_content" android:layoutDirection="rtl">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/volume_new_dialog_panel_width" android:layout_height="match_parent" android:layoutDirection="rtl">
+        <FrameLayout android:id="@+id/volume_row_slider_frame" android:layout_width="match_parent" android:layout_height="@dimen/volume_row_slider_normal_height" android:layoutDirection="rtl">
+            <com.coloros.systemui.volume.ColorVolumeSeekBar android:layout_gravity="center" android:id="@+id/volume_row_slider" android:background="@null" android:clickable="true" android:layout_width="@dimen/volume_row_slider_normal_height" android:layout_height="match_parent" android:maxHeight="2.7dp" android:max="100" android:minHeight="2.7dp" android:thumb="@null" android:rotation="270" android:layoutDirection="rtl" android:paddingStart="12dp" android:paddingEnd="12dp" android:splitTrack="false"/>
+        </FrameLayout>
+        <com.android.keyguard.AlphaOptimizedImageButton android:layout_gravity="center" android:id="@+id/volume_row_icon" android:layout_width="@dimen/volume_new_dialog_row_icon_size" android:layout_height="@dimen/volume_new_dialog_row_icon_size" android:layout_marginTop="12dp" android:soundEffectsEnabled="false" style="@style/VolumeButtonsTheme"/>
+    </LinearLayout>
+</FrameLayout>

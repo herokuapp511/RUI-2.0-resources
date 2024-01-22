@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/aod_shape_corner_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:textSize="16sp" android:textColor="@color/colorWhite" android:id="@+id/btn_continue" android:layout_width="match_parent" android:layout_height="@dimen/aod_clock_dp_70" android:text="@string/aod_edit_continue"/>
+    <View android:background="@color/colorWhite" android:layout_width="match_parent" android:layout_height="0.5dp" android:alpha="0.1" android:layout_marginStart="@dimen/aod_clock_dp_20" android:layout_marginEnd="@dimen/aod_clock_dp_20"/>
+    <Button android:textSize="16sp" android:textColor="@color/colorWhite" android:id="@+id/btn_giveup" android:layout_width="match_parent" android:layout_height="@dimen/aod_clock_dp_70" android:text="@string/aod_edit_giveup"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:key="key_dark_mode_panel_preference">
+    <androidx.preference.Preference android:layout="@layout/darkmode_switch_hint_preference" android:selectable="false"/>
+    <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:title="@string/darkmode_open_from_sunset_to_sunrise" android:key="darkmode_open_sunset_to_sunrise"/>
+    <com.coloros.settings.widget.preference.SettingsColorMarkPreference android:title="@string/darkmode_user_definded_time" android:key="darkmode_open_custom"/>
+    <com.coloros.settings.feature.display.darkmodewidget.DarkModeSettingTimePreference android:key="darkmode_fixed_time_settings"/>
+    <androidx.preference.Preference android:layout="@layout/color_darkmode_preference_footer" android:selectable="false"/>
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aerr_ok">OK</string>
+    <string name="face_name_template">Wiċċ %d</string>
+    <string name="gr_exception_talkback_install">Talkback ma kienx installat b\'suċċess. Jekk jogħġbok erġa\' pprova aktar tard.</string>
+    <string name="gr_oppo_roam">ORoaming</string>
+    <string name="gr_talkback_install_progress_tip_content">Qed Jinstalla Talkback. Jekk jogħġbok stenna...</string>
+    <string name="gr_tip_installing_gr">Qed Jinstalla l-Infrastruttura ta\' Google Services. Din l-applikazzjonni bħalissa ma tistax titħaddem. Jekk jogħġbok erġa\' pprova aktar tard.</string>
+    <string name="not_allow_running_process">Din l-applikazzjoni hija ddiżattivata abbażi tal-istrateġija tas-sigurtà</string>
+    <string name="oppo_dual_sta_sign_in_reminder">Il-konnessjoni se tiskadi daqt. Awtentika bi %s fil-ħin.</string>
+    <string name="oppo_dual_sta_sign_in_title">Awtentika biex Tuża Wi-Fi Doppju</string>
+    <string name="oppo_sla_cancel">Ikkanċella</string>
+    <string name="oppo_sla_go_and_set">Mur f\'Settings</string>
+    <string name="oppo_sla_optimize">Ottimizzazjoni</string>
+    <string name="oppo_sla_reminder">Il-kundizzjoni attwali tal-Wi-Fi hija batuta. Ixgħel l-\"Aċċellerazzjoni tal-Kanal tan-Netwerk Doppju\" biex tutilizza l-Wi-Fi u d-data ċellulari minflok xulxin għal aċċess tal-Internet b\'inqas problemi. Trid tixgħel l-ottimizzazzjoni?</string>
+    <string name="oppo_wifi_p2p_frequency_conflict_message">Il-Wi-Fi se jiġi skonnettjat matul il-konnessjoni.</string>
+    <string name="wifi_hotspot_closed">Il-Hotspot Personali Hija Mitfija</string>
+    <string name="wifi_hotspot_traffic_consumption">Data xxerjata: </string>
+    <string name="wifi_hotspot_traffic_limitation">Id-data xxerjata laħqet l-ammont massimu.</string>
+    <string name="wlan_switch_data_checkbox">Terġa’ tistaqsi qatt</string>
+    <string name="zzz_engineeringmode_warning_message">Hemm riskji ta\' malfuzjonament u kkrexxjar tas-sistema, taptap biex tagħlaq</string>
+    <string name="zzz_engineeringmode_warning_title">Il-Modalità tal-Inġinerija Hija Mixgħula</string>
+</resources>

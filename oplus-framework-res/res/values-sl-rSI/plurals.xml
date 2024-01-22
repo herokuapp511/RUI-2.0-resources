@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="oppo_tethered_notification_title2_plurals">
+        <item quantity="one">%s naprava ima vzpostavljeno povezavo z osebno dostopno točko.</item>
+        <item quantity="other">Št. naprav, ki imajo vzpostavljeno povezavo z osebno dostopno točko: %s.</item>
+    </plurals>
+    <plurals name="oppo_tethered_notification_title2_sharing_plurals">
+        <item quantity="one">%s naprava ima vzpostavljeno povezavo prek skupne rabe povezave prek omrežja Wi-Fi.</item>
+        <item quantity="other">Št. naprav, ki imajo vzpostavljeno povezavo prek skupne rabe povezave prek omrežja Wi-Fi: %s.</item>
+    </plurals>
+    <plurals name="tethered_cellular_connected_sta_message">
+        <item quantity="one">%d naprava je povezana z vašo dostopno točko mobilnih podatkov.</item>
+        <item quantity="other">Toliko naprav je povezanih z vašo dostopno točko mobilnih podatkov: %d.</item>
+    </plurals>
+    <plurals name="tethered_default_connected_sta_message">
+        <item quantity="one">%d naprava je povezana z vašo osebno dostopno točko.</item>
+        <item quantity="other">Toliko naprav je povezanih z vašo osebno dostopno točko: %d.</item>
+    </plurals>
+    <plurals name="tethered_wifi_connected_sta_message">
+        <item quantity="one">%d naprava je povezana prek souporabe povezave Wi-Fi.</item>
+        <item quantity="other">Toliko naprav je povezanih prek souporabe povezave Wi-Fi: %d.</item>
+    </plurals>
+</resources>

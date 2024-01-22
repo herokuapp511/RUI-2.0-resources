@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="24dp" android:width="24dp" android:viewportWidth="72" android:viewportHeight="72">
+    <path android:fillColor="#d8d8d8" android:pathData="M0.5,0.5h71v71h-71z" android:strokeColor="#979797" android:strokeWidth="1" android:strokeAlpha="0" android:fillAlpha="0" android:fillType="1"/>
+    <path android:fillColor="#00000000" android:pathData="M36,15C40.6599,15 44.4375,18.731 44.4375,23.3333L44.4375,36.6667C44.4375,41.269 40.6599,45 36,45C31.3401,45 27.5625,41.269 27.5625,36.6667L27.5625,23.3333C27.5625,18.731 31.3401,15 36,15Z" android:strokeColor="@color/settings_search_breeno_ic_color" android:strokeWidth="4" android:fillType="1"/>
+    <path android:fillColor="#00000000" android:pathData="M51,33.75L51,33.75L51,36.2813C51,44.6691 44.2843,51.4688 36,51.4688C27.7157,51.4688 21,44.6691 21,36.2813L21,33.75L21,33.75M36,52.3125L36,59.0625" android:strokeColor="@color/settings_search_breeno_ic_color" android:strokeWidth="4" android:fillType="1"/>
+</vector>

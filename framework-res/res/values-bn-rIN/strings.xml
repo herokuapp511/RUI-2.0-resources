@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="byteShort">B</string>
+    <string name="gigabyteShort">জিবি</string>
+    <string name="kilobyteShort">কেবি</string>
+    <string name="megabyteShort">এমবি</string>
+    <string name="petabyteShort">পিবি</string>
+    <string name="terabyteShort">টিবি</string>
+</resources>

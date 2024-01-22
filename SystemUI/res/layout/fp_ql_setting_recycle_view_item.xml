@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coloros.systemui.keyguard.fpquicklaunch.setting.view.FpQLItemTextView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/Keyguard_fp_ql_item_text_view_size" android:id="@+id/icon" android:layout_width="@dimen/Keyguard_fp_ql_Item_view_width" android:layout_height="@dimen/Keyguard_fp_ql_Item_view_height"/>

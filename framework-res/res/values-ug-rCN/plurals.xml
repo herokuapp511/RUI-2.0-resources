@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="autofill_picker_some_suggestions">
+        <item quantity="one">1 تال ئاپتوماتىك تولدۇرۇش تەكلىپى</item>
+        <item quantity="other">‪‎%1$s‬ تال ئاپتوماتىك تولدۇرۇش تەكلىپى</item>
+    </plurals>
+    <plurals name="bugreport_countdown">
+        <item quantity="one">سىستېما‪‎%d‬‪‎‬ سېكۇنتتىن كېيىن خاتالىق دوكلاتى رەسىمگە تارتىدۇ.</item>
+        <item quantity="other">سىستېما‪‎%d‬‪‎‬ سېكۇنتتىن كېيىن خاتالىق دوكلاتى رەسىمگە تارتىدۇ.</item>
+    </plurals>
+    <plurals name="duration_days_relative">
+        <item quantity="one">‪‎%d‬ كۈن ئىلگىرى</item>
+        <item quantity="other">‪‎%d‬ كۈن ئىلگىرى</item>
+    </plurals>
+    <plurals name="duration_days_relative_future">
+        <item quantity="one">‪‎%d‬ كۈندىن كېيىن</item>
+        <item quantity="other">‪‎%d‬ كۈندىن كېيىن</item>
+    </plurals>
+    <plurals name="duration_days_shortest">
+        <item quantity="one">‪‎%d‬ ‪‎‬ كۈن</item>
+        <item quantity="other">‪‎%d‬ ‪‎‬ كۈن</item>
+    </plurals>
+    <plurals name="duration_days_shortest_future">
+        <item quantity="one">‪‎%d‬ كۈندىن كېيىن</item>
+        <item quantity="other">‪‎%d‬ كۈندىن كېيىن</item>
+    </plurals>
+    <plurals name="duration_hours_relative">
+        <item quantity="one">‪‎%d‬ ‪‎‬ سائەت ئىلگىرى</item>
+        <item quantity="other">‪‎%d‬ ‪‎‬ سائەت ئىلگىرى</item>
+    </plurals>
+    <plurals name="duration_hours_relative_future">
+        <item quantity="one">‪‎%d‬ سائەتتىن كېيىن</item>
+        <item quantity="other">‪‎%d‬ سائەتتىن كېيىن</item>
+    </plurals>
+    <plurals name="duration_hours_shortest">
+        <item quantity="one">‪‎%d‬ سائەت</item>
+        <item quantity="other">‪‎%d‬ سائەت</item>
+    </plurals>
+    <plurals name="duration_hours_shortest_future">
+        <item quantity="one">‪‎%d‬ سائەتتىن كېيىن</item>
+        <item quantity="other">‪‎%d‬ سائەتتىن كېيىن</item>
+    </plurals>
+    <plurals name="duration_minutes_relative">
+        <item quantity="one">‪‎%d‬ ‪‎‬ مىنۇت ئىلگىرى</item>
+        <item quantity="other">‪‎%d‬ ‪‎‬ مىنۇت ئىلگىرى</item>
+    </plurals>
+    <plurals name="duration_minutes_relative_future">
+        <item quantity="one">‪‎%d‬ مىنۇتتىن كېيىن</item>
+        <item quantity="other">‪‎%d‬ مىنۇتتىن كېيىن</item>
+    </plurals>
+    <plurals name="duration_minutes_shortest">
+        <item quantity="one">‪‎%d‬ مىنۇت</item>
+        <item quantity="other">‪‎%d‬ مىنۇت</item>
+    </plurals>
+    <plurals name="duration_minutes_shortest_future">
+        <item quantity="one">‪‎%d‬ مىنۇتتىن كېيىن</item>
+        <item quantity="other">‪‎%d‬ مىنۇتتىن كېيىن</item>
+    </plurals>
+    <plurals name="duration_years_relative">
+        <item quantity="one">‪‎%d‬ يىل ئىلگىرى</item>
+        <item quantity="other">‪‎%d‬ يىل ئىلگىرى</item>
+    </plurals>
+    <plurals name="duration_years_relative_future">
+        <item quantity="one">‪‎%d‬ يىلدىن كېيىن</item>
+        <item quantity="other">‪‎%d‬ يىلدىن كېيىن</item>
+    </plurals>
+    <plurals name="duration_years_shortest">
+        <item quantity="one">‪‎%d‬ يىل</item>
+        <item quantity="other">‪‎%d‬ يىل</item>
+    </plurals>
+    <plurals name="duration_years_shortest_future">
+        <item quantity="one">‪‎%d‬ يىلدىن كېيىن</item>
+        <item quantity="other">‪‎%d‬ يىلدىن كېيىن</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="one">ئۆتكەنكى ‪‎%d‬ كۈن</item>
+        <item quantity="other">ئۆتكەنكى ‪‎%d‬ كۈن</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="one">1 تال نەتىجە</item>
+        <item quantity="other">‪‎%d‬-تال نەتىجە (جەمئىي ‪‎%d‬‪‎‬ تال)</item>
+    </plurals>
+    <plurals name="pinpuk_attempts">
+        <item quantity="one">سىز يەنە ‪‎%d‬ ‪‎‬ قېتىم سىناپ باقسىڭىز بولىدۇ. ئەگەر يەنىلا توغرا بولمىسا، SIM كارتىسى قۇلۇپلىنىپ قالىدۇ.</item>
+        <item quantity="other">سىز يەنە ‪‎%d‬ ‪‎‬ قېتىم سىناپ باقسىڭىز بولىدۇ. ئەگەر يەنىلا توغرا بولمىسا، SIM كارتىسى قۇلۇپلىنىپ قالىدۇ.</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="one">1 سىكونتتىن كېيىن سىناڭ</item>
+        <item quantity="other">‪‎%d‬‪‎‬سىكونتتىن كېيىن سىناڭ</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="one">‪‎%1$d‬ تۈر تاللاندى</item>
+        <item quantity="other">‪‎%1$d‬ تۈر تاللاندى</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_warning">
+        <item quantity="one">گۇۋاھنامە بىلەن ھوقۇق بېرىش مەركىزى قاچىلاندى</item>
+        <item quantity="other">گۇۋاھنامە بىلەن ھوقۇق بېرىش مەركىزى قاچىلاندى</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="one">1 سائەت</item>
+        <item quantity="other">‪‎%d‬ سائەت</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="one">1 سائەت</item>
+        <item quantity="other">‪‎%d‬ سائەت</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="one">1 سائەت (‪‎%2$s‬ بارغاندا)</item>
+        <item quantity="other">‪‎%1$d‬ سائەت (‪‎%2$s‬ بارغاندا)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="one">1 سائەت (‪‎%2$s‬ بارغاندا)</item>
+        <item quantity="other">‪‎%1$d‬ سائەت (‪‎%2$s‬ بارغاندا)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="one">1 مىنۇت</item>
+        <item quantity="other">‪‎%d‬ مىنۇت</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="one">1 مىنۇت</item>
+        <item quantity="other">‪‎%d‬ مىنۇت</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="one">1 مىنۇت (‪‎%2$s‬غا بارغاندا)</item>
+        <item quantity="other">‪‎%1$d‬ مىنۇت (‪‎%2$s‬غا بارغاندا)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="one">1 مىنۇت (‪‎%2$s‬غا بارغاندا)</item>
+        <item quantity="other">‪‎%1$d‬ مىنۇت (‪‎%2$s‬غا بارغاندا) )</item>
+    </plurals>
+</resources>

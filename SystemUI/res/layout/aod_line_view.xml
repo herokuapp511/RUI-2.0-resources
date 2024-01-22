@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/aod_dividing_line" android:background="@color/aod_edit_line_color" android:layout_width="match_parent" android:layout_height="@dimen/aod_clock_dp_1" android:layout_marginLeft="@dimen/aod_clock_dp_24" android:layout_marginRight="@dimen/aod_clock_dp_24" android:layout_below="@+id/layout_preview"/>

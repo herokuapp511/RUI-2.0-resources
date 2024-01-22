@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorLockText" format="string">
+    </attr>
+    <attr name="colorManuallyNormalDrawable" format="reference">
+    </attr>
+    <attr name="colorOShareButtonTextColor" format="reference|color">
+    </attr>
+    <attr name="colorOShareButtonBackground" format="reference|color">
+    </attr>
+</resources>

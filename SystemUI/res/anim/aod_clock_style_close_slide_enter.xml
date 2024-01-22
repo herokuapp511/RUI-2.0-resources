@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:zAdjustment="normal">
+    <translate android:interpolator="@interpolator/aod_clock_interpolator_close_slide" android:duration="200" android:fillBefore="false" android:fillAfter="true" android:fromXDelta="-21%" android:toXDelta="0%" android:fillEnabled="true"/>
+    <alpha android:interpolator="@interpolator/aod_clock_interpolator_curve_ease" android:duration="200" android:fillBefore="false" android:fillAfter="true" android:fromAlpha="0.65" android:toAlpha="1" android:fillEnabled="true"/>
+</set>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/privacy_question_select">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="question_list" app:isFirstCategory="true"/>
+    <PreferenceCategory>
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/privacy_question_select_customize" android:key="question_customize" app:color_jump_mark="@null"/>
+    </PreferenceCategory>
+    <PreferenceCategory/>
+</PreferenceScreen>

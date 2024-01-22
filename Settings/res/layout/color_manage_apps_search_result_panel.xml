@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/resultContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/divider" android:background="?attr/colorDividerBackgroundColor" android:layout_width="match_parent" android:layout_height="@dimen/divider_background_height" android:forceDarkAllowed="false"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/divider">
+        <androidx.recyclerview.widget.ColorRecyclerView android:id="@+id/resultList" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/emptyContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/img" android:layout_width="110dp" android:layout_height="110dp" android:layout_marginTop="105dp" android:src="@drawable/no_search"/>
+            <TextView android:textSize="16sp" android:textColor="@color/settings_search_empty_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_search_no_result"/>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="color_controls_number_of_favorites">
+        <item quantity="other">បានបញ្ចូលឧបករណ៍បញ្ជា %s</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="one">សូមបញ្ចូលលេខ PIN សម្រាប់ស៊ីមកាត %d។ នៅសល់ការព្យាយាម %d ដងទៀត។ អ្នកនឹងចាំបាច់ត្រូវទាក់ទងក្រុមហ៊ុនផ្ដល់សេវាទូរស័ព្ទដើម្បីជួយដោះសោឧបករណ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+        <item quantity="other">សូមបញ្ចូលលេខ PIN សម្រាប់ស៊ីមកាត %d។ នៅសល់ការព្យាយាម %d ដងទៀត។</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">PIN ស៊ីមមិនត្រឹមត្រូវ។ %d ការប៉ុនប៉ងដែលនៅសល់។ អ្នកនឹងត្រូវការទាក់ទងក្រុមហ៊ុនផ្ដល់សេវាទូរស័ព្ទដើម្បីជួយដោះសោឧបករណ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+        <item quantity="other">PIN ស៊ីមមិនត្រឹមត្រូវ។ %d ការប៉ុនប៉ងដែលនៅសល់។</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="one">លេខ PIN មិនត្រឹមត្រូវសម្រាប់ស៊ីមកាត %d។ នៅសល់ការព្យាយាម %d ដងទៀត។ អ្នកនឹងចាំបាច់ត្រូវទាក់ទងក្រុមហ៊ុនផ្ដល់សេវាទូរស័ព្ទដើម្បីជួយដោះសោឧបករណ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+        <item quantity="other">លេខ PIN មិនត្រឹមត្រូវសម្រាប់ស៊ីមកាត %d។ នៅសល់ការព្យាយាម %d ដងទៀត។</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">កូដ PUK ស៊ីមមិនត្រឹមត្រូវ។ %d ការប៉ុនប៉ងដែលនៅសល់។ SIM នឹងត្រូវបិទជាអចិន្ត្រៃយ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+        <item quantity="other">កូដ PUK ស៊ីមមិនត្រឹមត្រូវ។ %d ការប៉ុនប៉ងដែលនៅសល់។ SIMs នឹងត្រូវបិទជាអចិន្ត្រៃយ៍ ប្រសិនបើវាមិនត្រឹមត្រូវម្ដងទៀត។</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">ឧបករណ៍ត្រូវបានចាក់សោអស់រយៈពេល %d ម៉ោង។ សូមបញ្ជាក់ពាក្យសម្ងាត់។</item>
+        <item quantity="other">ឧបករណ៍ត្រូវបានចាក់សោអស់រយៈពេល %d ម៉ោង។ សូមបញ្ជាក់ពាក្យសម្ងាត់។</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">ឧបករណ៍ត្រូវបានចាក់សោរយៈពេល %d ម៉ោង។ សូមបញ្ជាក់គំរូដោះសោ។</item>
+        <item quantity="other">ឧបករណ៍ត្រូវបានចាក់សោរយៈពេល %d ម៉ោង។ សូមបញ្ជាក់គំរូដោះសោ។</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">ឧបករណ៍ត្រូវបានចាក់សោរយៈពេល %d ម៉ោង។ សូមបញ្ជាក់កូដសម្ងាត់។</item>
+        <item quantity="other">ឧបករណ៍ត្រូវបានចាក់សោរយៈពេល %d ម៉ោង។ សូមបញ្ជាក់ PIN។</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="one">សូមព្យាយាមម្ដងទៀត ក្រោយពី 1 វិនាទី។</item>
+        <item quantity="other">សូមព្យាយាមម្ដងទៀត ក្រោយពី %d វិនាទី។</item>
+    </plurals>
+    <plurals name="notification_count_content">
+        <item quantity="other">អ្នកមានការជូនដំណឹងថ្មី %1$d ពីការក្លូនប្រព័ន្ធ។ ប្ដូរទៅការក្លូន ដើម្បីមើលវា។</item>
+    </plurals>
+    <plurals name="notification_count_content_from_main">
+        <item quantity="other">អ្នកមានការជូនដំណឹងថ្មី %1$d ពីប្រព័ន្ធចម្បង។ ប្ដូរទៅប្រព័ន្ធចម្បង ដើម្បីមើលវា។</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">នៅតែមានការជូនដំណឹង %s នៅក្នុងក្រុមនេះ។</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">ការជូនដំណឹងថ្មី %d</item>
+        <item quantity="other">ការជូនដំណឹងថ្មីៗ %d</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d ម៉</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d ន</item>
+    </plurals>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="14dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:gravity="center" android:id="@+id/tv_darkmode_style_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/darkmode_color_style" android:layout_marginStart="24dp" android:forceDarkAllowed="false"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+        <FrameLayout android:id="@+id/ll_darkmode_high_level" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/iv_darkmode_heighten" android:layout_width="wrap_content" android:layout_height="110dp" android:src="@drawable/darkmode_heighten_normal" android:forceDarkAllowed="false"/>
+                <TextView android:textSize="12sp" android:layout_gravity="center" android:id="@+id/tv_dark_heighten_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:text="@string/darkmode_heighten"/>
+                <RadioButton android:layout_gravity="center" android:id="@+id/rb_heighten_button" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ll_darkmode_mid_level" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/iv_darkmode_middle" android:layout_width="wrap_content" android:layout_height="110dp" android:src="@drawable/darkmode_middle_normal" android:forceDarkAllowed="false"/>
+            <TextView android:textSize="12sp" android:layout_gravity="center" android:id="@+id/tv_dark_middle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:text="@string/darkmode_moderate"/>
+            <RadioButton android:layout_gravity="center" android:id="@+id/rb_middle_button" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/ll_darkmode_gentle_level" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/iv_darkmode_gentle" android:layout_width="wrap_content" android:layout_height="110dp" android:src="@drawable/darkmode_gentle_normal" android:forceDarkAllowed="false"/>
+                <TextView android:textSize="12sp" android:id="@+id/tv_dark_gentle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:text="@string/darkmode_gentle"/>
+                <RadioButton android:id="@+id/rb_gentle_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <TextView android:textSize="12sp" android:gravity="center" android:id="@+id/tv_dark_mode_display_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/abnormal_display_when_low_brightness" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" android:forceDarkAllowed="false"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/aod_home_line" android:background="#28ffffff" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="12dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+    <TextView android:textSize="10dp" android:textColor="#979797" android:gravity="center" android:layout_gravity="end" android:id="@+id/aod_home_preview_type" android:background="@drawable/aod_bg_home_item_header" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginTop="20dp" android:layout_marginBottom="8.67dp" android:text="@string/aod_style_now_display" android:paddingStart="6.67dp" android:paddingEnd="6.67dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+    <include android:layout_width="match_parent" android:layout_height="280dp" layout="@layout/aod_clock_layout"/>
+    <View android:background="#28ffffff" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="20dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/software_shortcut" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/color_accessibility_edit_shortcut_item"/>
+        <include android:id="@+id/hardware_shortcut" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/color_accessibility_edit_shortcut_item"/>
+        <include android:id="@+id/triple_tap_shortcut" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/color_accessibility_edit_shortcut_item"/>
+        <View android:id="@+id/advanced_shortcut" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

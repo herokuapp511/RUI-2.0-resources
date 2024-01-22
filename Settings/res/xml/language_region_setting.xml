@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/language_and_region_exp">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="phone_language_category" app:isFirstCategory="true">
+        <com.coloros.settings.feature.language.CurrentLanguagesPreference android:key="current_language_list"/>
+        <com.color.support.preference.ColorJumpPreference android:layout="@layout/color_preference_focus" android:title="@string/add_a_language" android:key="add_language" app:color_jump_mark="@null"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="phone_region_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/phone_region" android:key="phone_region" android:fragment="com.coloros.settings.feature.language.localepicker.RegionPickerFragment" app:color_jump_mark="@null"/>
+    </com.coloros.settings.widget.preference.SettingsColorPreferenceCategory>
+    <PreferenceCategory android:title="@string/character_encoding" android:key="phone_encode_category">
+        <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/character_encoding" android:key="phone_encode" android:fragment="com.coloros.settings.feature.language.localepicker.ColorEncodePicker" app:controller="com.coloros.settings.feature.language.ColorEncodeController"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="tai_lue_category">
+        <com.coloros.settings.widget.preference.SettingSwitchPreference android:layout="@layout/color_preference" android:title="@string/tai_lue_support_text" android:key="tai_lue_support"/>
+    </PreferenceCategory>
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="phone_language_footer"/>
+</PreferenceScreen>

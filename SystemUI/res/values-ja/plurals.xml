@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d 日前</item>
+        <item quantity="other">%d 日前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d 分前</item>
+        <item quantity="other">%d 分前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d 年前</item>
+        <item quantity="other">%d 年前</item>
+    </plurals>
+    <plurals name="color_controls_number_of_favorites">
+        <item quantity="other">%s 件のコントロールを追加済み</item>
+    </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">%s 件のコントロールを追加しました。</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">SIM PIN を入力してください。入力できるのはあと %d回です。この回数を超えた場合は、携帯通信会社にお問い合わせください。</item>
+        <item quantity="other">SIM PIN を入力してください。入力できるのはあと %d回です。</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message_multi_sim">
+        <item quantity="one">SIM カード %dの PIN を入力してください。残り%d回試行できます。次も誤りがある場合、デバイスをロック解除するには電気通信事業者に連絡する必要があります。</item>
+        <item quantity="other">SIM カード %dの PIN を入力してください。残り%d回試行できます。</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">SIM が無効になりました。続行するには PUK コードを入力してください。入力できるのはあと %d回です。この回数を超えると SIM は完全に使用できなくなります。詳しくは携帯通信会社にお問い合わせください。</item>
+        <item quantity="other">SIM が無効になりました。続行するには PUK コードを入力してください。入力できるのはあと %d回です。この回数を超えると SIM は完全に使用できなくなります。詳しくは携帯通信会社にお問い合わせください。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">SIM PIN が正しくありません。残り試行回数は%d回です。次も誤りがある場合、デバイスをロック解除するには電気通信事業者に連絡する必要があります。</item>
+        <item quantity="other">SIM PIN が正しくありません。残り試行回数はあと%d回です。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code_multi_sim">
+        <item quantity="one">SIM カード %dの PIN が不正です。残り%d回試行できます。次も誤りがある場合、デバイスをロック解除するには電気通信事業者に連絡する必要があります。</item>
+        <item quantity="other">SIM カード %dの PIN が不正です。残り%d回試行できます。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">SIM PUK コードが正しくありません。残り試行回数は%d回です。次も誤りがある場合、SIM は永久的に無効化されます。</item>
+        <item quantity="other">SIM PUK コードが正しくありません。残り試行回数は%d回です。次も誤りがある場合、SIM は永久的に無効化されます。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">デバイスは %d 時間ロックされています。 パスワードを確認してください。</item>
+        <item quantity="other">デバイスは %d 時間ロックされています。 パスワードを確認してください。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">デバイスは%d時間ロックされています。ロック解除パターンの確認入力をしてください。</item>
+        <item quantity="other">デバイスは%d時間ロックされています。ロック解除パターンの確認入力をしてください。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">デバイスは%d時間ロックされています。PIN の確認入力をしてください。</item>
+        <item quantity="other">デバイスは%d時間ロックされています。PIN の確認入力をしてください。</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="one">1 秒後に再試行してください。</item>
+        <item quantity="other">%d 秒後に再試行してください。</item>
+    </plurals>
+    <plurals name="notification_count_content">
+        <item quantity="other">システムクローンから %1$d 件の新規通知があります。クローンに切り替えて通知を表示します。</item>
+    </plurals>
+    <plurals name="notification_count_content_from_main">
+        <item quantity="other">メインシステムから %1$d 件の新規通知があります。メインシステムに切り替えて通知を表示します。</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">このグループにはまだ%s件の通知があります。</item>
+    </plurals>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d 台のデバイス</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d 件の新しい通知</item>
+        <item quantity="other">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">最大 %d 人のユーザーを追加できます。</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d 台のデバイスが接続されています</item>
+        <item quantity="other">%1$d 台のデバイスが接続されています</item>
+    </plurals>
+</resources>

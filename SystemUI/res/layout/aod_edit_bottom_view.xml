@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/aod_clock_apply_container_height" android:layout_alignParentBottom="true">
+    <com.coloros.systemui.aod.aodclock.settings.BlurBottomButtonLayout android:id="@+id/aod_bottom_button" android:background="@drawable/aod_shape_bg_apply" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/aod_clock_apply_container_height">
+        <com.color.support.widget.ColorButton android:id="@+id/aod_setting_button" android:layout_width="@dimen/aod_clock_dp_220" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_dp_14" android:text="@string/aod_clock_apply" android:layout_centerHorizontal="true" app:disabledColor="#3b3c40" style="?attr/colorButtonColorfulDefaultStyle"/>
+    </com.coloros.systemui.aod.aodclock.settings.BlurBottomButtonLayout>
+</RelativeLayout>

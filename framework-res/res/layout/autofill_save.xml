@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.widget.OplusAutofillSaveLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/autofill_save" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="13dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="36dp" android:paddingStart="24dp" android:paddingEnd="24dp">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/autofill_save_icon" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="fitStart"/>
+                    <com.oplus.widget.OplusAutofillSaveTitleTextView android:textSize="12sp" android:gravity="center" android:id="@+id/autofill_save_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="34.7dp" android:text="@string/autofill_save_title" android:lineSpacingMultiplier="1.2" android:paddingStart="8dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.android.server.autofill.ui.CustomScrollView android:id="@+id/autofill_save_custom_subtitle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.oplus.widget.OplusAutofillSaveTextView android:textAppearance="?attr/textAppearanceMedium" android:textSize="16sp" android:gravity="center" android:id="@+id/autofill_save_yes" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="62dp" android:text="@string/autofill_save_yes" android:singleLine="false"/>
+            <com.oplus.widget.OplusAutofillSaveLineView android:layout_width="match_parent" android:layout_height="2px" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:forceDarkAllowed="false"/>
+            <com.oplus.widget.OplusAutofillSaveTextView android:textAppearance="?attr/textAppearanceMedium" android:textSize="16sp" android:gravity="center" android:id="@+id/autofill_save_no" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:minHeight="52dp" android:text="@string/autofill_save_no" android:singleLine="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.oplus.widget.OplusAutofillSaveLayout>

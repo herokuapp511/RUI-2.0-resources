@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:oppo="http://schemas.android.com/apk/res/oppo" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/legal_information" android:key="container">
+    <com.coloros.settings.widget.preference.SettingsColorPreferenceCategory android:key="dummy_category" app:isFirstCategory="true"/>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_user_protocol" android:key="userProtocol">
+        <intent android:action="com.coloros.bootreg.activity.statementpage">
+            <extra android:name="statement_intent_flag" android:value="1"/>
+        </intent>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/enterprice_edition_statement" android:key="enterprise_edit_state">
+        <intent android:action="com.oplus.bootreg.activity.statementpage">
+            <extra android:name="statement_intent_flag" android:value="6"/>
+        </intent>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/oppo_user_secret" android:key="userSecret">
+        <intent android:action="com.coloros.bootreg.activity.statementpage">
+            <extra android:name="statement_intent_flag" android:value="2"/>
+        </intent>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/copyright_title" android:key="copyright">
+        <intent android:action="android.settings.COPYRIGHT"/>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/settings_license_activity_title" android:key="license">
+        <intent android:action="android.settings.LICENSE"/>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:layout="@layout/color_preference" android:title="@string/terms_title" android:key="terms">
+        <intent android:action="android.settings.TERMS"/>
+    </com.coloros.settings.widget.preference.SettingColorJumpPreference>
+    <com.coloros.settings.widget.preference.SettingColorJumpPreference android:title="@string/module_license_title" android:key="module_license" android:fragment="com.android.settings.deviceinfo.legal.ModuleLicensesDashboard" app:controller="com.android.settings.deviceinfo.legal.ModuleLicensesListPreferenceController"/>
+</PreferenceScreen>

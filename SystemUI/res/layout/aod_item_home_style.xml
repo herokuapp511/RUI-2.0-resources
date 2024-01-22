@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginBottom="7dp" android:layout_marginStart="24dp">
+        <TextView android:textSize="16sp" android:textColor="?attr/colorPrimary" android:ellipsize="end" android:id="@+id/aod_tv_home_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="220dp"/>
+        <TextView android:textSize="12sp" android:textColor="?attr/colorPrimaryColor" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/aod_tv_home_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80dp" android:minHeight="20dp" android:text="@string/aod_edit_os8" android:paddingEnd="24dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.coloros.systemui.aod.widget.AodStyleRecycleView android:id="@+id/aod_grid_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp"/>
+</LinearLayout>
